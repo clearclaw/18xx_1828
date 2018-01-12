@@ -5,9 +5,9 @@
       "token_top": "${COLOUR_X11_ROYALBLUE}",
       "token_bottom": "${COLOUR_X11_ROYALBLUE}",
       "share_stripe": "${COLOUR_X11_CORNFLOWERBLUE}",
-      "token_count": 2,
-      "token_price": 160,
-      "p_size": 3,
+      "token_count": 3,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Baltimore & Ohio""",
@@ -16,7 +16,7 @@
       "token_bottom": "${COLOUR_X11_DODGERBLUE}",
       "share_stripe": "${COLOUR_X11_LIGHTSKYBLUE}",
       "token_count": 3,
-      "token_price": 80,
+      "token_price": 100,
       "p_size": 2,
     },
     {
@@ -25,9 +25,9 @@
       "token_top": "${COLOUR_X11_SKYBLUE}",
       "token_bottom": "${COLOUR_X11_SKYBLUE}",
       "share_stripe": "${COLOUR_X11_LIGHTCYAN}",
-      "token_count": 4,
-      "token_price": 40,
-      "p_size": 1,
+      "token_count": 3,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Canada Pacific Railway""",
@@ -36,8 +36,8 @@
       "token_bottom": "${COLOUR_X11_PERU}",
       "share_stripe": "${COLOUR_X11_BURLYWOOD}",
       "token_count": 4,
-      "token_price": 40,
-      "p_size": 1,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Grand Trunk""",
@@ -46,8 +46,8 @@
       "token_bottom": "${COLOUR_X11_RED}",
       "share_stripe": "${COLOUR_X11_TOMATO}",
       "token_count": 2,
-      "token_price": 160,
-      "p_size": 3,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Erie Railroad""",
@@ -56,7 +56,7 @@
       "token_bottom": "${COLOUR_X11_YELLOW}",
       "share_stripe": "${COLOUR_X11_KHAKI}",
       "token_count": 3,
-      "token_price": 80,
+      "token_price": 100,
       "p_size": 2,
     },
     {
@@ -66,7 +66,7 @@
       "token_bottom": "${COLOUR_X11_LIMEGREEN}",
       "share_stripe": "${COLOUR_X11_YELLOWGREEN}",
       "token_count": 3,
-      "token_price": 80,
+      "token_price": 100,
       "p_size": 2,
     },
     {
@@ -77,8 +77,8 @@ Railroad""",
       "token_bottom": "${COLOUR_X11_SEAGREEN}",
       "share_stripe": "${COLOUR_X11_AQUAMARINE}",
       "token_count": 4,
-      "token_price": 40,
-      "p_size": 1,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Missouri Pacific
@@ -88,8 +88,8 @@ Railroad""",
       "token_bottom": "${COLOUR_X11_MEDIUMSLATEBLUE}",
       "share_stripe": "${COLOUR_X11_LAVENDER}",
       "token_count": 4,
-      "token_price": 40,
-      "p_size": 1,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """New York Central""",
@@ -98,7 +98,7 @@ Railroad""",
       "token_bottom": "${BLACK}",
       "share_stripe": "${L_GRAY}",
       "token_count": 3,
-      "token_price": 80,
+      "token_price": 100,
       "p_size": 2,
     },
     {
@@ -108,9 +108,9 @@ Railroad""",
       "token_top": "${COLOUR_X11_DEEPSKYBLUE}",
       "token_bottom": "${COLOUR_X11_MEDIUMSEAGREEN}",
       "share_stripe": "${COLOUR_X11_PALEGREEN}",
-      "token_count": 2,
-      "token_price": 160,
-      "p_size": 3,
+      "token_count": 3,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """New York,
@@ -121,8 +121,8 @@ New Haven
       "token_bottom": "${COLOUR_X11_WHEAT}",
       "share_stripe": "${COLOUR_X11_KHAKI}",
       "token_count": 2,
-      "token_price": 160,
-      "p_size": 3,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Norfolk & Western
@@ -132,8 +132,8 @@ Railway""",
       "token_bottom": "${COLOUR_X11_CHARTREUSE}",
       "share_stripe": "${COLOUR_X11_PALEGREEN}",
       "token_count": 2,
-      "token_price": 160,
-      "p_size": 3,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Pennsylvania Railroad""",
@@ -141,8 +141,8 @@ Railway""",
       "token_top": "${COLOUR_X11_RED}",
       "token_bottom": "${COLOUR_X11_RED}",
       "share_stripe": "${COLOUR_X11_PINK}",
-      "token_count": 3,
-      "token_price": 80,
+      "token_count": 4,
+      "token_price": 100,
       "p_size": 2,
     },
     {
@@ -153,26 +153,26 @@ Railway""",
       "token_bottom": "${COLOUR_X11_FIREBRICK}",
       "share_stripe": "${COLOUR_X11_LIGHTCORAL}",
       "token_count": 4,
-      "token_price": 40,
-      "p_size": 1,
+      "token_price": 100,
+      "p_size": 2,
     },
     {
       "name": """Wabash Railroad""",
       "token": "WAB",
-      "token_top": "${COLOUR_X11_MAGENTA}",
+      "token_top": "${COLOUR_X11_DEEPSKYBLUE}",
       "token_bottom": "${COLOUR_X11_MAGENTA}",
       "share_stripe": "${COLOUR_X11_VIOLET}",
       "token_count": 3,
-      "token_price": 80,
+      "token_price": 100,
       "p_size": 2,
     },
   ]
 %}
 
 {% set company_size_colours = {
-    1: "${COLOUR_X11_BLANCHEDALMOND}",
-    2: "${WHITE}",
-    3: "${COLOUR_X11_POWDERBLUE}",
+    2: "${COLOUR_X11_BLANCHEDALMOND}",
+    3: "${WHITE}",
+    4: "${COLOUR_X11_POWDERBLUE}",
   }
 %}
 
@@ -199,7 +199,7 @@ Railway""",
       "frame_colour": "${L_BLUE}",
       "name": "4",
       "rust": "Rusted by GRAY",
-      "rust_stripe": "${COLOUR_X11_TOMATO}",
+      "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${COLOUR_X11_PERU}",
       "optional": 1,
     },
@@ -207,8 +207,8 @@ Railway""",
       "cost": "$450",
       "frame_colour": "${COLOUR_X11_PERU}",
       "name": "5",
-      "rust": "PERMANENT",
-      "rust_stripe": "${L_GRAY}",
+      "rust": "Rusted by PURPLE",
+      "rust_stripe": "${H_PURPLE}",
       "trade_stripe": "${COLOUR_X11_TOMATO}",
     },
     {
@@ -222,9 +222,20 @@ Railway""",
       "trade_colour": "${WHITE}",
     },
     {
-      "cost": "$830",
+      "cost": "$800",
       "frame_colour": "${L_GRAY}",
       "name": "8",
+      "rust": "PERMANENT",
+      "rust_stripe": "${BLACK}",
+      "trade_stripe": "${BLACK}",
+      "rust_colour": "${WHITE}",
+      "trade_colour": "${WHITE}",
+    },
+    {
+      "cost": "$1,000",
+      "frame_colour": "${H_PURPLE}",
+      "name": "Diesel",
+      "name_font": '"Times-Roman", 36',
       "rust": "PERMANENT",
       "rust_stripe": "${BLACK}",
       "trade_stripe": "${BLACK}",
@@ -240,7 +251,7 @@ Railway""",
       "revenue": 5,
       "title": "Schuylkill Valley Navigation",
       "desc": """Blocks G15.""",
-      "close": "In brown phase.",
+      "close": "In RED phase.",
     },
     {
       "cost":  40,
@@ -248,67 +259,67 @@ Railway""",
       "title": """Champlain & St. Lawrence
 Railroad""",
       "desc": """Blocks B25.
-Owning corporation may place a
-yellow  tile tile in B25 at any
+Owning company may place a
+yellow tile tile in B25 at any
 time in its operations.""",
-      "close": "In brown phase.",
+      "close": "In RED phase.",
     },
     {
-      "cost":  60,
+      "cost":  80,
+      "revenue": 15,
+      "title": """Delaware & Hudson
+Railroad""",
+      "desc": """Blocks: Scranton (F21)
+Owning company may place a yellow
+track tile, or a yellow tile and
+station marker (must be both) in
+Scranton (F21) for $120.""",
+      "close": "In RED phase",
+    },
+    {
+      "cost":  80,
+      "revenue": "15/??",
+      "title": """Cobourg & Peterborough
+Railway""",
+      "desc": """Blocks: Peterborough (C16)
+Owning player may place or upgrade track
+tiles on a route connected to Peterborough
+(C16). May split or hold revenue from the
+2-train route from that track tile.""",
+      "close": "In RED phase or purchased by a company.",
+    },
+    {
+      "cost":  120,
       "revenue": 15,
       "title": """Erie & Kalamazoo
 Railroad""",
       "desc": """Blocks: E8.
 A yellow track tile is placed at E8 when
-purchased by a public company.  Owning
-company may place a second yellow track
-tile as part of its normal track-build.""",
-      "close": "In brown phase.",
-    },
-    {
-      "cost":  80,
-      "revenue": "??",
-      "title": """Cobourg & Peterborough
-Railway""",
-      "desc": """Blocks: Peterborough (C16)
-Owning player may place a yellow track
-tile on a route connected to Peterborough
-(C16). Split revenue is the 2-train route
-that includes the placed track tile""",
-      "close": "In brown phase.",
-    },
-    {
-      "cost":  100,
-      "revenue": 20,
-      "title": """Delaware & Hudson
-Railroad""",
-      "desc": """Blocks: Scranton (F21)
-Owning corporation may place a yellow
-track tile, or a yellow tile and
-station marker (must be both) in
-Scranton (F21) for $120.""",
-      "close": "In brown phase",
+purchased by a company.  Owning company
+may (once) place a second yellow track tile
+for $40 as part of its normal track-build.""",
+      "close": "In RED phase.",
     },
     {
       "cost":  120,
-      "revenue": 25,
+      "revenue": 20,
       "title": """Mohawk & Hudson
 Railroad""",
       "desc": """Blocks: D23.
 Owning player may exchange for a
 10% share of any company from the
-open market or IPO.""",
-      "close": "In brown phase or when power used.",
+open market or IPO at any time.""",
+      "close": "In RED phase or when power used.",
     },
     {
-      "cost":  140,
-      "revenue": 30,
+      "cost":  160,
+      "revenue": 25,
       "title": """Camden & Amboy
 Railroad""",
       "desc": """Blocks: Philadelphia & Trenton (H23)
 Purchasing player receives
 10% PRR share.""",
-      "close": "In brown phase.",
+      "close": "In RED phase.",
     },
     {
       "cost":  200,
@@ -319,7 +330,7 @@ Railroad""",
 Purchaser receives B&O presidency and
 sets par price. Private company may
 not be sold to a public company.""",
-      "close": "In brown phase or when the B&O buys a train.",
+      "close": "In RED phase or when the B&O buys a train.",
     },
 ]
 %}
@@ -347,7 +358,7 @@ not be sold to a public company.""",
     {% endif %}
     {% set company = companies[index + tile] %}
     [[[tile_{{ tiles[tile] }}]]]
-      box_colour = {{ company_size_colours[company.p_size] }}
+      box_colour = {{ company_size_colours[company.token_count] }}
       stripe_colour = {{ company.share_stripe }}
       token_count = {{ company.token_count }}
       token_bottom_colour = {{ company.token_bottom }}
@@ -358,7 +369,8 @@ not be sold to a public company.""",
       price{{ ndx + 1 }} = "${{ company.token_price if ndx != 0 else "free" }}"
       token_colour{{ ndx }} = ${WHITE}
     {% endfor %}
-      note1 = """Purchase price of shares goes to bank.
+      note1 = """
+Purchase price of shares goes to bank.
 Market shares pay dividends to treasury."""
     {% if "token_name_font" in company.keys () %}
       token_name_font = {{ company.token_name_font }}
@@ -402,7 +414,7 @@ Market shares pay dividends to treasury."""
 
 {% for company in companies %}
   [[{{ company.token }}]]
-    frame_colour = {{ company_size_colours[company.p_size] }}
+    frame_colour = {{ company_size_colours[company.token_count] }}
     token_bottom_colour = {{ company.token_bottom }}
     token_colour = ${WHITE}
     token_top_colour = {{ company.token_top }}
@@ -444,6 +456,36 @@ Market shares pay dividends to treasury."""
     {% endif %}
   {% endfor %}
 
+  [[extras]]
+
+  {% for tile in range (10) %}
+    [[[tile_{{ tile + 1 }}.1]]]
+      token_bottom_colour = ${L_BLUE}
+      token_top_colour = ${L_RED}
+      token_name = Round
+
+    [[[tile_{{ tile + 1 }}.2]]]
+      token_bottom_colour = ${M_GRAY}
+      token_top_colour = ${M_GRAY}
+      token_colour = ${BLACK}
+      token_name = Coal
+      token_name_colour = ${WHITE}
+
+    [[[tile_{{ tile + 1 }}.3]]]
+      token_bottom_colour = ${COLOUR_X11_BLANCHEDALMOND}
+      token_top_colour = ${COLOUR_X11_BLANCHEDALMOND}
+      token_colour = ${BLACK}
+      token_name = Paper
+      token_name_colour = ${WHITE}
+
+    [[[tile_{{ tile + 1 }}.4]]]
+      token_bottom_colour = ${WHITE}
+      token_top_colour = ${WHITE}
+      token_colour = ${BLACK}
+      token_name = C&Py
+      token_name_colour = ${WHITE}
+  {% endfor %}
+
 [train]
   trade = ""
 
@@ -451,6 +493,9 @@ Market shares pay dividends to treasury."""
   [[{{ train.name }}]]
     frame_colour = {{ train.frame_colour }}
     train = {{ train.name }}
+    {% if "name_colour" in train %}
+    train_colour = {{ train.name_colour }}
+    {% endif %}
     cost = "Cost: {{ train.cost }}"
     rust = "{{ train.rust }}"
     trade_stripe_colour = {{ train.trade_stripe }}
@@ -461,8 +506,8 @@ Market shares pay dividends to treasury."""
     {% if "trade_colour" in train.keys () %}
     trade_colour = {{ train.trade_colour }}
     {% endif %}
-    {% if "train_font" in train.keys () %}
-    "train_font" = {{ train.train_font }}
+    {% if "name_font" in train.keys () %}
+    "train_font" = {{ train.name_font }}
     {% endif %}
     {% if "optional" in train.keys () %}
     [[[tile_1.1]]]
