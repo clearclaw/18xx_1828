@@ -8,6 +8,11 @@
       "token_count": 3,
       "token_price": 100,
       "p_size": 2,
+      "note": """
+May place another yellow track tile
+in yellow and green phase, and/or
+in its first operating round for
+$40 paid to the bank.""",
     },
     {
       "name": """Baltimore & Ohio""",
@@ -45,7 +50,7 @@
       "token_top": "${COLOUR_X11_YELLOW}",
       "token_bottom": "${COLOUR_X11_RED}",
       "share_stripe": "${COLOUR_X11_TOMATO}",
-      "token_count": 2,
+      "token_count": 3,
       "token_price": 100,
       "p_size": 2,
     },
@@ -100,6 +105,11 @@ Railroad""",
       "token_count": 3,
       "token_price": 100,
       "p_size": 2,
+      "note": """
+May place another yellow track tile
+in yellow and green phase, and/or
+in its first operating round for
+$40 paid to the bank.""",
     },
     {
       "name": """New York, Chicago
@@ -120,9 +130,14 @@ New Haven
       "token_top": "${COLOUR_X11_WHEAT}",
       "token_bottom": "${COLOUR_X11_WHEAT}",
       "share_stripe": "${COLOUR_X11_KHAKI}",
-      "token_count": 2,
+      "token_count": 3,
       "token_price": 100,
       "p_size": 2,
+      "note": """
+May place another yellow track tile
+in yellow and green phase, and/or
+in its first operating round for
+$40 paid to the bank.""",
     },
     {
       "name": """Norfolk & Western
@@ -131,7 +146,7 @@ Railway""",
       "token_top": "${COLOUR_X11_CHARTREUSE}",
       "token_bottom": "${COLOUR_X11_CHARTREUSE}",
       "share_stripe": "${COLOUR_X11_PALEGREEN}",
-      "token_count": 2,
+      "token_count": 3,
       "token_price": 100,
       "p_size": 2,
     },
@@ -187,7 +202,7 @@ Railway""",
       "rust_colour": "${WHITE}",
     },
     {
-      "cost": "$180",
+      "cost": "$160",
       "frame_colour": "${L_GREEN}",
       "name": "3",
       "rust": "Rusted by RED",
@@ -195,44 +210,44 @@ Railway""",
       "trade_stripe": "${L_BLUE}",
     },
     {
-      "cost": "$300",
+      "cost": "$250",
       "frame_colour": "${L_BLUE}",
-      "name": "4",
+      "name": "5",
       "rust": "Rusted by GRAY",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${COLOUR_X11_PERU}",
       "optional": 1,
     },
     {
-      "cost": "$450",
+      "cost": "$400",
       "frame_colour": "${COLOUR_X11_PERU}",
-      "name": "5",
+      "name": "4D",
       "rust": "Rusted by PURPLE",
       "rust_stripe": "${H_PURPLE}",
       "trade_stripe": "${COLOUR_X11_TOMATO}",
     },
     {
-      "cost": "$630",
+      "cost": "$600",
       "frame_colour": "${COLOUR_X11_TOMATO}",
       "name": "6",
       "rust": "PERMANENT",
-      "rust_stripe": "${L_GRAY}",
+      "rust_stripe": "${BLACK}",
       "trade_stripe": "${L_GRAY}",
       "rust_colour": "${WHITE}",
       "trade_colour": "${WHITE}",
     },
     {
-      "cost": "$800",
+      "cost": "$700",
       "frame_colour": "${L_GRAY}",
       "name": "8",
       "rust": "PERMANENT",
       "rust_stripe": "${BLACK}",
-      "trade_stripe": "${BLACK}",
+      "trade_stripe": "${H_PURPLE}",
       "rust_colour": "${WHITE}",
       "trade_colour": "${WHITE}",
     },
     {
-      "cost": "$1,000",
+      "cost": "$800",
       "frame_colour": "${H_PURPLE}",
       "name": "Diesel",
       "name_font": '"Times-Roman", 36',
@@ -259,9 +274,9 @@ Railway""",
       "title": """Champlain & St. Lawrence
 Railroad""",
       "desc": """Blocks B25.
-Owning company may place a
-yellow tile tile in B25 at any
-time in its operations.""",
+Owning company may place a yellow
+track tile in B25 at any time in
+its operations.""",
       "close": "In RED phase.",
     },
     {
@@ -270,10 +285,9 @@ time in its operations.""",
       "title": """Delaware & Hudson
 Railroad""",
       "desc": """Blocks: Scranton (F21)
-Owning company may place a yellow
-track tile, or a yellow tile and
-station marker (must be both) in
-Scranton (F21) for $120.""",
+Owning company may place a station
+marker and track tile \(or track tile
+upgrade\) in Scranton (F21) for $120.""",
       "close": "In RED phase",
     },
     {
@@ -323,7 +337,7 @@ Purchasing player receives
     },
     {
       "cost":  200,
-      "revenue": 35,
+      "revenue": 25,
       "title": """Baltimore & Ohio
 Railroad""",
       "desc": """Blocks: I18 & Baltimore (I20)
@@ -369,7 +383,8 @@ not be sold to a public company.""",
       price{{ ndx + 1 }} = "${{ company.token_price if ndx != 0 else "free" }}"
       token_colour{{ ndx }} = ${WHITE}
     {% endfor %}
-      note1 = """
+      note1 = """{{ company.get ("note", "") }}
+
 Purchase price of shares goes to bank.
 Market shares pay dividends to treasury."""
     {% if "token_name_font" in company.keys () %}
