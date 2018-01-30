@@ -10,9 +10,9 @@
       "p_size": 2,
       "note": """
 May place another yellow track tile
-in yellow and green phase, and/or
-in its first operating round for
-$40 paid to the bank.""",
+in yellow and green phases, and/or
+in its first operating round for $40
+paid to the bank for each extra tile.""",
     },
     {
       "name": """Baltimore & Ohio""",
@@ -107,9 +107,9 @@ Railroad""",
       "p_size": 2,
       "note": """
 May place another yellow track tile
-in yellow and green phase, and/or
-in its first operating round for
-$40 paid to the bank.""",
+in yellow and green phases, and/or
+in its first operating round for $40
+paid to the bank for each extra tile.""",
     },
     {
       "name": """New York, Chicago
@@ -135,9 +135,9 @@ New Haven
       "p_size": 2,
       "note": """
 May place another yellow track tile
-in yellow and green phase, and/or
-in its first operating round for
-$40 paid to the bank.""",
+in yellow and green phases, and/or
+in its first operating round for $40
+paid to the bank for each extra tile.""",
     },
     {
       "name": """Norfolk & Western
@@ -206,6 +206,7 @@ Railway""",
       "frame_colour": "${L_GREEN}",
       "name": "3",
       "rust": "Rusted by RED",
+      "trade": "RED upgrade: $400",
       "rust_stripe": "${COLOUR_X11_TOMATO}",
       "trade_stripe": "${L_BLUE}",
     },
@@ -214,6 +215,7 @@ Railway""",
       "frame_colour": "${L_BLUE}",
       "name": "5",
       "rust": "Rusted by GRAY",
+      "trade": "GRAY upgrade: $500",
       "rust_stripe": "${L_GRAY}",
       "trade_stripe": "${COLOUR_X11_PERU}",
       "optional": 1,
@@ -223,6 +225,7 @@ Railway""",
       "frame_colour": "${COLOUR_X11_PERU}",
       "name": "4D",
       "rust": "Rusted by PURPLE",
+      "trade": "PURPLE upgrade: $600",
       "rust_stripe": "${H_PURPLE}",
       "trade_stripe": "${COLOUR_X11_TOMATO}",
     },
@@ -286,8 +289,9 @@ its operations.""",
 Railroad""",
       "desc": """Blocks: Scranton (F21)
 Owning company may place a station
-marker and track tile \(or track tile
-upgrade\) in Scranton (F21) for $120.""",
+marker and/or track tile \(or track
+tile upgrade\) in Scranton (F21) for
+$120 as a yellow tile lay.""",
       "close": "In RED phase",
     },
     {
@@ -298,8 +302,8 @@ Railway""",
       "desc": """Blocks: Peterborough (C16)
 Owning player may place or upgrade track
 tiles on a route connected to Peterborough
-(C16). May split or hold revenue from the
-2-train route from that track tile.""",
+(C16). Half-pPays the revenue of a 2-train
+route from that track tile.""",
       "close": "In RED phase or purchased by a company.",
     },
     {
@@ -310,8 +314,8 @@ Railroad""",
       "desc": """Blocks: E8.
 A yellow track tile is placed at E8 when
 purchased by a company.  Owning company
-may (once) place a second yellow track tile
-for $40 as part of its normal track-build.""",
+may (once) place an additional yellow track
+tile for $40 as part of its normal track-build.""",
       "close": "In RED phase.",
     },
     {
@@ -372,7 +376,7 @@ not be sold to a public company.""",
     {% endif %}
     {% set company = companies[index + tile] %}
     [[[tile_{{ tiles[tile] }}]]]
-      box_colour = {{ company_size_colours[company.token_count] }}
+      box_colour = ${WHITE}
       stripe_colour = {{ company.share_stripe }}
       token_count = {{ company.token_count }}
       token_bottom_colour = {{ company.token_bottom }}
@@ -513,13 +517,18 @@ Market shares pay dividends to treasury."""
     {% endif %}
     cost = "Cost: {{ train.cost }}"
     rust = "{{ train.rust }}"
+    {% if "trade" in train %}
+    trade = {{ train.trade }}
+      {% if "trade_colour" in train %}
+    trade_colour = {{ train.trade_colour }}
+      {% else %}
+    trade_colour = ${WHITE}
+      {% endif %}
+    {% endif %}
     trade_stripe_colour = {{ train.trade_stripe }}
     rust_stripe_colour = {{ train.rust_stripe }}
     {% if "rust_colour" in train.keys () %}
     rust_colour = {{ train.rust_colour }}
-    {% endif %}
-    {% if "trade_colour" in train.keys () %}
-    trade_colour = {{ train.trade_colour }}
     {% endif %}
     {% if "name_font" in train.keys () %}
     "train_font" = {{ train.name_font }}
