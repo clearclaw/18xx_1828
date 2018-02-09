@@ -268,7 +268,7 @@ Railway""",
       "cost":  20,
       "revenue": 5,
       "title": "Schuylkill Valley Navigation",
-      "desc": """Blocks G15.""",
+      "desc": """Blocks G20.""",
       "close": "In RED phase.",
     },
     {
@@ -299,7 +299,7 @@ $120 as a yellow tile lay.""",
       "revenue": "15/??",
       "title": """Cobourg & Peterborough
 Railway""",
-      "desc": """Blocks: Peterborough (C16)
+      "desc": """Blocks: C16
 Owning player may place or upgrade track
 tiles on a route connected to Peterborough
 (C16). Half-pPays the revenue of a 2-train
@@ -334,7 +334,7 @@ open market or IPO at any time.""",
       "revenue": 25,
       "title": """Camden & Amboy
 Railroad""",
-      "desc": """Blocks: Philadelphia & Trenton (H23)
+      "desc": """Blocks: Philadelphia & Trenton (I20)
 Purchasing player receives
 10% PRR share.""",
       "close": "In RED phase.",
