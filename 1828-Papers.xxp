@@ -221,9 +221,9 @@ Railway""",
       "optional": 1,
     },
     {
-      "cost": "$400",
+      "cost": "$350",
       "frame_colour": "${COLOUR_X11_PERU}",
-      "name": "4D",
+      "name": "3D",
       "rust": "Rusted by PURPLE",
       "trade": "PURPLE upgrade: $600",
       "rust_stripe": "${H_PURPLE}",
@@ -349,6 +349,114 @@ Purchaser receives B&O presidency and
 sets par price. Private company may
 not be sold to a public company.""",
       "close": "In RED phase or when the B&O buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Baltimore & Ohio
+Railroad""",
+      "desc": """Blocks: I18 & Baltimore (I20)
+Purchaser receives B&O presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the B&O buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Baltimore & Ohio
+Railroad""",
+      "desc": """Blocks: I18 & Baltimore (I20)
+Purchaser receives B&O presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the B&O buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Boston & Maine""",
+      "desc": """
+Purchaser receives B&M presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the B&M buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Illinois Central""",
+      "desc": """
+Purchaser receives IC presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the IC buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Canada Pacific Railway""",
+      "desc": """
+Purchaser receives CPR presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the CPR buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Michigan Central
+Railroad""",
+      "desc": """
+Purchaser receives MC presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the MC buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Missouri Pacific
+Railroad""",
+      "desc": """
+Purchaser receives MP presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the MP buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """New York, Chicago
+& St. Louis Railroad""",
+      "desc": """
+Purchaser receives NKP presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the NKP buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """New York,
+New Haven
+& Hartford""",
+      "desc": """
+Purchaser receives NYH presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the NYH buys a train.",
+    },
+    {
+      "cost":  200,
+      "revenue": 25,
+      "title": """Toronto, Simcoe
+& Huron""",
+      "desc": """
+Purchaser receives TS&H presidency and
+sets par price. Private company may
+not be sold to a public company.""",
+      "close": "In RED phase or when the TS&H buys a train.",
     },
 ]
 %}

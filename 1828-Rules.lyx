@@ -32,6 +32,7 @@
 
 \pagestyle{fancy}
 \end_preamble
+\options ,UKenglish
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -80,9 +81,9 @@ tabs-within-sections
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
-\use_refstyle 0
+\use_refstyle 1
 \index Index
 \shortcut idx
 \color #008000
@@ -291,6 +292,10 @@ Eight 10% share certificates.
 
 \end_deeper
 \begin_layout Itemize
+8 private companies.
+\end_layout
+
+\begin_layout Itemize
 8 blocking station markers.
 \end_layout
 
@@ -373,7 +378,7 @@ Place IPO and public company charters nearby with the public company shares
 \end_layout
 
 \begin_layout Itemize
-Place the supply of track tiles nearby where they can be easily seen & accessed.
+Place the track tiles nearby where they can be easily seen & accessed.
 \end_layout
 
 \begin_layout Itemize
@@ -394,7 +399,7 @@ Put three coal tokens on the Virgina Coalfields (K12) and one on the Virgina
 \end_layout
 
 \begin_layout Itemize
-Place the private companies in order of ascending cost:
+Arrange the private companies in six rows by cost:
 \begin_inset Separator latexpar
 \end_inset
 
@@ -526,7 +531,7 @@ reference "subsec:Private-Auction"
 
 \begin_layout Itemize
 After auctioning the private companies, the game consists of an alternating
- series of Stock Rounds interspersed by sets of one to four Operating Rounds
+ series of Stock Rounds and sets of one to four Operating Rounds
 \noun on
 .
  
@@ -569,8 +574,8 @@ reference "subsec:Systems"
 
 \begin_deeper
 \begin_layout Itemize
-As each Stock Round ends, the player order for the next Stock Round is determine
-d by the order in which the players cease acting (see 
+After each Stock Round ends, the player order for the next Stock Round is
+ determined by the order in which the players cease acting (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-Round-overview"
@@ -578,6 +583,31 @@ reference "subsec:Stock-Round-overview"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Itemize
+The number of Operating Rounds per set after a Stock Round
+\noun on
+ 
+\noun default
+is determined by the current game phase at the end of the Stock Round (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Game-Phases"
+
+\end_inset
+
+)
+\noun on
+.
 \end_layout
 
 \end_deeper
@@ -618,39 +648,6 @@ reference "subsec:company-operating-order"
 
 \end_deeper
 \begin_layout Itemize
-The number of Operating Rounds (a 
-\begin_inset Quotes eld
-\end_inset
-
-set
-\begin_inset Quotes erd
-\end_inset
-
-) after a Stock Round
-\noun on
- 
-\noun default
-is determined by the current game phase at the end of the Stock Round (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Game-Phases"
-
-\end_inset
-
-)
-\noun on
-.
-\end_layout
-
-\begin_layout Itemize
 The game starts in
 \noun on
  
@@ -690,7 +687,7 @@ reference "tab:Game-Phases"
 \end_layout
 
 \begin_layout Itemize
-Game phases change immediately when the first train of a new colour is bought
+Game phase changes immediately when the first train of a new colour is bought
  by a public company.
  New par prices, track tile types and other changes accompany some game
  phase changes (see 
@@ -705,7 +702,7 @@ reference "subsec:Game-Phases"
 
 \end_deeper
 \begin_layout Itemize
-The rotating sequence of Stock Rounds
+The alternating sequence of Stock Rounds
 \noun on
  
 \noun default
@@ -714,6 +711,31 @@ and sets of Operating Rounds
  
 \noun default
 continues until the end of the game (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-End"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Player bankruptcy.
+\end_layout
+
+\begin_layout Itemize
+Public company stock price reaches $500.
+\end_layout
+
+\begin_layout Itemize
+A complete set of Operating Rounds in purple phase.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The player with the largest net worth wins (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Game-End"
@@ -1051,7 +1073,7 @@ Brown
 \begin_inset Text
 
 \begin_layout Plain Layout
-4D
+3D
 \end_layout
 
 \end_inset
@@ -1389,31 +1411,29 @@ name "subsec:Private-auction-process"
 \end_layout
 
 \begin_layout Itemize
-The auction starts with the player with the #1 player card and proceeds
- in player card order with the #1 player next in rotation after the player
- with the largest player card number.
- 
+The private auction starts with the player with the #1 player number card
+ and proceeds in rotating player number card order with the #1 player number
+ card following the largest player number card.
 \end_layout
 
 \begin_layout Itemize
-Each player in turn must do one of: 
-\begin_inset Separator latexpar
-\end_inset
-
-
+Each player in turn must do one of:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Buy and take the cheapest (left-most) private company without a bid for
- face value (or its current price if reduced).
-\begin_inset Separator latexpar
-\end_inset
-
-
+Buy and take the cheapest private company for its cost.
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+It must not have a bid.
+\end_layout
+
+\begin_layout Itemize
+It may be either side of a pair.
+\end_layout
+
 \begin_layout Itemize
 This may cause the bids for other private companies
 \noun on
@@ -1434,31 +1454,17 @@ reference "subsec:Private-auction-resolution"
 Bid on any other remaining private company
 \noun on
 .
- 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The minimum bid is $5 more than the face value of the private company
-\noun on
-,
-\noun default
- or any multiple of $5 more than the largest bid currently on that private
- company, whichever is the larger.
- 
+A multiple of $5 more than the face value of the private company or the
+ largest bid currently on that private company, whichever is the larger.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Pass.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -1469,16 +1475,8 @@ Passing does not limit a player's future actions in the private auction.
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-If all players pass while one or more private companies remain un-bought
- then there is a brief
-\noun on
- 
-\noun default
-Operating Round.
-\begin_inset Separator latexpar
-\end_inset
-
-
+If all players pass consecutively while one or more private companies remain
+ un-bought:
 \end_layout
 
 \begin_deeper
@@ -1490,8 +1488,18 @@ Purchased private companies
 pay their revenue to their owning players.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-The cost of the lowest (and left-most) un-bought private company without
+The 
+\noun on
+Cobourg & Peterborough Railway places
+\noun default
+ a yellow track tile and pays its revenue in the normal way.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The cost of the cheapest (and left-most) un-bought private company without
  a bid is reduced by $5.
 \begin_inset Separator latexpar
 \end_inset
@@ -1501,51 +1509,26 @@ The cost of the lowest (and left-most) un-bought private company without
 
 \begin_deeper
 \begin_layout Itemize
-If the cost of the lowest (and left-most) private company without a bid
+If the cost of the cheapest (and left-most) private company without a bid
  is reduced to zero ($0) then the next player must “buy” it at no cost.
  
 \end_layout
 
 \end_deeper
-\end_deeper
 \begin_layout Itemize
-The next player in player card rotation from the last player that:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Placed a bid.
-\end_layout
-
-\begin_layout Standard
-Or:
-\end_layout
-
-\begin_layout Itemize
-Bought a private company for face or reduced value.
-\end_layout
-
-\begin_layout Standard
-Has the next turn in the private auction.
+The private auction resumes with the player to the left of the first player
+ of the consecutive passes.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 When all private companies have been purchased, the private auction ends:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The player order for the upcoming stock round is set using the numbered
- player number cards in ascending order of remaining player cash (see 
+The player order for the upcoming stock round is set using the player number
+ cards in ascending order of remaining player cash (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Stock-Rounds"
@@ -1553,10 +1536,6 @@ reference "sec:Stock-Rounds"
 \end_inset
 
 ).
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -1578,16 +1557,11 @@ name "subsec:Private-auction-resolution"
 \end_layout
 
 \begin_layout Itemize
-If a player buys the cheapest available private company, the next higher
- private company
+If a player buys a private company, the new cheapest private company
 \noun on
  
 \noun default
 is checked for bids:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -1600,10 +1574,6 @@ If it has exactly one bid, that bidder takes the private company for the
 \begin_layout Itemize
 If it has more than one bid, those players auction the private company among
  themselves:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -1621,21 +1591,17 @@ When only one bidder remains, that player takes the private company for
 
 \end_deeper
 \begin_layout Itemize
-If the next higher private company is a pair of companies with the same
- cost and both have bids:
-\begin_inset Separator latexpar
-\end_inset
-
-
+If the new cheapest (left-most) private company is a pair of companies with
+ the same cost, and:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-They are sold as above: left first, right second.
-\begin_inset Separator latexpar
-\end_inset
+Only one has a bid, the process ends and it is the next player's turn.
+\end_layout
 
-
+\begin_layout Itemize
+Both have bids, they are sold as above: left first, right second.
 \end_layout
 
 \begin_deeper
@@ -1669,10 +1635,6 @@ Mohawk & Hudson Railroad
 \begin_layout Itemize
 This process repeats if the next higher private company has one or more
  bids, until: 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -1761,17 +1723,13 @@ name "subsec:Stock-Round-overview"
 
 \begin_layout Itemize
 Stock Rounds start with the player with the #1 player number card and proceed
- in rotating player number card order.
- 
+ in rotating player number card order with the #1 player number card following
+ the largest player number card.
 \end_layout
 
 \begin_layout Itemize
 On their turn a player may pass or do any or all of the following in the
  following order:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -1796,7 +1754,7 @@ One of:
 
 \begin_deeper
 \begin_layout Itemize
-Buy a single certificate from either the bank pool or IPO (see 
+Buy a single stock certificate from either the bank pool or IPO (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Buying-shares"
@@ -1811,9 +1769,9 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-Buy two shares from either or both the bank pool or IPO of a public company
- they direct and whose stock price is in the gray area of the stock market
- (see 
+Buy two stock certificates from either or both the bank pool or IPO of a
+ public company they direct and whose stock price is in the gray area of
+ the stock market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Buying-shares"
@@ -1899,7 +1857,7 @@ If a player passes, they may act in the Stock Round on their next or a later
 
 \begin_deeper
 \begin_layout Description
-Exception: The Stock Round ends immediately when all players pass in sequence.
+Exception: The Stock Round ends immediately when all players pass consecutively.
 \end_layout
 
 \end_deeper
@@ -1928,11 +1886,7 @@ The player with the next larger number card of the other colour then swaps
 \end_deeper
 \begin_layout Itemize
 The Stock Round ends when all the player number cards of the other colour
- have been taken (all players have passed in rotation).
-\begin_inset Separator latexpar
-\end_inset
-
-
+ have been taken (all players have consecutively passed).
 \end_layout
 
 \begin_deeper
@@ -2034,19 +1988,11 @@ The selling player receives the stock price of the share(s) in cash from
 \begin_layout Enumerate
 The stock price marker of the sold shares is moved down one space for each
  share sold.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 If the stock price reaches the bottom of its column:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -2058,10 +2004,6 @@ It isn't moved any further.
 \begin_layout Itemize
 If shares from multiple public companies are sold and their stock prices
  move into the same space on the Stock Market:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -2110,10 +2052,6 @@ reference "sec:Stock-Market"
 \begin_layout Itemize
 A player cannot buy a certificate of a public company if they hold 60% or
  more of that public company.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -4701,7 +4639,8 @@ Players may negotiate:
 
 \begin_deeper
 \begin_layout Itemize
-Private company purchases owned by a different player (see 
+Public companies purchasing private company owned by a different player
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Operating-round-General"
@@ -6034,7 +5973,7 @@ Revenue: $?? / $15 (when owned by a public company)
 \end_layout
 
 \begin_layout Description
-Blocks: C16
+Blocks: C16 and reserves a station location at C16
 \end_layout
 
 \begin_layout Description
@@ -6055,9 +5994,18 @@ green phase or later
 Cobourg & Peterborough Railway
 \noun default
  treasury.
- Player revenue is half of the 2-train route that includes the placed tile.
- The placed tile may be between the two revenue centers that form the route
- or at one end (see 
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Player revenue is half of the 2-train route (two revenue centers) that includes
+ the placed tile.
+ The placed track tile may be between the two revenue centers that form
+ the route or at one end (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:General-Route-definition"
@@ -6066,26 +6014,69 @@ reference "subsec:General-Route-definition"
 
 ).
  The other half of the revenue is accumulated on the private company certificate
- and is transferred to the buying public company's treasury if it is sold
- to a public company, or discarded to the bank if the private company is
- closed before it is bought by a public company.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-A public company that buys the 
+ as a treasury.
+ If the player does not place or upgrade a track tile or there is only one
+ revenue center on the route from the placed track tile, then the 
 \noun on
 Cobourg & Peterborough Railway
 \noun default
- may place one of its unplaced station markers for free on Peterborough
- (C16) at that time.
- If the buying public company does not, then a blocking station marker is
- placed in an empty city circle in Peterborough (C16).
+ does not pay revenue.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+If a public company buys the 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+:
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+The 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+'s treasury is transferred to the public company.
+ 
+\end_layout
+
+\begin_layout Itemize
+The buying public company may place one of its unplaced station markers
+ in the city circle reserved for the 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+ in Peterborough (C16).
+\end_layout
+
+\begin_layout Itemize
+It the buying company does not place a station marker in Peterborough (C16),
+ then a blocking station marker is placed in the empty city circle reserved
+ for 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+ in Peterborough (C16).
+\end_layout
+
+\begin_layout Standard
+If the 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+ closes before it is purchased by a public company, then the 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+'s treasury is discarded to the bank .
+\end_layout
+
+\end_deeper
 \begin_layout Description
 Use: The power is used by the owning player during the private revenue step
  of operating rounds (see 
@@ -8650,11 +8641,11 @@ Revenue: The sum of all the revenue centers on the route.
 
 \end_deeper
 \begin_layout Subsubsection
-4D trains
+3D trains
 \end_layout
 
 \begin_layout Itemize
-The route for a 4D train cannot contain more than a total of 4 cities, coalfield
+The route for a 3D train cannot contain more than a total of 3 cities, coalfield
 s or off-boards.
 \begin_inset Separator latexpar
 \end_inset
