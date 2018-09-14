@@ -302,14 +302,14 @@ company:
         token_2_text_text: $100
         token_3_text_text: $100
         token_4_text_text: $100
-        _major_fill: ${colour/hollasch/forest_green}
-        _major_fill_2: ${colour/x11/chartreuse}
-        _minor_fill_2: ${colour/x11/chartreuse}
+        _major_fill: ${colour/xxp/M_RED}
+        _major_fill_2: ${colour/xxp/L_YELLOW}
+        _minor_fill_2: ${colour/xxp/L_YELLOW}
+        _related_fill: ${colour/x11/lightcoral}
         comment_text_text: |
             "Precision Transportation"
             Manufactured their own
             locomotives in Roanoke, Virginia
-        _related_fill: ${colour/hollasch/cinnabar_green}
 
       token:
 
@@ -441,11 +441,11 @@ company:
         token_2_text_text: $100
         token_3_text_text: $100
         token_4_text_text: $100
-        _major_fill: ${colour/hollasch/flesh}
-        _minor_fill: ${colour/x11/firebrick}
+        _major_fill: ${colour/hollasch/forest_green}
+        _minor_fill: ${colour/x11/chartreuse}
+        _related_fill: ${colour/hollasch/cinnabar_green}
         comment_text_text: |
             The "Oats, Straw, & Hay"
-        _related_fill: ${colour/x11/lightcoral}
 
       token:
 
