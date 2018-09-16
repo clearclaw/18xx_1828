@@ -43,7 +43,7 @@ company:
         token_3_text_text: $100
         token_4_text_text: $100
         _major_fill: ${colour/wikipedia/ultramarine}
-        _minor_fill: ${colour/wikipedia/ultramarine}
+        name_stripe_box_suppress: True
         comment_text_text: |
             Founded in 1833 as the
             Andover & Wilmington Railroad
@@ -149,13 +149,20 @@ company:
         token_2_text_text: $100
         token_3_text_text: $100
         _major_fill: ${colour/hollasch/cerulean}
-        _minor_fill: ${colour/hollasch/cerulean}
+        name_stripe_box_suppress: True
         comment_text_text: |
             The first C&O train ran on
             Wednesday, 20 December 1837
         _related_fill: ${colour/hollasch/powder_blue}
 
       token:
+        _:
+          short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
+
+        ELEMENTS: ${TEMPLATE_solid/.}
+
+        EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
+
         index: "$[index_of (10)]"
 
     GT:
@@ -329,7 +336,7 @@ company:
         token_2_text_text: $100
         token_3_text_text: $100
         _major_fill: ${colour/x11/sandybrown}
-        _minor_fill: ${colour/x11/sandybrown}
+        name_stripe_box_suppress: True
         comment_text_text: '"The Consolidated"'
         _related_fill: ${colour/hollasch/tan}
         bottom_note_text_text: |
@@ -466,7 +473,7 @@ company:
         token_3_text_text: $100
         token_4_text_text: $100
         _major_fill: ${colour/hollasch/cadmium_red_light}
-        _minor_fill: ${colour/hollasch/cadmium_red_light}
+        name_stripe_box_suppress: True
         comment_text_text: 'The "Pennsy"'
         _related_fill: ${colour/hollasch/tomato}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
@@ -490,6 +497,7 @@ company:
         token_3_text_text: $100
         _major_fill: ${colour/x11/deepskyblue}
         _minor_fill: ${colour/hollasch/cadmium_red_light}
+        name_stripe_box_suppress: True
         comment_text_text: |
             Named after the Ouabache River
         _related_fill: ${colour/x11/plum}
@@ -501,147 +509,84 @@ company:
 
         EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
 
+        short_bane_text:
+          fill:  $[black_or_white (${_/_minor_fill})]
+
         index: "$[index_of (10)]"
 
 marker:
   index:
-    round:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-          - middle_circle
-          - inner_circle
 
-      outer_circle:
-        fill: ${colour/xxp/M_BLUE}
+    block:
+      token:
+        _:
+          name_stripe_box_suppress: True
+          outer_circle_fill:  ${colour/xxp/BLACK}
+        ELEMENTS: ${TEMPLATE_solid/.}
 
-      middle_circle:
-        fill: ${colour/xxp/WHITE}
-
-      inner_circle:
-        fill: ${colour/xxp/M_RED}
+        index: "$[index_of (5)]"
 
     c&p:
-      _:
-        short_name_text_text: c&p
+      token:
+        _:
+          short_name_text_text: c&p
+
+        index: "$[index_of (1)]"
+
+    coal:
+      token:
+        _:
+          short_name_text: coal
+          name_stripe_box_suppress: True
+          short_name_text_text: coal
+          short_name_text_fill: ${colour/xxp/WHITE}
+          short_name_text_size: 14
+          outer_circle_fill: ${colour/xxp/BLACK}
+          middle_circle_fill: ${colour/x11/gray50}
+
+        ELEMENTS: ${TEMPLATE_ring/.}
+
+        index: "$[index_of (3)]"
 
     merger:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-          - middle_circle
-          - inner_circle
+      _:
+        name_stripe_box_suppress: True
+        outer_circle_fill: ${colour/xxp/M_BLUE}
+        middle_circle_fill: ${colour/xxp/L_YELLOW}
+        inner_circle_fill: ${colour/xxp/M_RED}
 
-      outer_circle:
-        fill: ${colour/xxp/M_BLUE}
+      token:
 
-      middle_circle:
-        fill: ${colour/xxp/L_YELLOW}
+        ELEMENTS: ${TEMPLATE_bullseye/.}
 
-      inner_circle:
-        fill: ${colour/xxp/M_RED}
+        index: "$[index_of (1)]"
 
-    coal0:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-          - middle_circle
-          - short_name_text
+    round:
+      _:
+        name_stripe_box_suppress: True
+        outer_circle_fill: ${colour/xxp/M_BLUE}
+        middle_circle_fill: ${colour/xxp/WHITE}
+        inner_circle_fill: ${colour/xxp/M_RED}
 
-      short_name_text:
-        text: coal
-        fill: ${colour/xxp/WHITE}
-        size: 14
+      token:
 
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
+        ELEMENTS: ${TEMPLATE_bullseye/.}
 
-      middle_circle:
-        fill: ${colour/x11/gray50}
+        index: "$[index_of (1)]"
 
-    coal1:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-          - middle_circle
-          - short_name_text
-
-      short_name_text:
-        text: coal
-        fill: ${colour/xxp/WHITE}
-        size: 14
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
-
-      middle_circle:
-        fill: ${colour/x11/gray50}
-
-    coal2:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-          - middle_circle
-          - short_name_text
-
-      short_name_text:
-        text: coal
-        fill: ${colour/xxp/WHITE}
-        size: 14
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
-
-      middle_circle:
-        fill: ${colour/x11/gray50}
-
-    coal3:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-          - middle_circle
-          - short_name_text
-
-      short_name_text:
-        text: coal
-        fill: ${colour/xxp/WHITE}
-        size: 14
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
-
-      middle_circle:
-        fill: ${colour/x11/gray50}
-
-    block0:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
+foo:
+  bar:
 
     block1:
       -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
+        ELEMENTS: ${TEMPLATE_solid/.}
 
       outer_circle:
         fill: ${colour/xxp/BLACK}
 
     block2:
       -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
+        ELEMENTS: ${TEMPLATE_solid/.}
 
       outer_circle:
         fill: ${colour/xxp/BLACK}
@@ -761,7 +706,7 @@ private:
     CPR:
       _:
         long_name_text_text: |
-            Canadaian Pacific
+            Canadian Pacific
             Railroad
         power_text_text: |
             Purchaser receives
@@ -771,13 +716,13 @@ private:
         revenue_text_text: "Revenue: $40"
         closes_text_text: "Closes: In RED phase or when purchases a train"
 
-    Erie:
+    GT:
       _:
         long_name_text_text: |
-            Erie
+            Grand Trunk
         power_text_text: |
             Purchaser receives
-            30% of Erie & sets par price.
+            30% of GT & sets par price.
             May not be sold to a public company.
         cost_text_text: "Cost: $250"
         revenue_text_text: "Revenue: $40"
@@ -808,6 +753,19 @@ private:
         revenue_text_text: "Revenue: $40"
         closes_text_text: "Closes: In RED phase or when purchases a train"
 
+    MP:
+      _:
+        long_name_text_text: |
+            Missouri Pacific
+            Railroad
+        power_text_text: |
+            Purchaser receives
+            30% of MP & sets par price.
+            May not be sold to a public company.
+        cost_text_text: "Cost: $250"
+        revenue_text_text: "Revenue: $40"
+        closes_text_text: "Closes: In RED phase or when purchases a train"
+
     NKP:
       _:
         long_name_text_text: |
@@ -816,6 +774,19 @@ private:
         power_text_text: |
             Purchaser receives
             30% of NKP & sets par price.
+            May not be sold to a public company.
+        cost_text_text: "Cost: $250"
+        revenue_text_text: "Revenue: $40"
+        closes_text_text: "Closes: In RED phase or when purchases a train"
+
+    NW:
+      _:
+        long_name_text_text: |
+            Norfolk & Western
+            Railway
+        power_text_text: |
+            Purchaser receives
+            30% of NW & sets par price.
             May not be sold to a public company.
         cost_text_text: "Cost: $250"
         revenue_text_text: "Revenue: $40"

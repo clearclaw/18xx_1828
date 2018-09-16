@@ -175,8 +175,45 @@ name "sec:Introduction"
 \end_layout
 
 \begin_layout Standard
-Waffly thematic/historical text goes here.
+In 1828:
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Chesterfield Railroad,
+\noun default
+ the first railroad built in Virginia, is chartered.
+\end_layout
+
+\begin_layout Itemize
+Pennsylvania authorised the 
+\noun on
+Philadelphia & Columbia Railway
+\noun default
+, its first state-owned railway.
+\end_layout
+
+\begin_layout Itemize
+Construction begins on the 
+\noun on
+Baltimore & Ohio
+\noun default
+ in Baltimore, Maryland with Charles Carroll of Carrollton laying the first
+ stone of the Carrollton Viaduct.
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Hudson & Berkshire Railroad
+\noun default
+ is chartered to build a railroad between Chatham and Hudson in New York.
  
+\end_layout
+
+\begin_layout Standard
+In 1828...the train rush had started.
 \end_layout
 
 \begin_layout Section
@@ -251,7 +288,7 @@ Variously 7 or 8 station markers.
 \end_layout
 
 \begin_layout Itemize
-1 stock price marker.
+1 stock price marker3
 \end_layout
 
 \begin_layout Itemize
@@ -260,15 +297,27 @@ Variously 7 or 8 station markers.
 
 \end_deeper
 \begin_layout Itemize
-13 private companies.
+15 private companies.
 \end_layout
 
 \begin_layout Itemize
-5 blocking station markers.
+1 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+ (C&P) station marker.
 \end_layout
 
 \begin_layout Itemize
-4 coal markers.
+5 blocking station markers 
+\emph on
+(not count-limited)
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+3 coal markers.
 \end_layout
 
 \begin_layout Itemize
@@ -375,12 +424,8 @@ Cobourg & Peterborough Railway
 \end_layout
 
 \begin_layout Itemize
-(
-\emph on
-3 & 4 player games only
-\emph default
-) Randomly discard one (4-player) or two (3-player) $250 private companies
- from the game.
+Randomly discard two (5-player), three (4-player) or four (3-player) $250
+ private companies from the game.
 \end_layout
 
 \begin_layout Itemize
@@ -5098,11 +5143,11 @@ Company overview
 \end_layout
 
 \begin_layout Itemize
-There are three types of companies:
+There are two types of companies:
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Enumerate
 Private companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -5113,8 +5158,18 @@ reference "subsec:Private-Companies"
 ).
 \end_layout
 
+\begin_layout Enumerate
+Share companies.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
-Public Companies (see 
+Share companies can be:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Public companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Public-companies"
@@ -5129,6 +5184,13 @@ Systems (see
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Systems"
+
+\end_inset
+
+) formed by merging public companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Merging-companies-into"
 
 \end_inset
 
@@ -5848,9 +5910,7 @@ Use: None.
 
 \end_deeper
 \begin_layout Enumerate
-
-\noun on
-Erie Railway
+Grand Trunk
 \end_layout
 
 \begin_deeper
@@ -5873,11 +5933,11 @@ Blocks: None
 \begin_layout Description
 Closes: At the start of red phase or when the 
 \noun on
-Erie Railway
+Grand Trunk 
 \noun default
- (
+(
 \noun on
-ERIE
+GT
 \noun default
 ) acquires a train.
 \end_layout
@@ -5886,16 +5946,16 @@ ERIE
 Power: When purchased during the private auction comes with the 20% director's
  certificate and a 10% share certificate of the 
 \noun on
-Erie Railway
+Grand Trunk 
 \noun default
- (
+(
 \noun on
-ERIE)
+GT)
 \noun default
 .
  The buying player must immediately set the par price for the 
 \noun on
-Erie Railway (ERIE)
+Grand Trunk (GT)
 \noun default
  to any yellow par price
 \noun on
@@ -5904,7 +5964,7 @@ Erie Railway (ERIE)
 \noun default
 The
 \noun on
- Erie Railway
+ Grand Trunk
 \noun default
  private company cannot be purchased by a public company or system.
 \end_layout
@@ -6029,8 +6089,74 @@ MC)
 .
  The buying player must immediately set the par price for the 
 \noun on
-New York, Chicago & St.
- Louis Railroad (NKP)
+Michigan Central
+\noun default
+ (MC) to any yellow par price
+\noun on
+.
+ 
+\noun default
+The
+\noun on
+ Michigan Central
+\noun default
+ private company cannot be purchased by a public company or system.
+\end_layout
+
+\begin_layout Description
+Use: None.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Missouri Pacific Railroad
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: $250
+\end_layout
+
+\begin_layout Description
+Revenue: $40
+\end_layout
+
+\begin_layout Description
+Blocks: None
+\end_layout
+
+\begin_layout Description
+Closes: At the start of red phase or when the 
+\noun on
+Missouri Pacific
+\noun default
+ (
+\noun on
+M
+\noun default
+P) acquires a train.
+\end_layout
+
+\begin_layout Description
+Power: When purchased during the private auction comes with the 20% director's
+ certificate and a 10% share certificate of the 
+\noun on
+Missouri Pacific
+\noun default
+ (
+\noun on
+MP)
+\noun default
+.
+ The buying player must immediately set the par price for the 
+\noun on
+Missouri Pacific (MP)
 \noun default
  to any yellow par price
 \noun on
@@ -6113,6 +6239,73 @@ The
 \noun on
  New York, Chicago & St.
  Louis Railroad
+\noun default
+ private company cannot be purchased by a public company or system.
+\end_layout
+
+\begin_layout Description
+Use: None.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Norfolk & Western
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: $250
+\end_layout
+
+\begin_layout Description
+Revenue: $40
+\end_layout
+
+\begin_layout Description
+Blocks: None
+\end_layout
+
+\begin_layout Description
+Closes: At the start of red phase or when the 
+\noun on
+Norfolk & Western
+\noun default
+ (
+\noun on
+NW
+\noun default
+) acquires a train.
+\end_layout
+
+\begin_layout Description
+Power: When purchased during the private auction comes with the 20% director's
+ certificate and a 10% share certificate of the 
+\noun on
+Norfolk & Western
+\noun default
+ (
+\noun on
+NW)
+\noun default
+.
+ The buying player must immediately set the par price for the 
+\noun on
+Norfolk & Western (NW)
+\noun default
+ to any yellow par price
+\noun on
+.
+ 
+\noun default
+The
+\noun on
+ Norfolk & Western
 \noun default
  private company cannot be purchased by a public company or system.
 \end_layout
@@ -6994,7 +7187,7 @@ OS&H
 \begin_inset Text
 
 \begin_layout Plain Layout
-Barle (B15)
+Canada (A16)
 \end_layout
 
 \end_inset
