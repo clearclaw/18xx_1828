@@ -45,7 +45,6 @@ company:
         _major_fill: ${colour/wikipedia/ultramarine}
         name_stripe_box_suppress: True
         comment_text_text: |
-            The "Busted & Mangled"
             The "Banks & Money"
         _related_fill: ${colour/wikipedia/han_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
@@ -100,10 +99,7 @@ company:
         _major_fill: ${colour/wikipedia/banana_yellow}
         _minor_fill: ${colour/hollasch/blue}
         comment_text_text: |
-            The "Bats & Owls"
             The "Backward & Obsolete"
-            First to offer scheduled
-            passenger service to the public
         _related_fill: ${colour/hollasch/steel_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
 
@@ -133,9 +129,7 @@ company:
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${colour/hollasch/brown_ochre}
         comment_text_text: |
-            The "Cheapy Rail"
-            Canada's first
-            transcontinental railway
+            The "Can't Please"
         _related_fill: ${colour/hollasch/brick}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
 
@@ -199,7 +193,6 @@ company:
         _major_fill: ${colour/x11/yellow}
         _minor_fill: ${colour/x11/yellow}
         comment_text_text: |
-            The "Weary Erie"
             The "The scarlet woman
             of Wall Street"
         _related_fill: ${colour/x11/darkgoldenrod1}
@@ -219,7 +212,6 @@ company:
         _minor_fill: ${colour/x11/limegreen}
         comment_text_text: |
             The "Ill Cent"
-            The "Main Line of Mid-America"
         _related_fill: ${colour/x11/yellowgreen}
 
       token:
@@ -314,9 +306,7 @@ company:
         _minor_fill_2: ${colour/xxp/L_YELLOW}
         _related_fill: ${colour/x11/lightcoral}
         comment_text_text: |
-            "Precision Transportation"
-            Manufactured their own
-            locomotives in Roanoke, Virginia
+            The "Narrow & Wobbly"
 
       token:
 
@@ -338,7 +328,7 @@ company:
         _major_fill: ${colour/x11/sandybrown}
         name_stripe_box_suppress: True
         comment_text_text: |
-            "The Consolidated"
+            "Not Yet, No How & Hopeless"
         _related_fill: ${colour/hollasch/tan}
         bottom_note_text_text: |
             May place an additional yellow track tile
@@ -397,7 +387,7 @@ company:
         _major_fill: ${colour/xxp/BLACK}
         _minor_fill: ${colour/xxp/BLACK}
         comment_text_text:
-            The "Water Level Route"
+            The "No You Can't"
         _related_fill: ${colour/x11/gray50}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         bottom_note_text_text: |
@@ -476,7 +466,7 @@ company:
         _major_fill: ${colour/hollasch/cadmium_red_light}
         name_stripe_box_suppress: True
         comment_text_text:
-            The "Pennsy"
+            The "Poor Ragged Rascal"
         _related_fill: ${colour/hollasch/tomato}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         short_name_text_fill: $[black_or_white (${colour/hollasch/cadmium_red_light})]
@@ -575,41 +565,6 @@ marker:
         ELEMENTS: ${TEMPLATE_bullseye/.}
 
         index: "$[index_of (1)]"
-
-foo:
-  bar:
-
-    block1:
-      -missing-:
-        ELEMENTS: ${TEMPLATE_solid/.}
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
-
-    block2:
-      -missing-:
-        ELEMENTS: ${TEMPLATE_solid/.}
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
-
-    block3:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
-
-    block4:
-      -missing-:
-        ELEMENTS:
-          - token_interior_box
-          - outer_circle
-
-      outer_circle:
-        fill: ${colour/xxp/BLACK}
 
 private:
   _:
