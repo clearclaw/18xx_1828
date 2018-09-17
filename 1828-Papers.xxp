@@ -50,7 +50,7 @@ company:
         _major_fill: ${colour/wikipedia/ultramarine}
         name_stripe_box_suppress: True
         comment_text_text: |
-            The "Banks & Money"
+            "Banks & Money"
         _related_fill: ${colour/wikipedia/han_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         bottom_note_text_text: |
@@ -104,7 +104,7 @@ company:
         _major_fill: ${colour/wikipedia/banana_yellow}
         _minor_fill: ${colour/hollasch/blue}
         comment_text_text: |
-            The "Backward & Obsolete"
+            "Backward & Obsolete"
         _related_fill: ${colour/hollasch/steel_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
 
@@ -134,7 +134,7 @@ company:
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${colour/hollasch/brown_ochre}
         comment_text_text: |
-            The "Can't Please"
+            "Can't Please"
         _related_fill: ${colour/hollasch/brick}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
 
@@ -153,7 +153,7 @@ company:
         _major_fill: ${colour/hollasch/cerulean}
         name_stripe_box_suppress: True
         comment_text_text: |
-            The "Chessie & the Orphan"
+            "Chessie & the Orphan"
         _related_fill: ${colour/hollasch/powder_blue}
 
       token:
@@ -176,7 +176,7 @@ company:
         _major_fill: ${colour/x11/yellow}
         _minor_fill: ${colour/x11/red}
         comment_text_text: |
-            The "Gone Too"
+            "Gone Too"
         _related_fill: ${colour/x11/khaki}
 
       token:
@@ -198,7 +198,7 @@ company:
         _major_fill: ${colour/x11/yellow}
         _minor_fill: ${colour/x11/yellow}
         comment_text_text: |
-            The "The scarlet woman
+            "The scarlet woman
             of Wall Street"
         _related_fill: ${colour/x11/darkgoldenrod1}
 
@@ -234,7 +234,7 @@ company:
         _minor_fill: ${colour/wikipedia/corn}
         name_stripe_box_suppress: True
         comment_text_text: |
-            The "More Crap"
+            "More Crap"
         _related_fill: ${colour/x11/gray70}
         middle_box_fill: ${_/_minor_fill}
 
@@ -288,7 +288,7 @@ company:
         _major_fill: ${colour/hollasch/blue}
         _minor_fill: ${colour/hollasch/blue}
         comment_text_text: |
-            The "Nickel Plate Road"
+            "Nickel Plate Road"
         _related_fill: ${colour/x11/thistle2}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
 
@@ -311,7 +311,7 @@ company:
         _minor_fill_2: ${colour/xxp/L_YELLOW}
         _related_fill: ${colour/x11/lightcoral}
         comment_text_text: |
-            The "Narrow & Wobbly"
+            "Narrow & Wobbly"
 
       token:
 
@@ -392,7 +392,7 @@ company:
         _major_fill: ${colour/xxp/BLACK}
         _minor_fill: ${colour/xxp/BLACK}
         comment_text_text:
-            The "No You Can't"
+            "No You Can't"
         _related_fill: ${colour/x11/gray50}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         bottom_note_text_text: |
@@ -448,7 +448,7 @@ company:
         _minor_fill: ${colour/xxp/H_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
         comment_text_text: |
-            The "Oats, Straw, & Hay"
+            "Oats, Straw, & Hay"
 
       token:
 
@@ -471,7 +471,7 @@ company:
         _major_fill: ${colour/hollasch/cadmium_red_light}
         name_stripe_box_suppress: True
         comment_text_text:
-            The "Poor Ragged Rascal"
+            "Poor Ragged Rascal"
         _related_fill: ${colour/hollasch/tomato}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         short_name_text_fill: $[black_or_white (${colour/hollasch/cadmium_red_light})]
