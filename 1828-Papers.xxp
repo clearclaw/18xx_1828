@@ -487,8 +487,8 @@ company:
         token_1_text_text: Free
         token_2_text_text: $100
         token_3_text_text: $100
-        _major_fill: ${colour/x11/deepskyblue}
-        _minor_fill: ${colour/hollasch/cadmium_red_light}
+        _major_fill: ${colour/hollasch/english_red}
+        _minor_fill: ${colour/hollasch/cobalt}
         name_stripe_box_suppress: True
         comment_text_text: |
             "Follow the Flag"
@@ -501,8 +501,8 @@ company:
 
         EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
 
-        short_bane_text:
-          fill:  $[black_or_white (${_/_minor_fill})]
+        short_name_text:
+          fill:  ${colour/xxp/L_YELLOW}
 
         index: "$[index_of (10)]"
 
