@@ -229,7 +229,7 @@ company:
         _major_fill_2: ${colour/xxp/WHITE}
         _minor_fill_2: ${colour/xxp/WHITE}
         comment_text_text: |
-            Incorporated in 1846
+            The "More Crap"
         _related_fill: ${colour/x11/gray70}
         middle_box_fill: ${_/_minor_fill}
 
