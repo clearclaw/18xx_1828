@@ -45,8 +45,8 @@ company:
         _major_fill: ${colour/wikipedia/ultramarine}
         name_stripe_box_suppress: True
         comment_text_text: |
-            Founded in 1833 as the
-            Andover & Wilmington Railroad
+            The "Busted & Mangled"
+            The "Banks & Money"
         _related_fill: ${colour/wikipedia/han_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         bottom_note_text_text: |
@@ -100,8 +100,10 @@ company:
         _major_fill: ${colour/wikipedia/banana_yellow}
         _minor_fill: ${colour/hollasch/blue}
         comment_text_text: |
+            The "Bats & Owls"
+            The "Backward & Obsolete"
             First to offer scheduled
-            passenger service
+            passenger service to the public
         _related_fill: ${colour/hollasch/steel_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
 
@@ -131,6 +133,7 @@ company:
         _major_fill: ${colour/hollasch/brown_ochre}
         _minor_fill: ${colour/hollasch/brown_ochre}
         comment_text_text: |
+            The "Cheapy Rail"
             Canada's first
             transcontinental railway
         _related_fill: ${colour/hollasch/brick}
@@ -151,8 +154,7 @@ company:
         _major_fill: ${colour/hollasch/cerulean}
         name_stripe_box_suppress: True
         comment_text_text: |
-            The first C&O train ran on
-            Wednesday, 20 December 1837
+            The "Chessie & the Orphan"
         _related_fill: ${colour/hollasch/powder_blue}
 
       token:
@@ -175,9 +177,7 @@ company:
         _major_fill: ${colour/x11/yellow}
         _minor_fill: ${colour/x11/red}
         comment_text_text: |
-            Incorporated 10 November 1852 as
-            the Grand Trunk Railway Company
-            of Canada
+            The "Gone Too"
         _related_fill: ${colour/x11/khaki}
 
       token:
@@ -199,7 +199,8 @@ company:
         _major_fill: ${colour/x11/yellow}
         _minor_fill: ${colour/x11/yellow}
         comment_text_text: |
-            "The scarlet woman
+            The "Weary Erie"
+            The "The scarlet woman
             of Wall Street"
         _related_fill: ${colour/x11/darkgoldenrod1}
 
@@ -217,8 +218,7 @@ company:
         _major_fill: ${colour/x11/gold}
         _minor_fill: ${colour/x11/limegreen}
         comment_text_text: |
-            The first land-grant railroad
-            in the United States.
+            The "Ill Cent"
             The "Main Line of Mid-America"
         _related_fill: ${colour/x11/yellowgreen}
 
@@ -337,7 +337,8 @@ company:
         token_3_text_text: $100
         _major_fill: ${colour/x11/sandybrown}
         name_stripe_box_suppress: True
-        comment_text_text: '"The Consolidated"'
+        comment_text_text: |
+            "The Consolidated"
         _related_fill: ${colour/hollasch/tan}
         bottom_note_text_text: |
             May place an additional yellow track tile
@@ -474,7 +475,8 @@ company:
         token_4_text_text: $100
         _major_fill: ${colour/hollasch/cadmium_red_light}
         name_stripe_box_suppress: True
-        comment_text_text: 'The "Pennsy"'
+        comment_text_text:
+            The "Pennsy"
         _related_fill: ${colour/hollasch/tomato}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         short_name_text_fill: $[black_or_white (${colour/hollasch/cadmium_red_light})]
@@ -499,7 +501,7 @@ company:
         _minor_fill: ${colour/hollasch/cadmium_red_light}
         name_stripe_box_suppress: True
         comment_text_text: |
-            Named after the Ouabache River
+            "Follow the Flag"
         _related_fill: ${colour/x11/plum}
         middle_box_fill: ${_/_minor_fill}
 
