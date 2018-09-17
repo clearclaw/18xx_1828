@@ -240,11 +240,7 @@ name "sec:Components"
 \end_layout
 
 \begin_layout Itemize
-1 IPO chart.
-\end_layout
-
-\begin_layout Itemize
-1 round marker.
+1 IPO and bank pool chart.
 \end_layout
 
 \begin_layout Itemize
@@ -288,7 +284,7 @@ Variously 7 or 8 station markers.
 \end_layout
 
 \begin_layout Itemize
-1 stock price marker3
+1 stock price marker
 \end_layout
 
 \begin_layout Itemize
@@ -318,6 +314,10 @@ Cobourg & Peterborough Railway
 
 \begin_layout Itemize
 3 coal markers.
+\end_layout
+
+\begin_layout Itemize
+1 round marker.
 \end_layout
 
 \begin_layout Itemize
@@ -390,8 +390,8 @@ Place the map and Stock Market where they can be easily seen and accessed.
 \end_layout
 
 \begin_layout Itemize
-Place IPO and public company charters nearby where they can be easily seen
- & accessed.
+Place IPO and public company charters and shares nearby where they can be
+ easily seen & accessed.
 \end_layout
 
 \begin_layout Itemize
@@ -508,6 +508,12 @@ Place the matching 20% director's share certificate and a 10% share certificate
  on each $250 private company in play.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Place the rest of those companies shares on the IPO.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Separate the player number cards by colour and discard the player number
  cards with numbers larger than the player count.
@@ -1657,8 +1663,8 @@ Winning bids and purchase costs are paid to the bank.
 
 \begin_layout Itemize
 When the one of the $250 private companies is purchased, its owner must
- immediately set the par value of the matching public company to one of
- the yellow par value
+ immediately set the par value and stock price of the matching public company
+ to one of the yellow par value
 \noun on
 s ($67, $71 
 \noun default
@@ -1702,8 +1708,7 @@ On their turn a player may pass or do any or all of the following in the
 
 \begin_deeper
 \begin_layout Itemize
-Sell some number of shares of one or more public companies and systems (see
- 
+Sell some number of shares of one or more share companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Selling-shares"
@@ -1735,8 +1740,8 @@ Or:
 
 \begin_layout Itemize
 Buy two stock certificates from either or both the bank pool or IPO of a
- public company or system they direct and whose stock price is in the gray
- area of the stock market (see 
+ share company they direct and whose stock price is in the gray area of
+ the stock market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Buying-shares"
@@ -1796,7 +1801,7 @@ reference "subsec:Private-Particulars"
 
 \end_deeper
 \begin_layout Itemize
-Sell some number of shares of one or more public companies (see 
+Sell some number of shares of one or more share companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Selling-shares"
@@ -1909,7 +1914,7 @@ In Stock Rounds other than the first Stock Round following the private auction.
 \end_layout
 
 \begin_layout Itemize
-Of public companies and systems that have been parred (see 
+Of share companies that have been parred (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Starting-or-floating"
@@ -1951,8 +1956,8 @@ It isn't moved any further.
 
 \end_deeper
 \begin_layout Itemize
-If shares from multiple public companies and/or systems are sold and their
- stock prices move into the same space on the Stock Market:
+If shares from multiple share companies are sold and their stock prices
+ move into the same space on the Stock Market:
 \end_layout
 
 \begin_deeper
@@ -1981,9 +1986,9 @@ Only one stock certificate can be bought per player-turn or action in the
 
 \begin_deeper
 \begin_layout Description
-Exception: The director of a public company or system whose stock price
- is in the gray area of the Stock Market may by shares from the IPO and/or
- bank pool two at a time (see 
+Exception: The director of a share company whose stock price is in the gray
+ area of the Stock Market may by shares from the IPO and/or bank pool two
+ at a time (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Stock-Market"
@@ -1995,14 +2000,14 @@ reference "sec:Stock-Market"
 
 \end_deeper
 \begin_layout Itemize
-A player cannot buy a certificate of a public company or system if they
- hold 60% or more of that company.
+A player cannot buy a certificate of a share company if they hold 60% or
+ more of that company.
 \end_layout
 
 \begin_deeper
 \begin_layout Description
-Exception: Players may buy past 60% in a public company or system if the
- company's stock price is in the gray area of the Stock Market (see 
+Exception: Players may buy past 60% in a share company if the company's
+ stock price is in the gray area of the Stock Market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Stock-Market"
@@ -2033,8 +2038,8 @@ reference "subsec:Company-directors"
 \end_layout
 
 \begin_layout Itemize
-Players can buy non-director's certificates of public companies and systems
- only if they have been parred (see 
+Players can buy non-director's certificates of share companies only if they
+ have been parred (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Starting-or-floating"
@@ -2045,15 +2050,14 @@ reference "subsec:Starting-or-floating"
 \end_layout
 
 \begin_layout Itemize
-A player cannot buy a certificate of a public company or system if they
- have sold any shares of that company (or constituent shells for a system)
- in the current Stock Round.
+A player cannot buy a certificate of a share company if they have sold any
+ shares of that company (or constituent shells for a system) in the current
+ Stock Round.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-They may buy certificates of that public company or system in future Stock
- Rounds.
+They may buy certificates of that share company in future Stock Rounds.
 \end_layout
 
 \begin_layout Itemize
@@ -2070,13 +2074,22 @@ reference "subsec:Merging-companies-into"
 
 \end_deeper
 \begin_layout Itemize
-The purchase price for public company certificates bought from the IPO is:
+The purchase price for share certificates bought from the IPO is:
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-The par price of that public company, or system multiplied by the number
- of shares represented by the certificate purchased.
+\begin_layout Description
+Public
+\begin_inset space ~
+\end_inset
+
+company: The par price of that company multiplied by the number of shares
+ purchased.
+\end_layout
+
+\begin_layout Description
+System: The stock price of that company multiplied by the number of shares
+ purchased.
 \end_layout
 
 \end_deeper
@@ -2139,6 +2152,10 @@ The first available certificate of a public company is always the director's
 
 \begin_deeper
 \begin_layout Enumerate
+Placing all of the company's shares in the IPO.
+\end_layout
+
+\begin_layout Enumerate
 Selecting an available par price for the public company.
 \end_layout
 
@@ -2180,7 +2197,7 @@ reference "sec:Stock-Market"
 \end_layout
 
 \begin_layout Enumerate
-Paying twice that value to the bank.
+Paying twice that value to the bank and buying the director's share certificate.
 \end_layout
 
 \end_deeper

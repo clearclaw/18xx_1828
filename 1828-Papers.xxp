@@ -1,3 +1,8 @@
+meta:
+  author: J C Lawrence
+  title: "1828"
+  subject: 18xx art file for ${meta/title}
+
 company:
 
   TEMPLATE_CHARTER_track_hexes:
@@ -226,8 +231,8 @@ company:
         token_3_text_text: $100
         token_4_text_text: $100
         _major_fill: ${colour/xxp/BLACK}
-        _major_fill_2: ${colour/xxp/WHITE}
-        _minor_fill_2: ${colour/xxp/WHITE}
+        _minor_fill: ${colour/wikipedia/corn}
+        name_stripe_box_suppress: True
         comment_text_text: |
             The "More Crap"
         _related_fill: ${colour/x11/gray70}
@@ -235,9 +240,9 @@ company:
 
       token:
 
-        ELEMENTS: ${TEMPLATE_stripey/.}
+        ELEMENTS: ${TEMPLATE_boxes/.}
 
-        EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
+        EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
 
         index: "$[index_of (10)]"
 
@@ -439,8 +444,8 @@ company:
         token_2_text_text: $100
         token_3_text_text: $100
         token_4_text_text: $100
-        _major_fill: ${colour/hollasch/forest_green}
-        _minor_fill: ${colour/x11/chartreuse}
+        _major_fill: ${colour/xxp/D_GREEN}
+        _minor_fill: ${colour/xxp/H_GREEN}
         _related_fill: ${colour/hollasch/cinnabar_green}
         comment_text_text: |
             The "Oats, Straw, & Hay"
@@ -504,7 +509,7 @@ company:
         short_name_text:
           fill:  ${colour/xxp/L_YELLOW}
 
-        index: "$[index_of (10)]"
+        index: $[index_of (10)]
 
 marker:
   index:
