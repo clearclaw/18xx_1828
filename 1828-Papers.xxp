@@ -79,7 +79,7 @@ company:
           x_inset: 111.75
           y_inset: 112.5
           size: 9
-          text: $20
+          text: $40
 
       token:
         _:
@@ -361,7 +361,7 @@ company:
           x_inset: 111.75
           y_inset: 112.5
           size: 9
-          text: $20
+          text: $40
 
       share:
         long_name_text:
@@ -421,7 +421,7 @@ company:
           x_inset: 111.75
           y_inset: 112.5
           size: 9
-          text: $20
+          text: $40
 
       token:
 
@@ -812,8 +812,8 @@ train:
         note_text_text: |
             Upgrade to PURPLE:
             $700
-      long_name_text:
-        size: 44
+        long_name_text_size: 44
+
       model:
         index: "$[index_of (6)]"
 
@@ -835,7 +835,12 @@ train:
         cost_text_text_p: $800
         rusted_text_text: PERMANENT
       model:
-        index: "$[index_of (2)]"
+        index:
+          "1":
+            note_text:
+              text: (3-player game)
+          "2":
+          "3":
 
     Diesel:
       _:
@@ -847,7 +852,17 @@ train:
       long_name_text:
         size: 32
       model:
-        index: "$[index_of (6)]"
+        index:
+          "1":
+            note_text:
+              text: (3-player game)
+          "2":
+            note_text:
+              text: (3-player game)
+          "3":
+          "4":
+          "5":
+          "6":
 
     p1Pa:
       _:

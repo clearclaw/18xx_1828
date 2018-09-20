@@ -112,6 +112,7 @@ tabs-within-sections
 \begin_body
 
 \begin_layout Title
+tra
 \begin_inset Graphics
 	filename masthead.jpg
 	height 7in
@@ -248,7 +249,7 @@ Many track tiles (yellow, green and brown).
 \end_layout
 
 \begin_layout Itemize
-37 trains (6 yellow, 9 green, 4 blue, 6 brown, 4 red, 2 gray, 6 purple).
+38 trains (6 yellow, 9 green, 4 blue, 6 brown, 4 red, 3 gray, 6 purple).
 \end_layout
 
 \begin_layout Itemize
@@ -386,12 +387,12 @@ name "sec:Game-Setup"
 \end_layout
 
 \begin_layout Itemize
-Place the map and Stock Market where they can be easily seen and accessed.
+Place the map, Stock Market, IPO where they can be easily seen and accessed.
 \end_layout
 
 \begin_layout Itemize
-Place IPO and public company charters and shares nearby where they can be
- easily seen & accessed.
+Place public company charters and shares nearby where they can be easily
+ seen & accessed.
 \end_layout
 
 \begin_layout Itemize
@@ -421,6 +422,14 @@ Place the
 Cobourg & Peterborough Railway
 \noun default
  (c&p) station marker on Peterborough (C16).
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+(4 & 5 players only)
+\emph default
+ Discard the gray and purple trains marked for 3-players from the game.
 \end_layout
 
 \begin_layout Itemize
@@ -581,19 +590,19 @@ The round marker is used to track the game's progress through the rounds.
 
 \end_deeper
 \begin_layout Itemize
-In Stock Rounds, players may buy and sell shares of public companies and
- systems, taking and losing control of companies, merging public companies
- into systems and starting new public companies and systems (see 
+In Stock Rounds, players may buy and sell shares of share companies, taking
+ and losing control of companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Stock-Rounds"
+reference "sec:Companies"
 
 \end_inset
 
- & 
+), merging public companies into systems and starting new public companies
+ and systems (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Systems"
+reference "sec:Stock-Rounds"
 
 \end_inset
 
@@ -645,7 +654,7 @@ In Operating Rounds
 \noun on
 ,
 \noun default
- public companies operate: buying private companies from players, building
+ share companies operate: buying private companies from players, building
  track and stations, running and buying trains, and withholding or paying
  dividends to shareholders (see 
 \begin_inset CommandInset ref
@@ -660,7 +669,7 @@ reference "sec:Operating-Rounds"
 
 \begin_deeper
 \begin_layout Itemize
-Public companies act in Operating Rounds in descending order of their stock
+Share companies act in Operating Rounds in descending order of their stock
  prices (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -709,7 +718,7 @@ reference "tab:Game-Phases"
 
 \begin_layout Itemize
 Game phase changes immediately when the first train of a new colour is bought
- by a public company.
+ by a company.
  New par prices, track tile types and other changes accompany some game
  phase changes (see 
 \begin_inset CommandInset ref
@@ -751,7 +760,7 @@ Player bankruptcy.
 \end_layout
 
 \begin_layout Itemize
-Public company stock price reaches $500.
+Share company stock price reaches $500.
 \end_layout
 
 \begin_layout Itemize
@@ -782,12 +791,12 @@ status open
 <features tabularvalignment="middle">
 <column alignment="center" valignment="middle" width="0.6in">
 <column alignment="center" valignment="middle" width="0.6in">
+<column alignment="center" valignment="middle" width="1in">
 <column alignment="center" valignment="middle" width="0.6in">
-<column alignment="center" valignment="middle" width="0.6in">
-<column alignment="center" valignment="middle" width="0.6in">
+<column alignment="center" valignment="middle" width="0.75in">
 <column alignment="center" valignment="middle" width="0.5in">
-<column alignment="center" valignment="middle" width="0.5in">
-<column alignment="center" valignment="middle" width="0.5in">
+<column alignment="center" valignment="middle" width="0.75in">
+<column alignment="center" valignment="middle" width="0.75in">
 <row>
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
@@ -881,7 +890,7 @@ Yellow
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -899,7 +908,7 @@ $80
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -926,7 +935,7 @@ Yellow
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -955,7 +964,7 @@ Green
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -973,7 +982,7 @@ $160
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1000,7 +1009,7 @@ Green & below
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1029,7 +1038,7 @@ Blue
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1047,7 +1056,7 @@ $250
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1074,7 +1083,7 @@ Green & below
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1103,7 +1112,7 @@ Brown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1121,7 +1130,7 @@ $350
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1148,7 +1157,7 @@ Brown & below
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1177,7 +1186,7 @@ Red
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1195,11 +1204,11 @@ $500
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -1222,7 +1231,7 @@ Brown & below
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1251,11 +1260,15 @@ Gray
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+3-player: 3
+\begin_inset Newline newline
+\end_inset
+
+4/5-player: 2
 \end_layout
 
 \end_inset
@@ -1269,11 +1282,11 @@ $800
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -1287,7 +1300,7 @@ $800
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="middle" topline="true" usebox="none" width="0.5in">
+<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none" width="0.5in">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1296,7 +1309,7 @@ Brown & below
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1329,7 +1342,11 @@ Diesel
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
+3-player: 4
+\begin_inset Newline newline
+\end_inset
+
+4/5-player: 6
 \end_layout
 
 \end_inset
@@ -1347,7 +1364,7 @@ $900
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -2074,22 +2091,13 @@ reference "subsec:Merging-companies-into"
 
 \end_deeper
 \begin_layout Itemize
-The purchase price for share certificates bought from the IPO is:
+The purchase price for public company share certificates bought from the
+ IPO is:
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Public
-\begin_inset space ~
-\end_inset
-
-company: The par price of that company multiplied by the number of shares
- purchased.
-\end_layout
-
-\begin_layout Description
-System: The stock price of that company multiplied by the number of shares
- purchased.
+\begin_layout Itemize
+The par price of that company multiplied by the number of shares purchased.
 \end_layout
 
 \end_deeper
@@ -2100,7 +2108,7 @@ The purchase price for public company shares shares bought from the bank
 
 \begin_deeper
 \begin_layout Itemize
-The current stock price of that public company or system.
+The current stock price of the public company.
 \end_layout
 
 \end_deeper
@@ -2197,7 +2205,7 @@ reference "sec:Stock-Market"
 \end_layout
 
 \begin_layout Enumerate
-Paying twice that value to the bank and buying the director's share certificate.
+Paying twice that value to the bank and taking the director's share certificate.
 \end_layout
 
 \end_deeper
@@ -2327,8 +2335,8 @@ merge
 \end_layout
 
 \begin_layout Itemize
-Two public companies that have both floated and completed at least one operating
- round can merge.
+Two public companies that have both floated and both completed at least
+ one operating round can merge.
 \end_layout
 
 \begin_layout Paragraph
@@ -2436,18 +2444,6 @@ reference "subsec:Company-directors"
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-The system is otherwise floated in the same way as an un-merged public company
- (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Starting-or-floating"
-
-\end_inset
-
-).
-\end_layout
-
 \begin_layout Subsubsection
 Merger process 
 \begin_inset CommandInset label
@@ -2501,7 +2497,7 @@ Put the merger marker in the square with the largest value which is not
 
 \begin_deeper
 \begin_layout Itemize
-The larger of the two stock prices plus half the lower, rounding down.
+The larger of the two stock prices plus half the smaller, rounding down.
 \end_layout
 
 \end_deeper
@@ -2555,6 +2551,10 @@ If both merging public companies had station markers in the same hexagon:
 \begin_layout Itemize
 One of the two station markers must be replaced with a blocking station
  marker (director's choice).
+\end_layout
+
+\begin_layout Itemize
+The removed station marker is returned to the new system's charter.
 \end_layout
 
 \end_deeper
@@ -2721,6 +2721,14 @@ The other player must give or take money to or from the bank to cover any
  difference in value between the share they received and gave up.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If the receiving player doesn't have enough cash to pay for the share they
+ receive, they must instead put the share in the bank pool and take its
+ current stock value from the bank in cash.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 The IPO.
@@ -2821,7 +2829,7 @@ name "subsec:Operating-round-General"
 
 \begin_layout Enumerate
 Private companies pay their revenue (shown on their certificate) from the
- bank to their player or public company owners.
+ bank to their player or share company owners.
 \end_layout
 
 \begin_deeper
@@ -2874,10 +2882,10 @@ name "subsec:company-operating-order"
 \end_layout
 
 \begin_layout Itemize
-Public companies and systems (see 
+Share companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Public-companies"
+reference "sec:Companies"
 
 \end_inset
 
@@ -2886,8 +2894,8 @@ reference "sec:Public-companies"
 
 \begin_deeper
 \begin_layout Itemize
-Public companies and systems with the same stock prices but in different
- locations on the Stock Market:
+Share companies with the same stock prices but in different locations on
+ the Stock Market:
 \end_layout
 
 \begin_deeper
@@ -2897,15 +2905,14 @@ The company whose stock price marker is further right operates first.
 
 \end_deeper
 \begin_layout Itemize
-The stock price markers of public companies and systems in the same space
- of the Stock Market are stacked in the order they'll operate, from the
- top down.
+The stock price markers of share companies in the same space of the Stock
+ Market are stacked in the order they'll operate, from the top down.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-As public companies and systems operate, their stock price markers are turned
- upside-down and moved to their new stock price location (see  
+As share companies operate, their stock price markers are turned upside-down
+ and moved to their new stock price location (see  
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-price-movement"
@@ -2937,8 +2944,8 @@ At the end of the Operating Round the upside-down stock price markers are
 \end_layout
 
 \begin_layout Itemize
-Each public company and system completes all of its actions in the Operating
- Round before the next public company operates.
+Each share company completes all of its actions in the Operating Round before
+ the next public company operates.
 \end_layout
 
 \begin_layout Subsection
@@ -2953,14 +2960,14 @@ name "subsec:Operating-round-actions"
 \end_layout
 
 \begin_layout Itemize
-Public companies and systems perform the following steps in the order listed:
+Share companies perform the following steps in the order listed:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
 (
 \emph on
-If the first time the public company or system has operated
+If the first time the share company has operated
 \emph default
 ) Place the company's home station marker(s) on its home station location(s)
  (see 
@@ -3081,11 +3088,15 @@ reference "subsec:Emergency-train-buying"
 ).
 \end_layout
 
-\begin_layout Description
-Exception: In green and later phases, public companies and systems may buy
- private companies from players at any time during the company's operation
- for between $1 and the twice the face value of the private company (see
- 
+\end_deeper
+\begin_layout Itemize
+(
+\emph on
+In green and later phases
+\emph default
+) Share companies may buy private companies with marked costs of less than
+ $250 from players at any time during the company's operation for between
+ $1 and the twice the face value of the private company (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Private-Companies"
@@ -3095,8 +3106,8 @@ reference "subsec:Private-Companies"
 ).
 \end_layout
 
-\begin_layout Description
-Exception: A public company or system with a route (see 
+\begin_layout Itemize
+A share company with a route (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:General-Route-definition"
@@ -3109,9 +3120,8 @@ reference "subsec:General-Route-definition"
  bank at any time in its operations.
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-Once a public company has performed all operations, the next public company
+Once a share company has performed all operations, the next share company
  in order operates (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3188,7 +3198,7 @@ NYH
 \noun off
 \color none
 an additional yellow track tile (the company may not upgrade a track tile
- in the round) for a cost of $20 paid to the bank in addition to any terrain
+ in the round) for a cost of $40 paid to the bank in addition to any terrain
  costs (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3269,7 +3279,7 @@ NYH
 \noun off
 \color none
 if part of a system, may place a third yellow track tile (the company may
- not upgrade a track tile in that round) for a cost of $20 paid to the bank
+ not upgrade a track tile in that round) for a cost of $40 paid to the bank
  from the system's treasury in addition to any terrain costs (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3357,7 +3367,7 @@ name "subsec:Place-station-marker"
 \end_layout
 
 \begin_layout Itemize
-In order to place a station marker the company must:
+In order to place a station marker the share company must:
 \end_layout
 
 \begin_deeper
@@ -3396,15 +3406,7 @@ Without passing through a city all of whose station-marker spaces are filled
 
 \begin_deeper
 \begin_layout Itemize
-Other company's station markers.
-\end_layout
-
-\begin_layout Standard
-And/or:
-\end_layout
-
-\begin_layout Itemize
-Blocking station markers.
+Other company's station markers and /or blocking station markers.
 \end_layout
 
 \end_deeper
@@ -3437,7 +3439,7 @@ reference "subsec:Private-Particulars"
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-A public company or system cannot place:
+A share company cannot place:
 \end_layout
 
 \begin_deeper
@@ -3461,10 +3463,18 @@ A station marker in Buffalo/Dunkirk (E16) until the
 \noun on
  Erie Railway (ERIE)
 \noun default
- has placed its home station (see 
+ has placed its home station on one sire or the other of an OO track tile
+ in that hexagon (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Public-companies"
+reference "sec:Companies"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Track-types"
 
 \end_inset
 
@@ -3514,9 +3524,9 @@ name "subsec:Pay-or-withhold"
 \end_layout
 
 \begin_layout Itemize
-The director of a public company or system has the sole discretion whether
- the company's total revenue is paid out in dividends to its shareholders
- or withheld in the company's treasury
+The director of a share company has the sole discretion whether the company's
+ total revenue is paid out in dividends to its shareholders or withheld
+ in the company's treasury
 \end_layout
 
 \begin_layout Itemize
@@ -3526,8 +3536,8 @@ If the revenue is paid out in dividends:
 \begin_deeper
 \begin_layout Itemize
 Each player receives as dividends from the bank the percentage of the total
- revenue that corresponds to the total percentage of the shares that they
- own.
+ revenue that corresponds to the total percentage of the company shares
+ they own.
 \end_layout
 
 \begin_layout Itemize
@@ -3548,7 +3558,7 @@ reference "subsec:Systems"
 \end_layout
 
 \begin_layout Itemize
-No dividend is paid for un-bought shares in the IPO.
+No dividend is paid for shares in the IPO.
 \end_layout
 
 \end_deeper
@@ -3614,7 +3624,7 @@ Trains cannot be moved between shells after the start of the train-buying
 \end_layout
 
 \begin_layout Itemize
-A shell cannot have more trains than the current train limit.
+A shell cannot contain more trains than the current train limit.
 \end_layout
 
 \end_deeper
@@ -3732,8 +3742,8 @@ reference "subsec:Game-Phases"
 
 \begin_deeper
 \begin_layout Itemize
-Public companies must immediately discard trains in excess of the new train
- limit.
+Public companies and system shells must immediately discard trains in excess
+ of the new train limit.
 \end_layout
 
 \begin_deeper
@@ -3745,8 +3755,8 @@ Discarded trains are removed from the game.
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-A public company or system with a route between one of its station markers
- and another revenue center (see 
+A share company with a route between one of its station markers and another
+ revenue center (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:General-Route-definition"
@@ -3792,7 +3802,7 @@ The supply of trains is limited.
 
 \begin_deeper
 \begin_layout Itemize
-If there are no trains left in the supply and a public company is required
+If there are no trains left in the supply and a share company is required
  to own a train (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3805,7 +3815,7 @@ reference "subsec:Emergency-train-buying"
 
 \begin_deeper
 \begin_layout Itemize
-The public company or system is not required to own a train (see 
+The share company is not required to own a train (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Emergency-train-buying"
@@ -3816,11 +3826,18 @@ reference "subsec:Emergency-train-buying"
 \end_layout
 
 \begin_layout Itemize
-The public company or system will fail to pay a dividend in subsequent Operating
- Rounds until and unless it is able to acquire a train (see 
+The share company will fail to pay a dividend in subsequent Operating Rounds
+ until and unless it is able to acquire a train (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Pay-or-withhold"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Stock-price-movement"
 
 \end_inset
 
@@ -3841,7 +3858,7 @@ name "par:Train-upgrades"
 \end_layout
 
 \begin_layout Itemize
-Public companies and systems can upgrade trains.
+Share companies can upgrade trains.
 \end_layout
 
 \begin_layout Itemize
@@ -3912,15 +3929,15 @@ name "subsec:Emergency-train-buying"
 \end_layout
 
 \begin_layout Itemize
-A public company or a system with a route between one of its station markers
- and another revenue center (see 
+A share company with a route between one of its station markers and another
+ revenue center (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:General-Route-definition"
 
 \end_inset
 
-), must own a train at the end of its operations.
+) must own a train at the end of its operations.
 \end_layout
 
 \begin_deeper
@@ -3938,8 +3955,9 @@ reference "par:Train-purchasing"
 
 \end_deeper
 \begin_layout Itemize
-If the public company or system does not have enough money in its treasury
- to buy a train, then the money must be raised by other means:
+If the share company does not have enough money in its treasury to buy a
+ train, and the company must own a train, then the money must be raised
+ by other means:
 \end_layout
 
 \begin_deeper
@@ -3973,9 +3991,8 @@ reference "subsec:Selling-shares"
 
 \begin_deeper
 \begin_layout Itemize
-Director control of the currently operating public company or system may
- not be transferred to another player during Emergency Train Buying (see
- 
+Director control of the currently operating share company may not be transferred
+ to another player during Emergency Train Buying (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Company-directors"
@@ -4017,8 +4034,8 @@ reference "subsec:Game-end-criteria"
 \end_layout
 
 \begin_layout Itemize
-A public company or system director can only contribute funds for a train
- purchase if:
+A share company director can only contribute funds for a train purchase
+ if:
 \end_layout
 
 \begin_deeper
@@ -4027,7 +4044,7 @@ The public company (or shell if a system) does not own a train.
 \end_layout
 
 \begin_layout Itemize
-The public company has a route between one of its station markers and another
+The share company has a route between one of its station markers and another
  revenue center (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4040,23 +4057,22 @@ reference "subsec:General-Route-definition"
 
 \end_deeper
 \begin_layout Itemize
-The public company or system director cannot contribute more money than
- is required to buy the selected train.
+The share company director cannot contribute more money than is required
+ to buy the selected train.
 \end_layout
 
 \begin_layout Itemize
-A train bought from another public company or system with director's contributio
-ns cannot be bought for more than face value.
+A train bought from another share company with director's contributions
+ cannot be bought for more than face value.
 \end_layout
 
 \begin_layout Itemize
-A public company or system that buys a train with a director's contribution
- necessarily ends the operating round with no money in its treasury.
+A share company that buys a train with a director's contribution necessarily
+ ends the operating round with no money in its treasury.
 \end_layout
 
 \begin_layout Itemize
-A public company or system cannot be required to buy a train from another
- public company.
+A share company cannot be required to buy a train from another share company.
 \end_layout
 
 \begin_deeper
@@ -4223,13 +4239,13 @@ name "part:Acknowledgments"
 \begin_layout Standard
 The designer would like to thank Francis Tresham for the design and development
  of the wonderful field of 18xx games; Daniel Barnes, Roel van der Horn,
- Bruce Murphy and Shelby Noonantheir bounteous supply of inspiration, notions,
- complaints and sounding board in equal measures.
+ Bruce Murphy and Shelby Noonan for their bounteous supply of inspiration,
+ notions, complaints and sounding board in equal measures.
  In particular Daniel Barnes prompted aspects of the train roster, Bruce
  Murphy made key suggestions around the the system formation rules, Roel
- prompted the key inspiration that lead to low player capitalisation and
- the $250 private companies.
- and Shelby Noonan helped with the rules language.
+ prompted the key inspiration that lead to aspects of player capitalisation
+ and the $250 private companies, Shelby Noonan helped with the tile roster
+ and prototype production, and XXX helped with the rules language.
  Additional thanks go to the many other play-testers too numerous to list.
  I have been honoured to design games for and with such wonderful people.
 \end_layout
@@ -4313,8 +4329,8 @@ Players may negotiate:
 
 \begin_deeper
 \begin_layout Itemize
-Public companies or systems purchasing private companies owned by a different
- player (see 
+Share companies purchasing private companies owned by a different player
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Operating-round-General"
@@ -4325,8 +4341,7 @@ reference "subsec:Operating-round-General"
 \end_layout
 
 \begin_layout Itemize
-Train purchases between public companies or systems with different directors
- (see 
+Train purchases between share companies with different directors (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Buy-train(s)"
@@ -4337,7 +4352,7 @@ reference "subsec:Buy-train(s)"
 \end_layout
 
 \begin_layout Itemize
-Mergers.
+Public company mergers.
 \end_layout
 
 \begin_layout Standard
@@ -4413,19 +4428,11 @@ Each player's decision must be stated within 60 seconds.
 
 \begin_layout Itemize
 A player's clock starts as soon as their turn starts at: 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 The end of the previous round.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -4475,10 +4482,6 @@ reference "subsec:Stock-Round-overview"
 \end_inset
 
 ).
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -4620,10 +4623,6 @@ name "sec:Map-Explanation"
 
 \begin_layout Itemize
 The map consists of hexagons:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -4633,11 +4632,11 @@ Cities: Contain large circles along with the name(s) of the cities.
 
 \begin_layout Description
 Towns: Contain one or two small black circles marking the towns for hexagons
- without track, or check marks on pre-built track.
+ without track, or cross-bars on pre-built track.
 \end_layout
 
 \begin_layout Description
-Virgina
+Virginia
 \begin_inset space ~
 \end_inset
 
@@ -4654,7 +4653,7 @@ Coalfields
 \begin_inset space ~
 \end_inset
 
-Tunnel: The Virginia Coalfields Tunnel are represented by the hexagon in
+Tunnel: The Virginia Coalfields Tunnel is represented by the hexagon in
  K14.
 \end_layout
 
@@ -4754,10 +4753,6 @@ reference "subsec:Private-Companies"
 
 \begin_layout Itemize
 Some hexagon edges are blocked by blue barriers.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -4806,10 +4801,6 @@ reference "subsec:Track-placement-&-upgrades"
 
 \begin_layout Itemize
 Related terms:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -4919,8 +4910,8 @@ A gray area toward the lower left.
 
 \begin_deeper
 \begin_layout Itemize
-Public companies and systems with stock prices in the gray region are subject
- to additional rules:
+Share companies with stock prices in the gray region are subject to additional
+ rules:
 \end_layout
 
 \begin_deeper
@@ -4963,8 +4954,8 @@ reference "subsec:Stock-price-movement"
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Public companies and systems have a stock price which is tracked on the
- Stock Market with a stock price marker.
+Share companies have a stock price which is tracked on the Stock Market
+ with a stock price marker.
 \end_layout
 
 \begin_layout Itemize
@@ -4980,8 +4971,7 @@ reference "subsec:Starting-or-floating"
 \end_layout
 
 \begin_layout Itemize
-Public company and system stock price markers move in well defined ways
- (see 
+Share company stock price markers move in well defined ways (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-price-movement"
@@ -5003,8 +4993,8 @@ name "subsec:Stock-price-movement"
 \end_layout
 
 \begin_layout Itemize
-The current stock price of a public company's or system's shares is recorded
- on the Stock Market with a stock price marker.
+The current stock price of a share company's shares is recorded on the Stock
+ Market with a stock price marker.
 \end_layout
 
 \begin_layout Itemize
@@ -5025,8 +5015,8 @@ If the stock price marker is moved to the bottom of a column of the Stock
 
 \end_deeper
 \begin_layout Itemize
-If a company pays a dividend during an Operating Round ($1 per share or
- more), then its stock price marker is moved one column to the right.
+If a share company pays a dividend during an Operating Round ($1 per share
+ or more), then its stock price marker is moved one column to the right.
 \end_layout
 
 \begin_deeper
@@ -5052,9 +5042,9 @@ reference "sec:Game-End"
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-If a company does not pay a dividend or it withholds its dividend during
- an Operating Round, then its stock price marker is moved one column to
- the left.
+If a share company does not pay a dividend or it withholds its dividend
+ during an Operating Round, then its stock price marker is moved one column
+ to the left.
 \end_layout
 
 \begin_deeper
@@ -5091,7 +5081,8 @@ Then the stock price marker is moved up an additional row.
 
 \end_deeper
 \begin_layout Itemize
-If the stock price marker was in the gray area of the Stock Market:
+If the stock price marker was in the gray area of the Stock Market at the
+ start of its movements:
 \end_layout
 
 \begin_deeper
@@ -5102,8 +5093,8 @@ Then the stock price marker is moved up an additional row.
 \end_deeper
 \begin_layout Itemize
 If the stock price marker is already at the top row of that column for one
- of the movements, then the stock price marker is instead moved one row
- down and one column to the right.
+ of the movements, then the stock price marker is instead moved one column
+ to the right.
 \end_layout
 
 \end_deeper
@@ -5148,7 +5139,7 @@ reference "subsec:company-operating-order"
 Companies
 \begin_inset CommandInset label
 LatexCommand label
-name "sec:Public-companies"
+name "sec:Companies"
 
 \end_inset
 
@@ -5204,7 +5195,7 @@ reference "subsec:Systems"
 
 \end_inset
 
-) formed by merging public companies (see 
+) formed by merging two public companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Merging-companies-into"
@@ -5239,7 +5230,7 @@ name "subsec:Private-Companies-Overview"
 
 \begin_layout Itemize
 Private companies pay their revenue from the bank to their owners (player
- or public company) at the start of each operating round (see 
+ or share company) at the start of each operating round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Operating-round-General"
@@ -5277,8 +5268,8 @@ Exception: The
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-In green phase or later, public companies and systems may purchase private
- companies from players (see 
+In green phase or later, share companies may purchase private companies
+ from players (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Operating-round-actions"
@@ -5316,14 +5307,14 @@ Purchased private companies are moved to their owning company's charter
 \end_layout
 
 \begin_layout Itemize
-The owning company may use the special power of that private company, if
+The owning company may use the special power of the private company, if
  any, when operating during an operating round from the point of purchase
  onward and as long as the private company has not closed.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Some private company powers can only be used in certain steps of a public
+Some private company powers can only be used in certain steps of owning
  company's operations.
 \end_layout
 
@@ -6561,7 +6552,7 @@ status open
 <column alignment="center" valignment="top" width="0.6in">
 <column alignment="center" valignment="top" width="0.5in">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6570,7 +6561,7 @@ Name
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6579,7 +6570,7 @@ Symbol
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6588,7 +6579,7 @@ Station markers
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7404,7 +7395,7 @@ New York New Haven & Hartford (NYH)
 \noun off
 \color none
 May place an additional yellow track tile per Operating Round at a cost
- of $20 paid to the bank from the public company treasury (see 
+ of $40 paid to the bank from the public company treasury (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Company-Special-powers"
@@ -8795,7 +8786,7 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
-Train limit is 4.
+Train limit is 3.
 \end_layout
 
 \begin_layout Itemize
@@ -8827,7 +8818,7 @@ All green trains are removed from the game.
 \end_layout
 
 \begin_layout Itemize
-Train limit is 3.
+Train limit is 2.
 \end_layout
 
 \begin_layout Itemize
