@@ -5,6 +5,21 @@ meta:
 
 company:
 
+  small_hexagon_1s_clone:
+    of: small_hexagon_shape
+    x_inset: 112
+    y_inset: 125
+  small_hexagon_2s_clone:
+    of: small_hexagon_shape
+    x_inset: 112
+    y_inset: 113
+  small_hexagon_2t_clone:
+    of: arbitrary_text
+    x_inset: 111.75
+    y_inset: 112.5
+    size: 9
+    text: $40
+
   TEMPLATE_CHARTER_track_hexes:
     - charter_interior_box
     - outside_box
@@ -59,38 +74,15 @@ company:
 
             Purchase price of shares goes to bank.
             Pool shares pay dividends to treasury.
-
       charter:
-
         ELEMENTS: ${TEMPLATE_CHARTER_track_hexes/.}
-
-        small_hexagon_1s_clone:
-          of: small_hexagon_shape
-          x_inset: 112
-          y_inset: 125
-
-        small_hexagon_2s_clone:
-          of: small_hexagon_shape
-          x_inset: 112
-          y_inset: 113
-
-        small_hexagon_2t_clone:
-          of: arbitrary_text
-          x_inset: 111.75
-          y_inset: 112.5
-          size: 9
-          text: $40
-
       token:
         _:
           _major_fill: ${colour/wikipedia/ultramarine}
           _minor_fill: ${colour/wikipedia/ultramarine}
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
-
         ELEMENTS: ${TEMPLATE_solid/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-
         index: "$[index_of (10)]"
 
     B&O:
@@ -107,18 +99,14 @@ company:
             "Backward & Obsolete"
         _related_fill: ${colour/hollasch/steel_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
-
       token:
         _:
           _major_fill_1: ${colour/wikipedia/banana_yellow}
           _major_fill_2: ${colour/hollasch/blue}
           _minor_fill_1: ${colour/hollasch/blue}
           _minor_fill_2: ${colour/wikipedia/banana_yellow}
-
         ELEMENTS: ${TEMPLATE_chequer/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_chequer_embed/.}
-
         index: "$[index_of (10)]"
 
     CPR:
@@ -137,7 +125,6 @@ company:
             "Can't Please"
         _related_fill: ${colour/hollasch/brick}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
-
       token:
         index: "$[index_of (11)]"
 
@@ -155,15 +142,11 @@ company:
         comment_text_text: |
             "Chessie & the Orphan"
         _related_fill: ${colour/hollasch/powder_blue}
-
       token:
         _:
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
-
         ELEMENTS: ${TEMPLATE_solid/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-
         index: "$[index_of (10)]"
 
     GT:
@@ -178,13 +161,9 @@ company:
         comment_text_text: |
             "Gone Too"
         _related_fill: ${colour/x11/khaki}
-
       token:
-
         ELEMENTS: ${TEMPLATE_cross/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-
         index: "$[index_of (10)]"
 
     ERIE:
@@ -201,7 +180,6 @@ company:
             "The scarlet woman
             of Wall Street"
         _related_fill: ${colour/x11/darkgoldenrod1}
-
       token:
         index: "$[index_of (10)]"
 
@@ -218,7 +196,6 @@ company:
         comment_text_text: |
             The "Ill Cent"
         _related_fill: ${colour/x11/yellowgreen}
-
       token:
         index: "$[index_of (11)]"
 
@@ -237,13 +214,9 @@ company:
             "More Crap"
         _related_fill: ${colour/x11/gray70}
         middle_box_fill: ${_/_minor_fill}
-
       token:
-
         ELEMENTS: ${TEMPLATE_boxes/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
-
         index: "$[index_of (11)]"
 
     MP:
@@ -261,19 +234,13 @@ company:
         comment_text_text: |
             "The Mop"
         _related_fill: ${colour/hollasch/khaki_dark}
-
       token:
-
         ELEMENTS: ${TEMPLATE_bullseye/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_bullseye_embed/.}
-
         middle_circle:
           fill: ${_/_minor_fill}
-
         inner_circle:
           fill: ${_/_major_fill}
-
         index: "$[index_of (11)]"
 
     NKP:
@@ -291,9 +258,7 @@ company:
             "Nickel Plate Road"
         _related_fill: ${colour/x11/thistle2}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
-
       token:
-
         index: "$[index_of (10)]"
 
     NW:
@@ -312,13 +277,9 @@ company:
         _related_fill: ${colour/x11/lightcoral}
         comment_text_text: |
             "Narrow & Wobbly"
-
       token:
-
         ELEMENTS: ${TEMPLATE_stripey/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
-
         index: "$[index_of (11)]"
 
     NYNH&H:
@@ -341,43 +302,19 @@ company:
 
             Purchase price of shares goes to bank.
             Pool shares pay dividends to treasury.
-
       charter:
-
         ELEMENTS: ${TEMPLATE_CHARTER_track_hexes/.}
-
-        small_hexagon_1s_clone:
-          of: small_hexagon_shape
-          x_inset: 112
-          y_inset: 125
-
-        small_hexagon_2s_clone:
-          of: small_hexagon_shape
-          x_inset: 112
-          y_inset: 113
-
-        small_hexagon_2t_clone:
-          of: arbitrary_text
-          x_inset: 111.75
-          y_inset: 112.5
-          size: 9
-          text: $40
-
       share:
         long_name_text:
           size: 13
-
       token:
         _:
           _major_fill: ${colour/x11/sandybrown}
           _minor_fill: ${colour/x11/sandybrown}
           short_name_text_fill: $[black_or_white (${colour/x11/sandybrown})]
           short_name_text_size: 11
-
         ELEMENTS: ${TEMPLATE_solid/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-
         index: "$[index_of (10)]"
 
     NYC:
@@ -395,16 +332,11 @@ company:
             "No You Can't"
         _related_fill: ${colour/x11/gray50}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
-
       token:
-
         ELEMENTS: ${TEMPLATE_cross/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-
         vertical stripe_box:
           fill: ${colour/xxp/WHITE}
-
         index: "$[index_of (10)]"
 
     OS&H:
@@ -422,13 +354,9 @@ company:
         _related_fill: ${colour/hollasch/cinnabar_green}
         comment_text_text: |
             "Oats, Straw, & Hay"
-
       token:
-
         ELEMENTS: ${TEMPLATE_cross/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-
         index: "$[index_of (11)]"
 
     PRR:
@@ -448,13 +376,9 @@ company:
         _related_fill: ${colour/hollasch/tomato}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         short_name_text_fill: $[black_or_white (${colour/hollasch/cadmium_red_light})]
-
       token:
-
         ELEMENTS: ${TEMPLATE_solid/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-
         index: "$[index_of (11)]"
 
     WAB:
@@ -472,16 +396,11 @@ company:
             "Follow the Flag"
         _related_fill: ${colour/x11/plum}
         middle_box_fill: ${_/_minor_fill}
-
       token:
-
         ELEMENTS: ${TEMPLATE_boxes/.}
-
         EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
-
         short_name_text:
           fill:  ${colour/xxp/L_YELLOW}
-
         index: $[index_of (10)]
 
 marker:
@@ -493,14 +412,12 @@ marker:
           name_stripe_box_suppress: True
           outer_circle_fill:  ${colour/xxp/BLACK}
         ELEMENTS: ${TEMPLATE_solid/.}
-
         index: "$[index_of (5)]"
 
-    c&p:
+    C&P:
       token:
         _:
-          short_name_text_text: c&p
-
+          short_name_text_text: C&P
         index: "$[index_of (1)]"
 
     coal:
@@ -513,9 +430,7 @@ marker:
           short_name_text_size: 14
           outer_circle_fill: ${colour/xxp/BLACK}
           middle_circle_fill: ${colour/x11/gray50}
-
         ELEMENTS: ${TEMPLATE_ring/.}
-
         index: "$[index_of (3)]"
 
     merger:
@@ -524,11 +439,8 @@ marker:
         outer_circle_fill: ${colour/xxp/M_BLUE}
         middle_circle_fill: ${colour/xxp/L_YELLOW}
         inner_circle_fill: ${colour/xxp/M_RED}
-
       token:
-
         ELEMENTS: ${TEMPLATE_bullseye/.}
-
         index: "$[index_of (1)]"
 
     round:
@@ -537,11 +449,8 @@ marker:
         outer_circle_fill: ${colour/xxp/M_BLUE}
         middle_circle_fill: ${colour/xxp/WHITE}
         inner_circle_fill: ${colour/xxp/M_RED}
-
       token:
-
         ELEMENTS: ${TEMPLATE_bullseye/.}
-
         index: "$[index_of (1)]"
 
 private:
@@ -811,17 +720,7 @@ train:
       long_name_text:
         size: 32
       model:
-        index:
-          "1":
-            note_text:
-              text: (3-player game)
-          "2":
-            note_text:
-              text: (3-player game)
-          "3":
-          "4":
-          "5":
-          "6":
+        index: "$[index_of (6)]"
 
     p1Pa:
       _:
