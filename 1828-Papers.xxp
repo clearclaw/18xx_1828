@@ -139,7 +139,7 @@ company:
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
 
       token:
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     C&O:
       _:
@@ -220,7 +220,7 @@ company:
         _related_fill: ${colour/x11/yellowgreen}
 
       token:
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     MC:
       _:
@@ -244,7 +244,7 @@ company:
 
         EMBED_ELEMENTS: ${TEMPLATE_boxes_embed/.}
 
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     MP:
       _:
@@ -274,7 +274,7 @@ company:
         inner_circle:
           fill: ${_/_major_fill}
 
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     NKP:
       _:
@@ -319,7 +319,7 @@ company:
 
         EMBED_ELEMENTS: ${TEMPLATE_stripey_embed/.}
 
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     NYNH&H:
       _:
@@ -395,33 +395,6 @@ company:
             "No You Can't"
         _related_fill: ${colour/x11/gray50}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
-        bottom_note_text_text: |
-            May place an additional yellow track tile
-            (all placed tiles must be yellow) for $20
-
-            Purchase price of shares goes to bank.
-            Pool shares pay dividends to treasury.
-
-      charter:
-
-        ELEMENTS: ${TEMPLATE_CHARTER_track_hexes/.}
-
-        small_hexagon_1s_clone:
-          of: small_hexagon_shape
-          x_inset: 112
-          y_inset: 125
-
-        small_hexagon_2s_clone:
-          of: small_hexagon_shape
-          x_inset: 112
-          y_inset: 113
-
-        small_hexagon_2t_clone:
-          of: arbitrary_text
-          x_inset: 111.75
-          y_inset: 112.5
-          size: 9
-          text: $40
 
       token:
 
@@ -456,7 +429,7 @@ company:
 
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
 
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     PRR:
       _:
@@ -482,7 +455,7 @@ company:
 
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
 
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     WAB:
       _:
@@ -785,9 +758,6 @@ train:
         rust_bar_box_fill_p: RED
         long_name_text_text: "3"
         cost_text_text_p: $160
-        note_text_text: |
-            Upgrade to RED:
-            $400
       model:
         index: "$[index_of (9)]"
 
@@ -797,9 +767,6 @@ train:
         rust_bar_box_fill_p: GRAY
         long_name_text_text: "5"
         cost_text_text_p: $250
-        note_text_text: |
-            Upgrade to GRAY:
-            $600
       model:
         index: "$[index_of (4)]"
 
@@ -809,9 +776,6 @@ train:
         rust_bar_box_fill_p: PURPLE
         long_name_text_text: "3+D"
         cost_text_text_p: $350
-        note_text_text: |
-            Upgrade to PURPLE:
-            $700
         long_name_text_size: 44
 
       model:
@@ -822,7 +786,7 @@ train:
         asset_interior_box_fill_p: RED
         rust_bar_box_fill_p: BLACK
         long_name_text_text: "6"
-        cost_text_text_p: $500
+        cost_text_text_p: $650
         rusted_text_text: PERMANENT
       model:
         index: "$[index_of (4)]"
@@ -835,12 +799,7 @@ train:
         cost_text_text_p: $800
         rusted_text_text: PERMANENT
       model:
-        index:
-          "1":
-            note_text:
-              text: (3-player game)
-          "2":
-          "3":
+        index: "$[index_of (3)]"
 
     Diesel:
       _:
@@ -872,8 +831,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p2Pa:
       _:
@@ -883,8 +841,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p3Pa:
       _:
@@ -894,8 +851,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p4Pa:
       _:
@@ -905,8 +861,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p5Pa:
       _:
@@ -916,8 +871,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p1Pb:
       _:
@@ -927,8 +881,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p2Pb:
       _:
@@ -938,8 +891,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p3Pb:
       _:
@@ -949,8 +901,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p4Pb:
       _:
@@ -960,8 +911,7 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
 
     p5Pb:
       _:
@@ -971,5 +921,20 @@ train:
         cost_text_text:
         rusted_text_text:
       model:
-        index:
-          "1":
+        index:  "$[index_of (2)]"
+
+    xx_notecard:
+      _:
+        long_name_text_text: |
+            The second set
+            of player cards
+            are spares to
+            ease bulk
+            production
+            of the game.
+        long_name_text_size: 14
+        cost_text_text:
+        rusted_text_text:
+
+      model:
+        index:  "$[index_of (1)]"
