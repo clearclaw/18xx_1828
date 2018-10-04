@@ -11,7 +11,7 @@
 \SetWatermarkColor[rgb]{0.8,0.9,0.8 }
 \SetWatermarkFontSize{1cm}
 \SetWatermarkScale{5}
-\usepackage[mark]{gitinfo2}
+\usepackage[missing=Help!,notags={No tags?},dirty=dirty]{gitinfo2}
 
 \usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
 \usepackage{lipsum}
@@ -28,7 +28,9 @@
 \fancyhead[LE,RO]{\textit{ \nouppercase{\leftmark}} }
 \fancyhead[LO,RE]{\textit{ \nouppercase{\rightmark}} }
 
-\fancyfoot[LE,RO]{\today\  \currenttime}
+\fancyfoot[LE,RO]{ Version: \gitFirstTagDescribe }
+\fancyfoot[LO,RE]{ Date: \gitCommitterDate}
+
 \fancyfoot[C]{Page: \thepage\  of  \pageref{LastPage}}
 
 \pagestyle{fancy}
@@ -176,45 +178,13 @@ name "sec:Introduction"
 \end_layout
 
 \begin_layout Standard
-In 1828:
-\end_layout
-
-\begin_layout Itemize
-The 
-\noun on
-Chesterfield Railroad,
-\noun default
- the first railroad built in Virginia, is chartered.
-\end_layout
-
-\begin_layout Itemize
-Pennsylvania authorised the 
-\noun on
-Philadelphia & Columbia Railway
-\noun default
-, its first state-owned railway.
-\end_layout
-
-\begin_layout Itemize
-Construction begins on the 
+In 1828 construction begins on the 
 \noun on
 Baltimore & Ohio
 \noun default
  in Baltimore, Maryland with Charles Carroll of Carrollton laying the first
  stone of the Carrollton Viaduct.
-\end_layout
-
-\begin_layout Itemize
-The 
-\noun on
-Hudson & Berkshire Railroad
-\noun default
- is chartered to build a railroad between Chatham and Hudson in New York.
- 
-\end_layout
-
-\begin_layout Standard
-In 1828...the train rush had started.
+ In 1828...the train rush had started.
 \end_layout
 
 \begin_layout Section
@@ -1438,7 +1408,11 @@ Retrieve their bid on a $250 private company that has been overbid.
 \end_deeper
 \begin_layout Itemize
 If all players pass consecutively while one or more private companies remain
- un-bought:
+ 
+\lang british
+un-bought
+\lang english
+:
 \end_layout
 
 \begin_deeper
@@ -4163,11 +4137,12 @@ The designer would like to thank Francis Tresham for the design and development
  of the wonderful field of 18xx games; Daniel Barnes, Roel van der Horn,
  Bruce Murphy and Shelby Noonan for their bounteous supply of inspiration,
  notions, complaints and sounding board in equal measures.
- In particular Daniel Barnes prompted aspects of the train roster, Bruce
+ In particular Daniel Barnes prompted key aspects of the train roster and
+ got me to re-focus on aspects I had most difficulty with as a player, Bruce
  Murphy made key suggestions around the the system formation rules, Roel
- prompted the key inspiration that lead to aspects of player capitalisation
+ prompted the key inspirations that drove player capitalisation amounts
  and the $250 private companies, Shelby Noonan helped with the tile roster
- and prototype production, and XXX helped with the rules language.
+ and many map details & balances, and XXX helped with the rules language.
  Additional thanks go to the many other play-testers too numerous to list.
  I have been honoured to design games for and with such wonderful people.
 \end_layout
