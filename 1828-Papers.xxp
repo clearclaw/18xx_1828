@@ -545,7 +545,7 @@ private:
             Blocks: Philadelphia & Trenton (I20).
             Purchaser receives 10% of PRR.
         cost_text_text: "Cost: $160"
-        revenue_text_text: "Revenue: $25"
+        revenue_text_text: "Revenue: $30"
 
     CPR:
       _:

@@ -11,6 +11,7 @@
 \SetWatermarkColor[rgb]{0.8,0.9,0.8 }
 \SetWatermarkFontSize{1cm}
 \SetWatermarkScale{5}
+\usepackage[mark]{gitinfo2}
 
 \usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
 \usepackage{lipsum}
@@ -1442,11 +1443,23 @@ If all players pass consecutively while one or more private companies remain
 
 \begin_deeper
 \begin_layout Itemize
-Purchased private companies
+All private companies with bids are auctioned or awarded for their bid in
+ the normal manner, cheapest to most expensive, left to right (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Private-auction-resolution"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+All purchased private companies
 \noun on
  
 \noun default
-pay their revenue to their owning players.
+then pay their revenue to their owning players.
 \end_layout
 
 \begin_deeper
@@ -1460,21 +1473,13 @@ Cobourg & Peterborough Railway places
 
 \end_deeper
 \begin_layout Itemize
-The cost of the cheapest (and left-most) un-bought private company without
- a bid is reduced by $5.
+The cost of all remaining un-bought private companies is reduced by $20
+ (minimum $0).
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-If the cost of the cheapest (and left-most) private company without a bid
- is reduced to zero ($0) then the next player must “buy” it at no cost.
- 
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 The private auction resumes with the next player in rotating player number
- card order.
+ card order after the first player to pass consecutively.
 \end_layout
 
 \end_deeper

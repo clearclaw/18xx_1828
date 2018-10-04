@@ -1,0 +1,9 @@
+#! /bin/bash
+
+sudo apt-get install texlive-latex-extra 
+
+for file in post-checkout post-commit post-merge 
+do
+  cp /usr/share/texlive/texmf-dist/doc/latex/gitinfo2/post-xxx-sample.txt .git/hooks/${file}
+  chmod 755 .git/hooks/${file}
+done
