@@ -2552,6 +2552,14 @@ The removed station marker is returned to the new system's charter.
 
 \end_deeper
 \end_deeper
+\begin_layout Itemize
+
+\emph on
+(merge of two floated public companies only)
+\emph default
+ The two treasuries are combined.
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 Players trade their shares of the two public companies for shares of the
@@ -2779,7 +2787,7 @@ Face-down shares are turned face-up at the end of the trading process and
 
 \end_deeper
 \begin_layout Itemize
-If either of:
+If any of:
 \end_layout
 
 \begin_deeper
@@ -2788,7 +2796,11 @@ There are no more system shares for the player to trade up to.
 \end_layout
 
 \begin_layout Itemize
-The player has insufficient money or declines to pay for the trade-up.
+The player has insufficient money to pay for the trade-up.
+\end_layout
+
+\begin_layout Itemize
+The player declines to pay for the trade-up.
 \end_layout
 
 \begin_layout Standard
@@ -2817,6 +2829,11 @@ If there are no remaining system shares for the bank pool or IPO to trade
 \begin_deeper
 \begin_layout Itemize
 The trading process stops.
+\end_layout
+
+\begin_layout Itemize
+Any remaining players with untraded shares of the new system must sell their
+ shares for their current stock price.
 \end_layout
 
 \end_deeper
@@ -3071,7 +3088,7 @@ reference "subsec:Build-track"
 \emph on
 (Optional)
 \emph default
- Place station marker (see 
+ Place a station marker (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Place-station-marker"
@@ -3158,11 +3175,25 @@ reference "subsec:General-Route-definition"
 \end_layout
 
 \begin_layout Itemize
-Once a share company has performed all operations, the next share company
- in order operates (see 
+The next share company in operating order (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:company-operating-order"
+
+\end_inset
+
+) then operates (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:company-operating-order"
+
+\end_inset
+
+), or if it was the last company in operating order, the Operating Round
+ ends (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:game-overview"
 
 \end_inset
 
@@ -3424,8 +3455,9 @@ Pay $100 for the station marker from its treasury to the bank.
 \end_layout
 
 \begin_layout Enumerate
-Place a station marker in an empty city circle which can trace a line of
- track to a previously placed station marker of that company:
+Place a station marker in an empty city circle which can trace a single
+ continuous line of track to a previously placed station marker of that
+ company:
 \end_layout
 
 \begin_deeper
@@ -3503,7 +3535,7 @@ A station marker in Buffalo/Dunkirk (E16) until the
 \noun on
  Erie Railway (ERIE)
 \noun default
- has placed its home station on one sire or the other of an OO track tile
+ has placed its home station on one side or the other of an OO track tile
  in that hexagon (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3522,8 +3554,7 @@ reference "subsec:Track-types"
 \end_layout
 
 \begin_layout Itemize
-A station marker cannot be placed in the Virginia Coalfields (K12) (see
- 
+A station marker in the Virginia Coalfields (K12) (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Map-Explanation"
@@ -3531,6 +3562,18 @@ reference "sec:Map-Explanation"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Itemize
+A station marker in Scranton (F21) with the 
+\noun on
+Delaware & Hudson
+\noun default
+ private company or in Peterborough (C16) by buying the 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+ private company if it has already placed a station marker in this round.
 \end_layout
 
 \end_deeper
@@ -3701,9 +3744,9 @@ reference "subsec:Train-Limit"
 \end_layout
 
 \begin_layout Itemize
-Trains can be bought from the bank pool or supply for face value, or from
- another share company for any price agreed upon by the directors of both
- companies (minimum $1, also see 
+Trains can be bought from the supply for face value or from another share
+ company for any price agreed upon by the directors of both companies (minimum
+ $1, also see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Emergency-train-buying"
@@ -3884,12 +3927,6 @@ reference "subsec:Emergency-train-buying"
 ).
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Until the share company acquires a train.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 The share company will fail to pay a dividend in subsequent Operating Rounds
  until and unless it is able to acquire a train (see 
@@ -5380,6 +5417,15 @@ This counts as a yellow track tile lay or upgrade respectively for the share
  company's normal track build.
  The track tile at Scranton (F21) does not need to connect to or be part
  of one of the owning share company's routes.
+ The station marker cannot be placed in Scranton if the company has already
+ placed a station marker in this Operating Round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Place-station-marker"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
@@ -5437,7 +5483,7 @@ Cobourg & Peterborough Railway
 Player revenue is half of the 2-train route (two revenue centers) that includes
  the placed tile.
  The placed track tile may be between the two revenue centers that form
- the route or at one end (see 
+ the route or off one end (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:General-Route-definition"
@@ -5486,6 +5532,18 @@ Cobourg & Peterborough Railway's
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+The share company cannot have already placed a station marker in this Operating
+ Round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Place-station-marker"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Itemize
 Otherwise replace the 
 \noun on
@@ -7921,7 +7979,7 @@ Cannot place track that can't trace a route to one of the share company's
 \end_layout
 
 \begin_layout Itemize
-Cannot include the Virginia Coalfields on a train's route (see 
+Cannot include the Virginia Coalfields (K12) on a train's route (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Trains-and-Running-Trains"
@@ -8170,7 +8228,7 @@ reference "subsec:Train-Limit"
 \end_layout
 
 \begin_layout Itemize
-Share companies with a route from one of their station markers to anothe
+Share companies with a route from one of their station markers to another
  revenue center must own at least one train (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -8264,7 +8322,7 @@ A route is a single continuous line of track that:
 
 \begin_deeper
 \begin_layout Itemize
-Contains at least two revenue centers that are towns, cities, a coalfield
+Contains at least two revenue centers that are towns, cities, coalfield
  or off-boards.
  
 \end_layout
@@ -8414,8 +8472,8 @@ Revenue: The sum of all the revenue centers on the route.
 \end_layout
 
 \begin_layout Itemize
-The route for a 3D train cannot contain more than a total of 3 cities, a
- coalfield or off-boards.
+The route for a 3D train cannot contain more than a total of 3 cities, coalfield
+ or off-boards.
 \end_layout
 
 \begin_deeper
@@ -8440,7 +8498,7 @@ Revenue: Double the sum of all the revenue centers on the route.
 
 \begin_layout Itemize
 The route for an 8E train cannot contain more than a total of 8 cities,
- a coalfield or off-boards.
+ coalfield or off-boards.
 \end_layout
 
 \begin_deeper
@@ -8449,7 +8507,7 @@ There may be any number of towns on the route:
 \end_layout
 
 \begin_layout Description
-Revenue: The sum of all the cities, a coalfield or off-boards on the route
+Revenue: The sum of all the cities, coalfield or off-boards on the route
  (but not the towns).
 \end_layout
 
@@ -8615,6 +8673,10 @@ reference "par:Virginia-Coalfields-Tunnel"
 \end_deeper
 \begin_layout Itemize
 The supply of coal markers is limited (3).
+\end_layout
+
+\begin_layout Itemize
+A share company cannot own or buy more than one.
 \end_layout
 
 \begin_layout Subsection
