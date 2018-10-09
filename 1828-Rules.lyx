@@ -28,7 +28,7 @@
 \fancyhead[LE,RO]{\textit{ \nouppercase{\leftmark}} }
 \fancyhead[LO,RE]{\textit{ \nouppercase{\rightmark}} }
 
-\fancyfoot[LE,RO]{ Version: \gitFirstTagDescribe }
+\fancyfoot[LE,RO]{ Version: \gitFirstTagDescribe}
 \fancyfoot[LO,RE]{ Date: \gitCommitterDate}
 
 \fancyfoot[C]{Page: \thepage\  of  \pageref{LastPage}}
@@ -48,7 +48,7 @@ tabs-within-sections
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "palatino" "default"
+\font_roman "times" "default"
 \font_sans "berasans" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
@@ -182,8 +182,11 @@ In 1828 construction begins on the
 \noun on
 Baltimore & Ohio
 \noun default
- in Baltimore, Maryland with Charles Carroll of Carrollton laying the first
- stone of the Carrollton Viaduct.
+ in Baltimore, Maryland with Charles Carroll of 
+\lang british
+Carrollton
+\lang english
+ laying the first stone of the Carrollton Viaduct.
  In 1828...the train rush had started.
 \end_layout
 
@@ -296,15 +299,11 @@ Cobourg & Peterborough Railway
 \end_layout
 
 \begin_layout Itemize
-1 timer (60 seconds).
-\end_layout
-
-\begin_layout Itemize
 ~
 \lang british
 $
 \lang english
-40,000 in money.
+50,000 in money.
 \end_layout
 
 \begin_layout Section
@@ -397,6 +396,14 @@ Cobourg & Peterborough Railway
 \begin_layout Itemize
 Randomly discard two (5-player), three (4-player) or four (3-player) $250
  private companies from the game.
+\end_layout
+
+\begin_layout Itemize
+(
+\emph on
+3-player and 4-player game
+\emph default
+) Discard one red train from the game.
 \end_layout
 
 \begin_layout Itemize
@@ -553,7 +560,7 @@ The round marker is used to track the game's progress through the rounds.
 \end_deeper
 \begin_layout Itemize
 In Stock Rounds, players may buy and sell shares of share companies, taking
- and losing control of companies (see 
+ and losing control of share companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Companies"
@@ -1106,7 +1113,7 @@ Red
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+4
 \end_layout
 
 \end_inset
@@ -1437,23 +1444,44 @@ then pay their revenue to their owning players.
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-The 
+\begin_layout Description
+Exception: The 
 \noun on
-Cobourg & Peterborough Railway places
+Cobourg & Peterborough Railway
 \noun default
- a yellow track tile and pays its revenue in the normal way.
+ does not place a yellow track tile and instead pays a fixed revenue of
+ $15 if owned by a player (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Private-Particulars"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-The cost of all remaining un-bought private companies is reduced by $20
- (minimum $0).
+The cost of the 
+\noun on
+Schuylkill Valley Navigation
+\noun default
+ is reduced by $20.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-The private auction resumes with the next player in rotating player number
- card order after the first player to pass consecutively.
+If the 
+\noun on
+Schuylkill Valley Navigation
+\noun default
+ reaches a price of $0, the next player must purchase it for free.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The auction resumes with the the next player in rotating player number card
+ order.
 \end_layout
 
 \end_deeper
@@ -1506,7 +1534,7 @@ Each player, in rotating order of increasing bids and starting with the
 
 \begin_layout Itemize
 When only one bidder remains, that player takes the private company for
- the cost of their bid and other bidders recover their bids.
+ the cost of their bid and the other bidders recover their bids.
 \end_layout
 
 \end_deeper
@@ -1769,6 +1797,18 @@ The player number cards of the other colour will determine the player order
 
 \end_deeper
 \begin_layout Itemize
+At the end of each Stock Round, the stock prices of floated share companies
+ with no shares in the IPO or Bank Pool are moved up (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Stock-price-movement"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
 The number of Operating Rounds in the 
 \begin_inset Quotes eld
 \end_inset
@@ -1805,7 +1845,7 @@ Players can sell shares that they own:
 
 \begin_deeper
 \begin_layout Itemize
-Which are not the director's certificate (see 
+Which are not a director's certificate (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Company-directors"
@@ -1847,7 +1887,7 @@ The selling player receives the stock price of the share(s) in cash from
 
 \begin_layout Enumerate
 The stock price marker of the sold shares is moved down one space for each
- share sold.
+ share sold of that company.
 \end_layout
 
 \begin_deeper
@@ -2063,8 +2103,8 @@ name "subsec:Starting-or-floating"
 \end_layout
 
 \begin_layout Itemize
-The first available certificate of a public company is always the director's
- certificate (2 shares, 20%, one certificate).
+The first available share certificate of a public company is always the
+ director's certificate (2 shares, 20%, one certificate).
  
 \end_layout
 
@@ -2083,12 +2123,13 @@ reference "subsec:Game-Phases"
 
 \end_deeper
 \begin_layout Itemize
-The director's certificate of a company can be bought from the IPO by:
+The director's certificate of a public company can be bought from the IPO
+ by:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-Placing all of the company's shares in the IPO.
+Placing all of the public company's shares in the IPO.
 \end_layout
 
 \begin_layout Enumerate
@@ -2300,10 +2341,25 @@ The merger process can start before or after the second company has floated.
 
 \begin_deeper
 \begin_layout Itemize
-Any treasury from either or both participating public companies is discarded
- to the bank.
+If only one of the two companies was floated:
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Its treasury is discarded to the bank.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If both companies were already floated:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The two treasuries are combined.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 The resulting system has floated when no more than 4 shares of the system
@@ -2331,17 +2387,24 @@ reference "subsec:Buying-shares"
 \end_layout
 
 \begin_layout Itemize
-Six, seven or eight station markers matching the system (see 
+Six, seven or eight station markers matching the system are placed on the
+ company's charter, matching the total number of station markers across
+ both companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Public-Companies"
 
 \end_inset
 
-) are placed on the company's charter, matching the total number of station
- markers across both companies.
+).
 \end_layout
 
+\begin_layout Itemize
+If one of the two public companies was not floated at the start of the merger
+ process:
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Money equal to 10 times the current stock price is put on the system's charter.
 \end_layout
@@ -2359,6 +2422,7 @@ reference "subsec:Selling-shares"
 ).
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 The charter and control of the system is given to the player holding the
@@ -2502,7 +2566,7 @@ Starting with the acting payer and proceeding in rotating player number
 
 \begin_deeper
 \begin_layout Itemize
-Each player trades any pairs of shares they have of either or both public
+Each player trades any pairs of shares they have of either and/or both public
  companies for shares of the new system.
 \end_layout
 
@@ -2565,7 +2629,7 @@ reference "subsec:Buying-shares"
 \end_deeper
 \begin_layout Enumerate
 Bank pool shares followed by IPO shares of the other public company are
- traded for systems shares.
+ traded for system shares.
 \end_layout
 
 \begin_deeper
@@ -2677,7 +2741,7 @@ Yet un-traded shares held by players later in the trading order, giving
 \begin_layout Itemize
 The other player must give or take money to or from the bank to cover any
  difference in value between the share they received and the share they
- gave up.
+ gave.
 \end_layout
 
 \begin_deeper
@@ -2715,7 +2779,7 @@ Face-down shares are turned face-up at the end of the trading process and
 
 \end_deeper
 \begin_layout Itemize
-If any of:
+If either of:
 \end_layout
 
 \begin_deeper
@@ -2724,11 +2788,7 @@ There are no more system shares for the player to trade up to.
 \end_layout
 
 \begin_layout Itemize
-The player has insufficient money to pay for the trade-up.
-\end_layout
-
-\begin_layout Itemize
-The player declines to trade-up.
+The player has insufficient money or declines to pay for the trade-up.
 \end_layout
 
 \begin_layout Standard
@@ -2916,7 +2976,7 @@ name "subsec:Operating-round-actions"
 \end_layout
 
 \begin_layout Itemize
-Share companies perform the following steps in the order listed:
+Share companies perform the following steps in order:
 \end_layout
 
 \begin_deeper
@@ -2969,6 +3029,27 @@ EIRE
  Buffalo/Dunkirk (E16).
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If the 
+\noun on
+Erie Railway
+\noun default
+ (
+\noun on
+EIRE
+\noun default
+) has floated and a track tile hasn't been placed on Buffalo/Dunkirk (E16):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It must immediately place its home station on one of the Buffalo/Dunkirk
+ (E16) city circles when a track tile is placed there.
+\end_layout
+
+\end_deeper
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 
@@ -3050,7 +3131,7 @@ reference "subsec:Emergency-train-buying"
 \emph on
 In green and later phases
 \emph default
-) Share companies may buy private companies with marked costs of less than
+) Share companies may buy private companies with face values of less than
  $250 from players at any time during the company's operation for between
  $1 and the twice the face value of the private company (see 
 \begin_inset CommandInset ref
@@ -3125,15 +3206,11 @@ Boston & Maine
 \noun on
 B&M
 \noun default
-), 
+)
 \noun on
-New York Central
+ 
 \noun default
- (
-\noun on
-NYC
-\noun default
-) and 
+and 
 \noun on
 New York New Haven & Hartford
 \noun default
@@ -3206,15 +3283,11 @@ Boston & Maine
 \noun on
 B&M
 \noun default
-), 
+)
 \noun on
-New York Central
+ 
 \noun default
- (
-\noun on
-NYC
-\noun default
-) and 
+and 
 \noun on
 New York New Haven & Hartford
 \noun default
@@ -3234,9 +3307,10 @@ NYH
 \uwave off
 \noun off
 \color none
-if part of a system, may place a third yellow track tile (the company may
- not upgrade a track tile in that round) for a cost of $40 paid to the bank
- from the system's treasury in addition to any terrain costs (see 
+if part of a system, may place a third (or fourth if both companies form
+ the system) yellow track tile (the company may not upgrade a track tile
+ in that round) for a cost of $40 paid to the bank from the system's treasury
+ in addition to any terrain costs for each additional track tile (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Systems"
@@ -3346,7 +3420,7 @@ reference "subsec:Systems"
 \end_layout
 
 \begin_layout Enumerate
-Pay $100 for the station marker from its treasury.
+Pay $100 for the station marker from its treasury to the bank.
 \end_layout
 
 \begin_layout Enumerate
@@ -3362,15 +3436,26 @@ Without passing through a city all of whose station-marker spaces are filled
 
 \begin_deeper
 \begin_layout Itemize
-Other company's station markers and /or blocking station markers.
+Other company's station markers and/or blocking station markers.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+Without passing through the Virginia Coalfields (K12) if the company does
+ not own a coal marker (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Virginia-Coalfields"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
 Crossing any hexagon-edge twice.
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Exception: A station marker may be placed in Scranton (F21) using the power
  of the 
@@ -3391,7 +3476,6 @@ reference "subsec:Private-Particulars"
 ).
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Itemize
@@ -3438,7 +3522,8 @@ reference "subsec:Track-types"
 \end_layout
 
 \begin_layout Itemize
-A station marker cannot in the Virginia Coalfields (see 
+A station marker cannot be placed in the Virginia Coalfields (K12) (see
+ 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Map-Explanation"
@@ -3535,7 +3620,7 @@ If the revenue is withheld:
 
 \begin_deeper
 \begin_layout Itemize
-The entire revenue is paid by the bank to the company treasury.
+The entire revenue is paid from the bank to the company treasury.
 \end_layout
 
 \end_deeper
@@ -3596,9 +3681,9 @@ A shell cannot contain more trains than the current train limit.
 
 \end_deeper
 \begin_layout Itemize
-A share company shell that has not reached its train limit may buy a train
- that would not cause it to exceed the train limit before any game phase
- change caused by the purchase takes effect (see 
+A public company or system shell that has not reached its train limit may
+ buy a train that would not cause it to exceed the train limit before any
+ game phase change caused by the purchase takes effect (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Game-Phases"
@@ -3710,7 +3795,14 @@ reference "subsec:Game-Phases"
 \begin_deeper
 \begin_layout Itemize
 Public companies and system shells must immediately discard trains in excess
- of the new train limit.
+ of the new train limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Train-Limit"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_deeper
@@ -3740,7 +3832,7 @@ Must own at least one train at the end of its train buying step.
 
 \begin_deeper
 \begin_layout Itemize
-Systems are not required to have a train in both shells.
+Systems are not required to have a train in both shells (see ).
 \end_layout
 
 \begin_layout Itemize
@@ -3792,6 +3884,12 @@ reference "subsec:Emergency-train-buying"
 ).
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Until the share company acquires a train.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 The share company will fail to pay a dividend in subsequent Operating Rounds
  until and unless it is able to acquire a train (see 
@@ -4004,7 +4102,7 @@ name "subsec:Game-end-criteria"
 \end_layout
 
 \begin_layout Enumerate
-If all the players agree which one of them has clearly won the game:
+If all the players agree which one of them has already won the game:
 \end_layout
 
 \begin_deeper
@@ -4134,7 +4232,7 @@ name "part:Acknowledgments"
 
 \begin_layout Standard
 The designer would like to thank Francis Tresham for the design and development
- of the wonderful field of 18xx games; Daniel Barnes, Roel van der Horn,
+ of the wonderful field of 18xx games; Daniel Barnes, Roel van der Hoorn,
  Bruce Murphy and Shelby Noonan for their bounteous supply of inspiration,
  notions, complaints and sounding board in equal measures.
  In particular Daniel Barnes prompted key aspects of the train roster and
@@ -4170,56 +4268,6 @@ name "subsec:Negotiation-&-Holdings"
 
 \end_layout
 
-\begin_layout Itemize
-Players may not negotiate:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Track placement or upgrades (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Track-placement-&-upgrades"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Station marker placement (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Buying-shares"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-Stock buys or sales (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Selling-shares"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Buying-shares"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-with each other.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Players may negotiate:
 \end_layout
@@ -4258,139 +4306,69 @@ with each other.
 
 \end_deeper
 \begin_layout Itemize
+All other negotiation is disallowed, including but not limited to:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Floating companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Starting-or-floating"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Stock buys or sales (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Selling-shares"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Track placement or upgrades (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Track-placement-&-upgrades"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Station marker placement (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
 The holdings of players, public companies and systems are public information.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-They must be clearly displayed and view able by all players at all times.
-\end_layout
-
-\end_deeper
-\begin_layout Section
-Timing
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Timing"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-1828 runs on a 60 second (1 minute) clock.
-\end_layout
-
-\begin_layout Itemize
-Players have limited time to make and execute their decisions.
-\end_layout
-
-\begin_layout Itemize
-Timing limits are only applied to players in their second or later game
- of 1828.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-First time players are not time limited.
-\end_layout
-
-\begin_layout Itemize
-In games with a mix of first-time and experienced players:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The timing limits are only applied to the experienced players.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Subsection
-Stock Round time constraints
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:stokc-round-timing"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Each player's decision must be stated within 60 seconds.
-\end_layout
-
-\begin_layout Itemize
-A player's clock starts as soon as their turn starts at: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The end of the previous round.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Players may request and should be granted time to clean up and total their
- portfolio from the Operating Rounds before the Stock Round starts.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The end of the previous player's turn.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Players may not adjust or alter their choice once their 60 seconds have
- expired.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Execution of the decision may exceed the 60 seconds.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The distribution and trading of shares during a merger is not timed.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-If the player hasn't completed their decision within 60 seconds, they are
- considered to have passed (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Stock-Round-overview"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-This may end the Stock Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Stock-price-movement"
-
-\end_inset
-
-).
+They must be clearly displayed and examinable by all players at all times.
 \end_layout
 
 \end_deeper
@@ -4447,6 +4425,16 @@ Coalfields
 
 Tunnel: The Virginia Coalfields Tunnel is represented by the hexagon in
  K14.
+ Only a #4 yellow town tile may be placed on the Virginia Coalfields Tunnel
+ (K14) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Virginia-Coalfields-Tunnel"
+
+\end_inset
+
+).
+ Subsequently it is treated as a town.
 \end_layout
 
 \begin_layout Description
@@ -4455,7 +4443,15 @@ Yellow
 \end_inset
 
 hexagons Represent yellow pre-built track tiles on the map.
- They can be upgraded using green track tiles in green phase or later.
+ They can be upgraded using green track tiles in green phase or later (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Game-Phases"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Description
@@ -4483,7 +4479,7 @@ spikes
 \begin_inset Quotes erd
 \end_inset
 
- mark the track connections to those locations.
+ mark the track connections to those remote locations.
  Track tiles may be placed adjacent to them so that the lines of track connect
  to the 
 \begin_inset Quotes eld
@@ -4494,6 +4490,8 @@ spikes
 \end_inset
 
  leading to the remote connections.
+ Track tiles cannot be placed adjacent to an off-board hexagon such that
+ a line of track runs into a blank red hexagon-edge.
 \end_layout
 
 \begin_layout Description
@@ -4502,7 +4500,6 @@ Rural
 \end_inset
 
 hexagons: All other hexagons are rural.
- Rural hexagons may have terrain.
 \end_layout
 
 \end_deeper
@@ -4549,7 +4546,8 @@ Some hexagon edges are blocked by blue barriers.
 
 \begin_deeper
 \begin_layout Itemize
-Track may not be pointed at those edges (see 
+Track tiles may not be placed such that a line of track connects to those
+ edges (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "par:track-placement-Overview"
@@ -4665,6 +4663,13 @@ par
  (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
+reference "subsec:Starting-or-floating"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
 reference "tab:Game-Phases"
 
 \end_inset
@@ -4675,7 +4680,14 @@ reference "tab:Game-Phases"
 \begin_deeper
 \begin_layout Itemize
 The marked par prices may be used in the matching colour game phases and
- all later game phases.
+ all later game phases (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Game-Phases"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
@@ -4791,7 +4803,14 @@ The current stock price of a share company's shares is recorded on the Stock
 
 \begin_layout Itemize
 For each 10% share sold by a player, the stock price marker is moved down
- one row.
+ one row (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Selling-shares"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_deeper
@@ -4820,8 +4839,7 @@ If the stock price marker is already at the right end of a row in the Stock
 \begin_deeper
 \begin_layout Itemize
 If a stock price marker reaches the top right corner of the Stock Market
- ($500), then the game will end at the end of that Operating Round (see
- 
+ ($500), then the game will end (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Game-End"
@@ -4853,8 +4871,12 @@ If the stock price marker is in a bottom-left corner, then it is not moved.
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-If at the end of a Stock Round all of the available shares of a company
- are owned by players (not counting the 10% share in the treasury of systems):
+If at the end of a Stock Round:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A floated share company has no shares left in both the IPO and Bank Pool:
 \end_layout
 
 \begin_deeper
@@ -4889,6 +4911,7 @@ If the stock price marker is already at the top row of that column for one
  to the right.
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 If a stock price reaches $500, the game ends (see 
@@ -4979,6 +5002,10 @@ reference "subsec:Public-companies"
 ).
 \end_layout
 
+\begin_layout Standard
+Or:
+\end_layout
+
 \begin_layout Itemize
 Systems (see 
 \begin_inset CommandInset ref
@@ -5054,7 +5081,14 @@ Exception: The
  Cobourg & Peterborough Railway
 \noun default
  private company lays track and runs a train from the tile placed when it
- operates.
+ operates (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Private-Particulars"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
@@ -5106,16 +5140,16 @@ The owning company may use the special power of the private company, if
 
 \begin_deeper
 \begin_layout Itemize
-Some private company powers can only be used in certain steps of owning
+Some private company powers can only be used in certain steps of their owning
  company's operations.
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Some private companies block specific hexagons on the map and track tiles
- cannot be built or upgraded at those hexagons until the matching private
- company has been purchased by a share company or closed:
+Some private companies block specific hexagons on the map.
+ Track tiles cannot be built or upgraded at those hexagons until the matching
+ private company has been purchased by a share company or closed:
 \end_layout
 
 \begin_deeper
@@ -5178,8 +5212,8 @@ blocks I20.
 
 \end_deeper
 \begin_layout Itemize
-Private companies close at the start of red phase and are discarded from
- the game (see 
+All remaining private companies close at the start of red phase and are
+ discarded from the game (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Private-Particulars"
@@ -5189,6 +5223,19 @@ reference "subsec:Private-Particulars"
 ).
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Some private companies close may closer earlier in the game (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Private-Particulars"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 Private company particulars
 \begin_inset CommandInset label
@@ -5376,18 +5423,14 @@ Power: The owning player may place a yellow track tile, or (
 \emph on
 green phase or later
 \emph default
-) may upgrade a yellow track tile or map hexagon on a route connected to
- Peterborough (C16), or Peterborough (C16) itself.
+) may upgrade a track tile or map hexagon on a route connected to Peterborough
+ (C16), or Peterborough (C16) itself.
  Any terrain costs must be paid by and from the 
 \noun on
 Cobourg & Peterborough Railway
 \noun default
  treasury.
  
-\begin_inset Newline newline
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -5409,7 +5452,7 @@ reference "subsec:General-Route-definition"
 \noun on
 Cobourg & Peterborough Railway
 \noun default
- does not pay revenue.
+ does not pay any revenue.
 \begin_inset Newline newline
 \end_inset
 
@@ -5430,7 +5473,7 @@ The
 \noun on
 Cobourg & Peterborough Railway
 \noun default
-'s treasury is transferred to the share company.
+'s treasury is transferred to the share company's treasury.
  
 \end_layout
 
@@ -6986,7 +7029,7 @@ OS&H
 \begin_inset Text
 
 \begin_layout Plain Layout
-Canada (A16)
+Canada (A15)
 \end_layout
 
 \end_inset
@@ -7203,6 +7246,15 @@ reference "subsec:Upgrading-track"
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+The 
+\noun on
+Ontario, Simcoe & Huron
+\noun default
+ (OS&H) home station is in A15 and is connected to all the hexagons of that
+ off-board (A14 & A16).
+\end_layout
+
 \begin_layout Subsubsection
 Company directors
 \begin_inset CommandInset label
@@ -7352,11 +7404,38 @@ reference "subsec:Train-Limit"
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Systems have all the assets of their component public companies.
+A system has:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All the assets of the component public companies.
 \end_layout
 
 \begin_layout Itemize
-Systems have two home stations (see 
+Two 
+\begin_inset Quotes eld
+\end_inset
+
+shells
+\begin_inset Quotes erd
+\end_inset
+
+ one for each of component public companies.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trains are allocated to and placed in a specific shell.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A single combined treasury.
+\end_layout
+
+\begin_layout Itemize
+Two home stations (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Operating-round-actions"
@@ -7380,7 +7459,7 @@ reference "tab:Public-Companies"
 
 \end_deeper
 \begin_layout Itemize
-A system has a 10% share in its treasury:
+A 10% share in its treasury:
 \end_layout
 
 \begin_deeper
@@ -7406,6 +7485,7 @@ Cannot be bought or sold or otherwise removed from the treasury.
 
 \end_deeper
 \end_deeper
+\end_deeper
 \begin_layout Itemize
 Systems are otherwise subject to the same rules as un-merged public companies.
 \end_layout
@@ -7428,25 +7508,6 @@ Exception: Systems can place more track tiles than un-merged public companies
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Build-track"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Exception: Systems have a 10% share in their treasury which pays dividends
- to that treasury (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Merging-companies-into"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Systems"
 
 \end_inset
 
@@ -7503,7 +7564,7 @@ name "subsec:Track-Tile-Overview"
 \end_layout
 
 \begin_layout Itemize
-There are yellow, green and brown track tiles: .
+There are yellow, green and brown track tiles.
 \end_layout
 
 \begin_layout Itemize
@@ -7648,7 +7709,7 @@ NY
 \end_deeper
 \begin_layout Description
 Town: Have a small cross-bar or black circle marking the town with a line
- of track passing through it., and a revenue value (number in a small white
+ of track passing through it, and a revenue value (number in a small white
  circle).
  Town tiles are used on map hexagons containing a small black circle.
  
@@ -7833,6 +7894,13 @@ reference "sec:Map-Explanation"
 
 \begin_layout Paragraph
 Virginia Coalfields 
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Virginia-Coalfields"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7844,10 +7912,6 @@ reference "subsec:Game-end-criteria"
 \end_inset
 
 ):
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -7870,6 +7934,13 @@ reference "sec:Trains-and-Running-Trains"
 \end_deeper
 \begin_layout Paragraph
 Virginia Coalfields Tunnel
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Virginia-Coalfields-Tunnel"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7911,6 +7982,18 @@ It must return one of them to the supply on the Virginia Coalfields (K12).
 \end_deeper
 \end_deeper
 \end_deeper
+\begin_layout Itemize
+One a track tile is placed on the Virginia Coalfields Tunnel (K14), it is
+ treated as a town (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:General-Route-definition"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Subsubsection
 Upgrading track
 \begin_inset CommandInset label
@@ -8087,6 +8170,25 @@ reference "subsec:Train-Limit"
 \end_layout
 
 \begin_layout Itemize
+Share companies with a route from one of their station markers to anothe
+ revenue center must own at least one train (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:General-Route-definition"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Emergency-train-buying"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
 Trains are available from the supply in colour order: 
 \end_layout
 
@@ -8162,7 +8264,7 @@ A route is a single continuous line of track that:
 
 \begin_deeper
 \begin_layout Itemize
-Contains at least two revenue centers that are towns, cities, coalfields
+Contains at least two revenue centers that are towns, cities, a coalfield
  or off-boards.
  
 \end_layout
@@ -8212,7 +8314,7 @@ Use the same piece of track on a track tile more than once (no matter how
 
 \begin_layout Itemize
 Pass through a city which doesn't have an open station marker location and
- doesn't contain owning the public company's or system's station marker.
+ doesn't contain owning the share company's station marker.
 \end_layout
 
 \begin_layout Itemize
@@ -8312,8 +8414,8 @@ Revenue: The sum of all the revenue centers on the route.
 \end_layout
 
 \begin_layout Itemize
-The route for a 3D train cannot contain more than a total of 3 cities, coalfield
-s or off-boards.
+The route for a 3D train cannot contain more than a total of 3 cities, a
+ coalfield or off-boards.
 \end_layout
 
 \begin_deeper
@@ -8338,7 +8440,7 @@ Revenue: Double the sum of all the revenue centers on the route.
 
 \begin_layout Itemize
 The route for an 8E train cannot contain more than a total of 8 cities,
- coalfields or off-boards.
+ a coalfield or off-boards.
 \end_layout
 
 \begin_deeper
@@ -8347,7 +8449,7 @@ There may be any number of towns on the route:
 \end_layout
 
 \begin_layout Description
-Revenue: The sum of all the cities, coalfields or off-boards on the route
+Revenue: The sum of all the cities, a coalfield or off-boards on the route
  (but not the towns).
 \end_layout
 
@@ -8403,30 +8505,18 @@ reference "subsec:Systems"
 
 \begin_deeper
 \begin_layout Itemize
-A public company may own as many trains up to the current train limit 
+A public company may own trains up to the current train limit 
 \end_layout
 
 \begin_layout Itemize
-Each system shell can own trains up to the current train limit.
+Each shell of a system can own trains up to the current train limit.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-A share company shell that has not reached its train limit may buy a train
- that would cause it to exceed the train limit after the game phase change
- caused by the purchase takes effect.
-\end_layout
-
-\begin_layout Itemize
-A share company shell that has reached its train limit may upgrade one of
- its trains (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Train-upgrades"
-
-\end_inset
-
-)
+A public company or system shell that has not reached its train limit may
+ buy a train that would cause it to exceed the train limit after the game
+ phase change caused by the purchase takes effect.
 \end_layout
 
 \begin_layout Itemize
@@ -8436,7 +8526,8 @@ Train limits are checked and enforced on all public companies and system
 
 \begin_deeper
 \begin_layout Itemize
-A share company shell with more trains than the current train limit:
+A public company or system shell with more trains than the current train
+ limit:
 \end_layout
 
 \begin_deeper
@@ -8451,6 +8542,166 @@ The company director may freely choose which trains to discard.
 
 \end_deeper
 \end_deeper
+\begin_layout Section
+Coal Markers
+\end_layout
+
+\begin_layout Subsection
+Coal marker overview
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Coal-marker-overview"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Share companies can acquire a coal marker either by:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Having a track connection from one of their station markers to the Virginia
+ Coalfields (K12), paying $120 from their treasury to the bank and taking
+ one of the coal markers placed there (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-Setup"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Virginia-Coalfields"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Or:
+\end_layout
+
+\begin_layout Itemize
+Placing a track tile on the Virginia Coalfields Tunnel (K14), paying the
+ terrain cost and taking the marker placed there (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-Setup"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Track-placement-&-upgrades"
+
+\end_inset
+
+ &  
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Virginia-Coalfields-Tunnel"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The supply of coal markers is limited (3).
+\end_layout
+
+\begin_layout Subsection
+Track laying
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:coal-Track-laying"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A share companies that does not own a coal marker cannot place or upgrade
+ track tiles that cannot trace a line of track from that track tile to one
+ of the company's station markers without passing through the Virginia Coalfield
+s (K12) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Track-placement-&-upgrades"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Station markers
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:coal-Station-markers"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A share companies that does not own a coal marker cannot place a station
+ marker that cannot trace a line of track from that track tile to one of
+ the company's station markers without passing through the Virginia Coalfields
+ (K12) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Place-station-marker"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+A station market cannot be placed in the Virginia Coalfields (K12) (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Place-station-marker"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Train routes
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:coal-Train-routes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A share company that does not own a coal marker cannot have one of its train
+ routes end at or pass through the Virginia Coalfields (K12) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:General-Route-definition"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Section
 Game Phases 
 \begin_inset CommandInset label
@@ -8647,10 +8898,6 @@ Purple phase starts with the purchase of the first purple train.
 \end_layout
 
 \begin_layout Itemize
-Brown, blue, green and yellow pars are available.
-\end_layout
-
-\begin_layout Itemize
 Director's certificates cannot be bought from the IPO.
 \end_layout
 
@@ -8667,7 +8914,7 @@ Train limit is 2.
 \end_layout
 
 \begin_layout Itemize
-There are 4 operating rounds per set after stock rounds.
+There are 4 operating rounds per set after the stock round.
 \end_layout
 
 \begin_layout Itemize
