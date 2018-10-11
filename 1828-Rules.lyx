@@ -6066,8 +6066,7 @@ Missouri Pacific (MP)
 \noun default
 The
 \noun on
- New York, Chicago & St.
- Louis Railroad
+ Missouri Pacific
 \noun default
  private company cannot be purchased by a share company.
 \end_layout
@@ -7309,8 +7308,8 @@ The
 \noun on
 Ontario, Simcoe & Huron
 \noun default
- (OS&H) home station is in A15 and is connected to all the hexagons of that
- off-board (A14 & A16).
+ (OS&H) home station is in A15 and is connected to both the hexagons all
+ all the track connections of that off-board (A14 & A16).
 \end_layout
 
 \begin_layout Subsubsection
@@ -7728,22 +7727,6 @@ OO
 \begin_inset Quotes erd
 \end_inset
 
-, and 
-\begin_inset Quotes eld
-\end_inset
-
-OO
-\begin_inset Quotes erd
-\end_inset
-
- tiles can only be placed on hexagons marked 
-\begin_inset Quotes eld
-\end_inset
-
-OO
-\begin_inset Quotes erd
-\end_inset
-
 .
 \end_layout
 
@@ -7884,7 +7867,6 @@ Passing through a city all of whose station-marker spaces are filled with
  other share company's station markers.
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Passing through the Virginia Coalfields (K12) if the public company doesn't
  already own a coal token.
@@ -7904,12 +7886,10 @@ Track tiles must not be placed such that a line of track:
 Already present is not preserved by the new track tile.
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Only the connectivity is important, not the exact shape of the line of track.
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 Runs off the edge of the map (no further hexagons).
 \end_layout
@@ -7935,7 +7915,6 @@ reference "sec:Map-Explanation"
 ).
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 A share company placing a track tile on a river ($80) or mountain ($120)
@@ -8041,8 +8020,8 @@ It must return one of them to the supply on the Virginia Coalfields (K12).
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-One a track tile is placed on the Virginia Coalfields Tunnel (K14), it is
- treated as a town (see 
+Once a track tile is placed on the Virginia Coalfields Tunnel (K14), it
+ is treated as a town (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:General-Route-definition"
@@ -8127,8 +8106,8 @@ The upgraded track tile is returned to the supply for future use.
 \end_layout
 
 \begin_layout Itemize
-If a track tile on a river or hill area is upgraded, the terrain cost is
- not paid again (see 
+Once track tile on a river or hill hexagon is upgraded, the terrain cost
+ is not paid again (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Map-Explanation"
