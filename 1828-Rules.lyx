@@ -7417,49 +7417,6 @@ reference "subsec:Merging-companies-into"
  
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-The component public companies form two 
-\begin_inset Quotes eld
-\end_inset
-
-shells
-\begin_inset Quotes erd
-\end_inset
-
- within the system:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Each shell is represented by its original public company charter.
-\end_layout
-
-\begin_layout Itemize
-The two charters are kept together to indicate that the company is a system.
-\end_layout
-
-\begin_layout Itemize
-Trains are placed in specific shells.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The train limit of a shell is the same as the un-merged public company train
- limit (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Train-Limit"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\end_deeper
-\end_deeper
 \begin_layout Itemize
 A system has:
 \end_layout
@@ -7470,20 +7427,28 @@ All the assets of the component public companies.
 \end_layout
 
 \begin_layout Itemize
-Two 
+Two public company charters placed partially atop one another, each charter
+ representing a 
 \begin_inset Quotes eld
 \end_inset
 
-shells
+shell
 \begin_inset Quotes erd
 \end_inset
 
- one for each of component public companies.
+.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Trains are allocated to and placed in a specific shell.
+Trains are allocated to and placed in a specific shell (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Train-Limit"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
