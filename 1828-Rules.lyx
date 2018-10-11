@@ -4405,7 +4405,7 @@ The holdings of players, public companies and systems are public information.
 
 \begin_deeper
 \begin_layout Itemize
-They must be clearly displayed and examinable by all players at all times.
+They must be clearly displayed and visible to all players at all times.
 \end_layout
 
 \end_deeper
@@ -7909,7 +7909,7 @@ name "par:Virginia-Coalfields"
 A share company that does not own a coal token (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-end-criteria"
+reference "sec:Coal-Markers"
 
 \end_inset
 
@@ -7968,7 +7968,14 @@ reference "sec:Game-Setup"
 
 \end_inset
 
-).
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Coal-Markers"
+
+\end_inset
+
+):).
 \end_layout
 
 \begin_deeper
@@ -8546,6 +8553,13 @@ The company director may freely choose which trains to discard.
 \end_deeper
 \begin_layout Section
 Coal Markers
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Coal-Markers"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -8635,10 +8649,10 @@ name "subsec:coal-Track-laying"
 \end_layout
 
 \begin_layout Itemize
-A share companies that does not own a coal marker cannot place or upgrade
- track tiles that cannot trace a line of track from that track tile to one
- of the company's station markers without passing through the Virginia Coalfield
-s (K12) (see 
+A share company that does not own a coal marker cannot place or upgrade
+ a track tile that cannot trace a continuous line of track from that track
+ tile to one of the company's station markers without passing through the
+ Virginia Coalfields (K12) (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Track-placement-&-upgrades"
@@ -8660,10 +8674,10 @@ name "subsec:coal-Station-markers"
 \end_layout
 
 \begin_layout Itemize
-A share companies that does not own a coal marker cannot place a station
- marker that cannot trace a line of track from that track tile to one of
- the company's station markers without passing through the Virginia Coalfields
- (K12) (see 
+A share company that does not own a coal marker cannot place a station marker
+ on a track tile that cannot trace a continuous line of track from that
+ track tile to one of the company's station markers without passing through
+ the Virginia Coalfields (K12) (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Place-station-marker"
