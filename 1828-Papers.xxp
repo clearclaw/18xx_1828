@@ -549,6 +549,7 @@ private:
 
     CPR:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             Canadian Pacific
             Railroad
@@ -562,6 +563,7 @@ private:
 
     GT:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             Grand Trunk
         power_text_text: |
@@ -574,6 +576,7 @@ private:
 
     IC:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             Illinois Central
         power_text_text: |
@@ -586,6 +589,7 @@ private:
 
     MC:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             Michigan Central
             Railroad
@@ -599,6 +603,7 @@ private:
 
     MP:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             Missouri Pacific
             Railroad
@@ -612,6 +617,7 @@ private:
 
     NKP:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             New York, Chicago
             & St. Louis Railroad
@@ -625,6 +631,7 @@ private:
 
     NW:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             Norfolk & Western
             Railway
@@ -638,6 +645,7 @@ private:
 
     OS&H:
       _:
+        asset_interior_box_fill: ${colour/xxp/P_BROWN}
         long_name_text_text: |
             Ontario, Simcoe
             & Huron

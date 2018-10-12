@@ -303,7 +303,11 @@ Cobourg & Peterborough Railway
 \lang british
 $
 \lang english
-50,000 in money.
+50,000 in money 
+\emph on
+(not provided)
+\emph default
+.
 \end_layout
 
 \begin_layout Section
@@ -356,7 +360,7 @@ name "sec:Game-Setup"
 \end_layout
 
 \begin_layout Itemize
-Place the map, Stock Market, IPO where they can be easily seen and accessed.
+Place the map, Stock Market and IPO where they can be easily seen and accessed.
 \end_layout
 
 \begin_layout Itemize
@@ -365,7 +369,8 @@ Place public company charters and shares nearby where they can be easily
 \end_layout
 
 \begin_layout Itemize
-Sort and place the track tiles nearby where they can be easily seen & accessed.
+Sort and place the track tiles nearby where they can be easily seen and
+ accessed.
 \end_layout
 
 \begin_layout Itemize
@@ -373,11 +378,15 @@ Place the round marker on the
 \begin_inset Quotes eld
 \end_inset
 
-Stock Round
+SR
 \begin_inset Quotes erd
 \end_inset
 
- space on the round track.
+ space on the round track on the Stock Market.
+\end_layout
+
+\begin_layout Itemize
+Place the merger marker near the Stock Market.
 \end_layout
 
 \begin_layout Itemize
@@ -465,7 +474,7 @@ $160 Camden & Amboy Railroad
 \noun on
 $250 
 \noun default
-(random order).
+(those not discarded above, randomly ordered from left to right).
 \end_layout
 
 \end_deeper
@@ -482,8 +491,8 @@ Camden & Amboy
 \end_layout
 
 \begin_layout Itemize
-Place the matching 20% director's share certificate and a 10% share certificate
- on each $250 private company in play.
+Place the matching 20% director's share certificate and a matching 10% share
+ certificate on each $250 private company in play.
 \end_layout
 
 \begin_deeper
@@ -498,8 +507,12 @@ Separate the player number cards by colour and discard the player number
 \end_layout
 
 \begin_layout Itemize
-Randomly assign the remaining player number cards of one colour, one card
- to each player.
+Set one colour of player number cards aside but still in easy reach.
+\end_layout
+
+\begin_layout Itemize
+Randomly assign the remaining player number cards of other colour, one card
+ per player.
 \end_layout
 
 \begin_layout Itemize
@@ -534,7 +547,7 @@ name "sec:game-overview"
 \end_layout
 
 \begin_layout Itemize
-1828 commences with the auction of the private companies (see 
+1828 begins with the auction of the private companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Private-Auction"
@@ -559,16 +572,16 @@ The round marker is used to track the game's progress through the rounds.
 
 \end_deeper
 \begin_layout Itemize
-In Stock Rounds, players may buy and sell shares of share companies, taking
- and losing control of share companies (see 
+In Stock Rounds, players may buy and sell shares of share companies, take
+ and lose directorship of share companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Companies"
 
 \end_inset
 
-), merging public companies into systems and starting new public companies
- and systems (see 
+), merge public companies into systems and start new public companies and
+ systems (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Stock-Rounds"
@@ -581,8 +594,8 @@ reference "sec:Stock-Rounds"
 
 \begin_deeper
 \begin_layout Itemize
-After each Stock Round ends, the player order for the next Stock Round is
- determined by the order in which the players cease acting (see 
+At the end of each Stock Round, the player order for the next Stock Round
+ is determined by the order in which the players cease acting (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-Round-overview"
@@ -623,9 +636,9 @@ In Operating Rounds
 \noun on
 ,
 \noun default
- share companies operate: buying private companies from players, building
- track and stations, running and buying trains, and withholding or paying
- dividends to shareholders (see 
+ share companies are operated by their directors: buying private companies
+ from players, building track and stations, running and buying trains, and
+ withholding or paying dividends to shareholders (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Operating-Rounds"
@@ -682,14 +695,14 @@ reference "tab:Game-Phases"
 
 \end_inset
 
-).
+) and change immediately when the first train of a new colour is bought
+ by a company.
+ 
 \end_layout
 
 \begin_layout Itemize
-Game phase changes immediately when the first train of a new colour is bought
- by a company.
- New par prices, track tile types and other changes accompany some game
- phase changes (see 
+New par prices, track tile types and other changes accompany some game phase
+ changes (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Game-Phases"
@@ -709,7 +722,7 @@ and sets of Operating Rounds
 \noun on
  
 \noun default
-continues until the end of the game (see 
+continues until the end of the game in any of four ways (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Game-End"
@@ -725,20 +738,20 @@ A specific player is agreed to have already won.
 \end_layout
 
 \begin_layout Itemize
-Player bankruptcy.
+A player bankrupts.
 \end_layout
 
 \begin_layout Itemize
-Share company stock price reaches $500.
+A share company stock price reaches $500.
 \end_layout
 
 \begin_layout Itemize
-A complete set of Operating Rounds in purple phase.
+A complete set of Operating Rounds occurs in purple phase.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-The player with the largest net worth wins (see 
+The player with the largest net worth at the end of the game wins (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Game-End"
@@ -788,7 +801,7 @@ Train Type
 \begin_inset Text
 
 \begin_layout Plain Layout
-Count
+Quantity
 \end_layout
 
 \end_inset
@@ -815,7 +828,7 @@ Train Limit
 \begin_inset Text
 
 \begin_layout Plain Layout
-Track Tiles
+Track Tiles Available
 \end_layout
 
 \end_inset
@@ -824,7 +837,7 @@ Track Tiles
 \begin_inset Text
 
 \begin_layout Plain Layout
-Par Prices
+Par Prices Available
 \end_layout
 
 \end_inset
@@ -945,7 +958,7 @@ $160
 \begin_inset Text
 
 \begin_layout Plain Layout
-Green & below
+Green & Yellow
 \end_layout
 
 \end_inset
@@ -954,7 +967,7 @@ Green & below
 \begin_inset Text
 
 \begin_layout Plain Layout
-Green & below
+Yellow & Green
 \end_layout
 
 \end_inset
@@ -1010,7 +1023,7 @@ $250
 \begin_inset Text
 
 \begin_layout Plain Layout
-Green & below
+Green & Yellow
 \end_layout
 
 \end_inset
@@ -1019,7 +1032,7 @@ Green & below
 \begin_inset Text
 
 \begin_layout Plain Layout
-Blue & below
+Yellow, Green &Blue 
 \end_layout
 
 \end_inset
@@ -1075,7 +1088,7 @@ $350
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Brown, Green & Yellow
 \end_layout
 
 \end_inset
@@ -1084,7 +1097,7 @@ Brown & below
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Yellow, Green, Blue & Brown
 \end_layout
 
 \end_inset
@@ -1140,7 +1153,7 @@ $650
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Brown, Green & below
 \end_layout
 
 \end_inset
@@ -1149,7 +1162,7 @@ Brown & below
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Yellow, Green, Blue & Brown
 \end_layout
 
 \end_inset
@@ -1205,7 +1218,7 @@ $800
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Brown, Green & below
 \end_layout
 
 \end_inset
@@ -1214,7 +1227,7 @@ Brown & below
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Yellow, Green, Blue & Brown
 \end_layout
 
 \end_inset
@@ -1270,7 +1283,7 @@ $900
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Brown, Green & below
 \end_layout
 
 \end_inset
@@ -1279,7 +1292,7 @@ Brown & below
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown & below
+Companies may not be parred
 \end_layout
 
 \end_inset
@@ -1342,7 +1355,7 @@ name "subsec:Private-auction-process"
 
 \begin_layout Itemize
 The private auction starts with the player with the #1 player number card
- and proceeds in rotating player number card order with the #1 player number
+ and proceeds in rotating player number card order, with the #1 player number
  card following the largest player number card.
 \end_layout
 
@@ -1352,7 +1365,7 @@ Each player in turn must do one of:
 
 \begin_deeper
 \begin_layout Itemize
-Buy and take the cheapest private company for its cost.
+Buy and take the cheapest remaining private company for its cost.
 \end_layout
 
 \begin_deeper
@@ -1389,8 +1402,9 @@ Bid on any other remaining private company
 
 \begin_deeper
 \begin_layout Itemize
-A multiple of $5 more than the face value of the private company or the
- largest bid currently on that private company, whichever is the larger.
+A legal bid is any integer multiple of $5 more than the face value of the
+ private company or the largest bid currently on that private company, whichever
+ is the larger.
 \end_layout
 
 \end_deeper
@@ -1400,12 +1414,12 @@ Pass.
 
 \begin_deeper
 \begin_layout Itemize
-Passing does not limit a player's future actions in the private auction.
+A player that has passed may still act on future turns in the private auction.
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-And may additionally:
+And may at any time on their turn:
 \end_layout
 
 \begin_layout Itemize
