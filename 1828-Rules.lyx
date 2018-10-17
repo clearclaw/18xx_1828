@@ -1533,7 +1533,7 @@ name "subsec:Private-auction-resolution"
 \end_layout
 
 \begin_layout Itemize
-If a player buys a private company, the new cheapest and left-most private
+After a player buys a private company, the new cheapest and left-most private
  company is checked for bids:
 \end_layout
 
@@ -1608,7 +1608,7 @@ name "subsec:Private-auction-notes"
 \end_layout
 
 \begin_layout Itemize
-Bids are allocated from the player's money.
+Bids are allocated from the bidding player's money.
  
 \end_layout
 
@@ -1667,7 +1667,7 @@ On their turn a player may pass or do any or all of the following in the
 
 \begin_deeper
 \begin_layout Itemize
-Sell some number of shares of one or more share companies (see 
+Sell shares of one or more share companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Selling-shares"
@@ -1698,9 +1698,9 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-Buy two stock certificates from either or both the bank pool or IPO of a
- share company they direct and whose stock price is in the gray area of
- the stock market (see 
+Buy two stock certificates each from either the bank pool or IPO, of a share
+ company they direct and whose stock price is in the gray area of the stock
+ market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Buying-shares"
@@ -1748,7 +1748,7 @@ Exchange the
 \noun on
 Mohawk & Hudson Railroad
 \noun default
- private company for a share from the IPO or bank pool (see 
+ private company for any 10% share from the IPO or bank pool (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Private-Particulars"
@@ -1760,7 +1760,7 @@ reference "subsec:Private-Particulars"
 
 \end_deeper
 \begin_layout Itemize
-Sell some number of shares of one or more share companies (see 
+Sell shares of one or more share companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Selling-shares"
@@ -1792,8 +1792,8 @@ When players pass in the Stock Round, they take the lowest numbered available
 \end_layout
 
 \begin_layout Itemize
-When players act in the Stock Round, they return any player number card
- of the other colour they have to the supply.
+When players act instead of passing in the Stock Round, they return any
+ player number card of the other colour that they have to the supply.
 \end_layout
 
 \begin_deeper
@@ -1823,7 +1823,8 @@ The player number cards of the other colour will determine the player order
 \end_deeper
 \begin_layout Itemize
 At the end of each Stock Round, the stock prices of floated share companies
- with no shares in the IPO or Bank Pool are moved up (see 
+ with no shares in the IPO or Bank Pool are moved upwards on the Stock Market
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-price-movement"
@@ -1870,7 +1871,7 @@ Players can sell shares that they own:
 
 \begin_deeper
 \begin_layout Itemize
-Which are not a director's certificate (see 
+That are not a director's certificate (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Company-directors"
@@ -1906,37 +1907,28 @@ Sold certificates are placed in the bank pool.
 \end_layout
 
 \begin_layout Enumerate
-The selling player receives the stock price of the share(s) in cash from
- the bank.
+The selling player receives the current stock price of the share(s) in cash
+ from the bank.
 \end_layout
 
 \begin_layout Enumerate
-The stock price marker of the sold shares is moved down one space for each
- share sold of that company.
+The stock price marker of the sold shares is then moved down one space for
+ each share sold of that company.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-If the stock price reaches the bottom of its column:
+If the stock price reaches the bottom of its column, it isn't moved any
+ further.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-It isn't moved any further.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 If shares from multiple share companies are sold and their stock prices
- move into the same space on the Stock Market:
+ move into the same space on the Stock Market, the selling player must choose
+ their relative order at that stock price, and they are placed below any
+ stock markers already at that location.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-The selling player must choose their relative order at that stock price.
-\end_layout
-
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Subsection
@@ -1958,8 +1950,8 @@ Only one stock certificate can be bought per player-turn or action in the
 \begin_deeper
 \begin_layout Description
 Exception: The director of a share company whose stock price is in the gray
- area of the Stock Market may by shares from the IPO and/or bank pool two
- at a time (see 
+ area of the Stock Market may buy shares of that company from the IPO and/or
+ bank pool two at a time (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Stock-Market"
@@ -2066,34 +2058,104 @@ reference "subsec:Merging-companies-into"
 
 \end_deeper
 \begin_layout Itemize
-The purchase price for public company share certificates bought from the
- IPO is:
+The purchase price for share certificates is:
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-The par price of that company multiplied by the number of shares purchased.
+\begin_layout Description
+public
+\begin_inset space ~
+\end_inset
+
+company
+\begin_inset space ~
+\end_inset
+
+certificate
+\begin_inset space ~
+\end_inset
+
+bought
+\begin_inset space ~
+\end_inset
+
+from
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+IPO: The par price of that company.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-The purchase price for public company shares shares bought from the bank
- pool is:
+\begin_layout Description
+public
+\begin_inset space ~
+\end_inset
+
+company
+\begin_inset space ~
+\end_inset
+
+certificate
+\begin_inset space ~
+\end_inset
+
+bought
+\begin_inset space ~
+\end_inset
+
+from
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+bank
+\begin_inset space ~
+\end_inset
+
+pool: The current stock price of that company.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-The current stock price of the public company.
-\end_layout
+\begin_layout Description
+system
+\begin_inset space ~
+\end_inset
 
-\end_deeper
-\begin_layout Itemize
-The purchase price for system shares bought from the IPO or bank pool is:
-\end_layout
+certificate
+\begin_inset space ~
+\end_inset
 
-\begin_deeper
-\begin_layout Itemize
-The current stock price of that system.
+bought
+\begin_inset space ~
+\end_inset
+
+from
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+IPO
+\begin_inset space ~
+\end_inset
+
+or
+\begin_inset space ~
+\end_inset
+
+bank
+\begin_inset space ~
+\end_inset
+
+pool: The current stock price of that system.
 \end_layout
 
 \end_deeper
@@ -8659,50 +8721,24 @@ The supply of coal markers is limited (3).
 \end_layout
 
 \begin_layout Itemize
-A share company cannot own or buy more than one.
-\end_layout
-
-\begin_layout Subsection
-Track laying
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:coal-Track-laying"
-
-\end_inset
-
-
+A share company may not own or buy more than one coal marker.
 \end_layout
 
 \begin_layout Itemize
-A share company that does not own a coal marker cannot place or upgrade
- a track tile that cannot trace a continuous line of track from that track
- tile to one of the company's station markers without passing through the
- Virginia Coalfields (K12) (see 
+A share company without a coal marker cannot:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Place track or station markers on a route that passes through the Virginia
+ Coalfields (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Track-placement-&-upgrades"
 
 \end_inset
 
-).
-\end_layout
-
-\begin_layout Subsection
-Station markers
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:coal-Station-markers"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-A share company that does not own a coal marker cannot place a station marker
- on a track tile that cannot trace a continuous line of track from that
- track tile to one of the company's station markers without passing through
- the Virginia Coalfields (K12) (see 
+ & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Place-station-marker"
@@ -8712,35 +8748,25 @@ reference "subsec:Place-station-marker"
 ).
 \end_layout
 
+\begin_layout Itemize
+Have one of its train routes end at or pass through the Virginia Coalfields
+ (K12) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:General-Route-definition"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 A station market cannot be placed in the Virginia Coalfields (K12) (see
  
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Place-station-marker"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Subsection
-Train routes
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:coal-Train-routes"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-A share company that does not own a coal marker cannot have one of its train
- routes end at or pass through the Virginia Coalfields (K12) (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:General-Route-definition"
 
 \end_inset
 

@@ -70,7 +70,7 @@ company:
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         bottom_note_text_text: |
             May place an additional yellow track tile
-            (all placed tiles must be yellow) for $20
+            (all placed tiles must be yellow) for $40
 
             Purchase price of shares goes to bank.
             Pool shares pay dividends to treasury.
@@ -285,7 +285,7 @@ company:
     NYNH&H:
       _:
         long_name_text_text: |
-            New York New Haven
+            New York, New Haven
             & Hartford Railway
         short_name_text_text: NYH
         token_1_text_text: Free
@@ -298,7 +298,7 @@ company:
         _related_fill: ${colour/hollasch/tan}
         bottom_note_text_text: |
             May place an additional yellow track tile
-            (all placed tiles must be yellow) for $20
+            (all placed tiles must be yellow) for $40
 
             Purchase price of shares goes to bank.
             Pool shares pay dividends to treasury.
@@ -371,7 +371,7 @@ company:
         token_4_text_text: $100
         _major_fill: ${colour/hollasch/cadmium_red_light}
         name_stripe_box_suppress: True
-        comment_text_text:
+        comment_text_text: |
             "Poor Ragged Rascal"
         _related_fill: ${colour/hollasch/tomato}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
@@ -463,7 +463,7 @@ private:
         long_name_text_text: |
             Schuykill Valley
             Navigation
-        power_text_text: "Blocks: G20"
+        power_text_text: "Blocks: G20."
         cost_text_text: "Cost: $20"
         revenue_text_text: "Revenue: $5"
 
@@ -473,7 +473,7 @@ private:
             Champlain & St Larence
             Railway
         power_text_text: |
-            Blocks: B25.
+            Blocks: Burlington (B25).
             Owning corporation may place a free,
             track tile at B25 at any time in
             its operations.
@@ -486,7 +486,7 @@ private:
             Delaware & Hudson
             Railroad
         power_text_text: |
-            Blocks: F21.
+            Blocks: Scranton (F21).
             Owning company may place a track tile
             (or track tile upgrade) in Scranton (F21)
             along with an (optional) station
@@ -501,7 +501,7 @@ private:
             Cobourg & Peterborough
             Railway
         power_text_text: |
-            Blocks: C16.
+            Blocks: Peterborough (C16).
             Owning player may place or upgrade track
             tiles on a route connected to Peterborough
             (C16). Half-pays the revenue of a 2-train
@@ -528,7 +528,7 @@ private:
             Erie & Kalamazoo
             Railroad
         power_text_text: |
-            Blocks: E8.
+            Blocks: Adrian & Ann Arbor (E8).
             A yellow track tile is placed at E8 when
             purchased by a company.  Owning company
             may (once) place an additional yellow track
