@@ -460,20 +460,31 @@ private:
   index:
     SV:
       _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_1}
         long_name_text_text: |
             Schuykill Valley
             Navigation
-        power_text_text: "Blocks: G20."
+        power_text_text: "Blocks: G19."
         cost_text_text: "Cost: $20"
         revenue_text_text: "Revenue: $5"
 
+    StC:
+      _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_1}
+        long_name_text_text: |
+            Saint Clair Tunnel
+        power_text_text: "Blocks: D10."
+        cost_text_text: "Cost: $20"
+        revenue_text_text: "Revenue: $5/$10"
+
     C&StL:
       _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_2}
         long_name_text_text: |
             Champlain & St Larence
             Railway
         power_text_text: |
-            Blocks: Burlington (B25).
+            Blocks: Burlington (B24).
             Owning corporation may place a free,
             track tile at B25 at any time in
             its operations.
@@ -482,13 +493,14 @@ private:
 
     D&H:
       _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_3}
         long_name_text_text: |
             Delaware & Hudson
             Railroad
         power_text_text: |
-            Blocks: Scranton (F21).
+            Blocks: Scranton (F20).
             Owning company may place a track tile
-            (or track tile upgrade) in Scranton (F21)
+            (or track tile upgrade) in Scranton (F20)
             along with an (optional) station
             marker for $120.
         cost_text_text: "Cost: $80"
@@ -497,11 +509,12 @@ private:
 
     C&PYR:
       _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_3}
         long_name_text_text: |
             Cobourg & Peterborough
             Railway
         power_text_text: |
-            Blocks: Peterborough (C16).
+            Blocks: Peterborough (C15).
             Owning player may place or upgrade track
             tiles on a route connected to Peterborough
             (C16). Half-pays the revenue of a 2-train
@@ -511,11 +524,12 @@ private:
 
     M&H:
       _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_4}
         long_name_text_text: |
             Mohawk & Hudson
             Railroad
         power_text_text: |
-            Blocks: D18.
+            Blocks: D22.
             Owning player may exchange for a share
             of any company from bank or IPO.
         cost_text_text: "Cost: $120"
@@ -524,12 +538,13 @@ private:
 
     E&K:
       _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_4}
         long_name_text_text: |
             Erie & Kalamazoo
             Railroad
         power_text_text: |
-            Blocks: Adrian & Ann Arbor (E8).
-            A yellow track tile is placed at E8 when
+            Blocks: Adrian & Ann Arbor (E7).
+            A yellow track tile is placed at E7 when
             purchased by a company.  Owning company
             may (once) place an additional yellow track
             tile for $20 as part of its normal track-build.
@@ -538,18 +553,19 @@ private:
 
     C&A:
       _:
+        asset_interior_box_fill: ${colour/xxp/SCALE_5a_5}
         long_name_text_text: |
             Camden & Amboy
             Railroad
         power_text_text: |
-            Blocks: Philadelphia & Trenton (I20).
+            Blocks: Philadelphia & Trenton (H22).
             Purchaser receives 10% of PRR.
         cost_text_text: "Cost: $160"
-        revenue_text_text: "Revenue: $30"
+        revenue_text_text: "Revenue: $25"
 
     CPR:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             Canadian Pacific
             Railroad
@@ -563,7 +579,7 @@ private:
 
     GT:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             Grand Trunk
         power_text_text: |
@@ -576,7 +592,7 @@ private:
 
     IC:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             Illinois Central
         power_text_text: |
@@ -589,7 +605,7 @@ private:
 
     MC:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             Michigan Central
             Railroad
@@ -603,7 +619,7 @@ private:
 
     MP:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             Missouri Pacific
             Railroad
@@ -617,7 +633,7 @@ private:
 
     NKP:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             New York, Chicago
             & St. Louis Railroad
@@ -631,7 +647,7 @@ private:
 
     NW:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             Norfolk & Western
             Railway
@@ -645,7 +661,7 @@ private:
 
     OS&H:
       _:
-        asset_interior_box_fill: ${colour/xxp/P_BROWN}
+        asset_interior_box_fill: ${colour/wikipedia/magic_mint}
         long_name_text_text: |
             Ontario, Simcoe
             & Huron
