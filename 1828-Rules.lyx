@@ -780,7 +780,7 @@ status open
 <column alignment="center" valignment="middle" width="1in">
 <column alignment="center" valignment="middle" width="0.6in">
 <column alignment="center" valignment="middle" width="0.5in">
-<column alignment="center" valignment="middle" width="0.75in">
+<column alignment="center" valignment="middle" width="0.8in">
 <column alignment="center" valignment="middle" width="0.75in">
 <row>
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
@@ -962,7 +962,7 @@ $160
 \begin_inset Text
 
 \begin_layout Plain Layout
-Green & Yellow
+Yellow & Green
 \end_layout
 
 \end_inset
@@ -1027,7 +1027,7 @@ $250
 \begin_inset Text
 
 \begin_layout Plain Layout
-Green & Yellow
+Yellow & Green
 \end_layout
 
 \end_inset
@@ -1036,7 +1036,7 @@ Green & Yellow
 \begin_inset Text
 
 \begin_layout Plain Layout
-Yellow, Green &Blue 
+Yellow, Green & Blue 
 \end_layout
 
 \end_inset
@@ -1092,7 +1092,7 @@ $350
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown, Green & Yellow
+Yellow, Green & Brown
 \end_layout
 
 \end_inset
@@ -1157,7 +1157,7 @@ $650
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown, Green & Yellow
+Yellow, Green & Brown
 \end_layout
 
 \end_inset
@@ -1218,11 +1218,11 @@ $800
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none" width="0.5in">
+<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none" width="0.8in">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown, Green & Yellow
+Yellow, Green & Brown
 \end_layout
 
 \end_inset
@@ -1291,7 +1291,7 @@ $900
 \begin_inset Text
 
 \begin_layout Plain Layout
-Brown, Green & Yellow
+Yellow, Green & Brown
 \end_layout
 
 \end_inset
