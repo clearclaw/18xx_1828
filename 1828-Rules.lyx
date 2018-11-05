@@ -4425,6 +4425,13 @@ status open
 
 \begin_layout Plain Layout
 1828 Game Map
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1828-Game-Map"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4597,6 +4604,13 @@ status open
 
 \begin_layout Plain Layout
 Stock Market
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stock-Market"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
