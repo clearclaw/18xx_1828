@@ -1382,8 +1382,8 @@ It must not have a bid.
 \end_layout
 
 \begin_layout Itemize
-If it is in a row with other private companies ($80, $120 or $250), all
- other private companies in that row must already have bids.
+If it is in a row with other private companies ($20, $80, $120 or $250),
+ all other private companies in that row must already have bids.
 \end_layout
 
 \begin_layout Itemize
@@ -1415,6 +1415,13 @@ A legal bid is any integer multiple of $5 more than the face value of the
  is the larger.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If a player's bid on a $250 private company is overbid, their bid is returned
+ to them and only the new larger bid remains on the private company.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 Pass.
@@ -1426,14 +1433,6 @@ A player that has passed may still act on future turns in the private auction.
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-And may at any time on their turn:
-\end_layout
-
-\begin_layout Itemize
-Retrieve their bid on a $250 private company that has been overbid.
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 If all players pass consecutively while one or more private companies remain
