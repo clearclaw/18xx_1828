@@ -8188,7 +8188,11 @@ The route for an
 \emph on
 N
 \emph default
- train cannot contain more than a total of 
+ train (where 
+\emph on
+N
+\emph default
+ is 2, 3, 5 or 6) cannot contain more than a total of 
 \emph on
 N
 \emph default
