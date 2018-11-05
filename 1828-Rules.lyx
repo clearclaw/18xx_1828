@@ -550,7 +550,7 @@ money:
 \end_layout
 
 \begin_layout Itemize
-5-players: $600
+5-players: $650
 \end_layout
 
 \end_deeper
@@ -4179,7 +4179,7 @@ name "sec:Map-Explanation"
 \end_layout
 
 \begin_layout Itemize
-The map consists of hexagons:
+The map consists of hexagons of various types:
 \end_layout
 
 \begin_deeper
@@ -4315,7 +4315,7 @@ reference "subsec:Run-train(s)"
 \end_layout
 
 \begin_layout Itemize
-Some hexagons are marked with a bob-ended bar, denoting that they are blocked
+Some hexagons are marked with a barbell, denoting that they are blocked
  by a matching private company (see  
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4380,7 +4380,7 @@ Revenue
 \end_inset
 
 center A location on a hexagon or track tile such as a city, town, coalfield
- or off-board which has an income or revenue value
+ or off-board that has an income or revenue value
 \end_layout
 
 \begin_layout Description
@@ -4393,7 +4393,7 @@ of
 \end_inset
 
 track A track-connection between a hexagon edge and a revenue center, or
- between a specific pair of hexagon edges one the same or different hexagons.
+ between a specific pair of hexagon edges on the same or different hexagons.
 \end_layout
 
 \end_deeper
@@ -4425,22 +4425,13 @@ The Stock Market consists of four regions:
 
 \begin_deeper
 \begin_layout Enumerate
-A large body of pale-background stock price boxes differentiated only by
- value and with no special rules.
+A large body of pale-background stock price boxes with no special rules.
 \end_layout
 
 \begin_layout Enumerate
 A diagonal line of yellow, green, blue and brown stock price boxes that
- mark possible starting or 
-\begin_inset Quotes eld
-\end_inset
-
-par
-\begin_inset Quotes erd
-\end_inset
-
- prices for newly floated public companies in those or later game phases
- (see 
+ mark possible par prices for newly floated public companies in those or
+ later game phases (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Starting-or-floating"
@@ -4457,27 +4448,9 @@ reference "tab:Game-Phases"
 ).
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-The marked par prices may be used in the matching colour game phases and
- all later game phases (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Game-Phases"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 A stock price of $500 with a red background.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The game ends if a stock price marker reaches $500 (see 
+ The game ends if a stock price marker reaches $500 (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Game-end-criteria"
@@ -4487,20 +4460,16 @@ reference "subsec:Game-end-criteria"
 ).
 \end_layout
 
-\end_deeper
 \begin_layout Enumerate
 A gray area toward the lower left.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Share companies with stock prices in the gray region are subject to additional
+ Share companies with stock prices in the gray region are subject to additional
  rules:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Players may buy past 60% of those companies (see 
+Players may buy shares of those companies even if they already own 60% or
+ more of them (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Buying-shares"
@@ -4536,10 +4505,9 @@ reference "subsec:Stock-price-movement"
 
 \end_deeper
 \end_deeper
-\end_deeper
 \begin_layout Itemize
-Share companies have a stock price which is tracked on the Stock Market
- with a stock price marker.
+Share companies have a stock price that is tracked on the Stock Market with
+ a stock price marker.
 \end_layout
 
 \begin_layout Itemize
@@ -4555,7 +4523,7 @@ reference "subsec:Starting-or-floating"
 \end_layout
 
 \begin_layout Itemize
-Share company stock price markers move in well defined ways (see 
+Share company stock price markers move in well-defined ways (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-price-movement"
@@ -4582,41 +4550,49 @@ The current stock price of a share company's shares is recorded on the Stock
 \end_layout
 
 \begin_layout Itemize
-For each 10% share sold by a player, the stock price marker is moved down
- one row (see 
+Stock price marker can move in four directions: up, down, left and right.
+ If a stock price marker is to be moved:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Up when it is at the top of a column, then it is moved right instead.
+\end_layout
+
+\begin_layout Itemize
+Down when it is at the bottom of a column, then it isn't moved.
+\end_layout
+
+\begin_layout Itemize
+Left when it is at the left end of a row, then it is moved down instead.
+\end_layout
+
+\begin_layout Itemize
+Right when it is at the right end of a row, then it is moved up instead.
+\end_layout
+
+\begin_layout Itemize
+Up or right when it is in the top right ($500) corner, then it isn't moved
+ and the game will end (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Selling-shares"
+reference "sec:Game-End"
 
 \end_inset
 
 ).
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-If a stock price marker is moved to a square that already contains other
- stock price markers, it is placed at the bottom of the stack.
-\end_layout
-
-\begin_layout Itemize
-If the stock price marker is moved to the bottom of a column of the Stock
- Market, then it is not moved any further by that stock sale action.
+Down or left when it is in a bottom left corner, then it isn't moved.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-If a share company pays a dividend during an Operating Round ($1 per share
- or more), then its stock price marker is moved one column to the right.
+When a stock price marker is moved, it is placed under any stock price markers
+ already present in the new location.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-If the stock price marker is already at the right end of a row in the Stock
- Market, it is moved up to the next higher row.
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 If a stock price marker reaches the top right corner of the Stock Market
  ($500), then the game will end (see 
@@ -4629,65 +4605,12 @@ reference "sec:Game-End"
 ).
 \end_layout
 
-\end_deeper
-\end_deeper
 \begin_layout Itemize
-If a share company does not pay a dividend or it withholds its dividend
- during an Operating Round, then its stock price marker is moved one column
- to the left.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If the stock price marker is already at the left end of a row in the Stock
- Market, then it is moved down to the next lower row.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If the stock price marker is in a bottom-left corner, then it is not moved.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-If at the end of a Stock Round:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A floated share company has no shares left in both the IPO and Bank Pool:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Then the stock price marker is moved up one row.
-\end_layout
-
-\begin_layout Itemize
-If the director owns at least 80% of the share company then the stock price
- marker is moved up an additional row.
-\end_layout
-
-\begin_layout Itemize
-If the stock price marker was in the gray area of the Stock Market at the
- start of its movements then the stock price marker is moved up an additional
- row.
-\end_layout
-
-\begin_layout Itemize
-If the stock price marker is already at the top row of that column for one
- of the movements, then the stock price marker is instead moved one column
- to the right.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-If a stock price reaches $500, the game ends (see 
+For each 10% share sold by a player, the stock price marker is moved down
+ one row (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Game-End"
+reference "subsec:Selling-shares"
 
 \end_inset
 
@@ -4695,10 +4618,45 @@ reference "sec:Game-End"
 \end_layout
 
 \begin_layout Itemize
-When a stock price marker is moved, it is placed under any stock price markers
- already present in the new location.
+If a floated share company pays a non-zero dividend during an Operating
+ Round, then its stock price marker is moved one column to the right.
+ 
 \end_layout
 
+\begin_layout Itemize
+If a floated share company does not pay a dividend or it withholds its dividend
+ during an Operating Round, then its stock price marker is moved one column
+ to the left.
+ 
+\end_layout
+
+\begin_layout Itemize
+At the end of a Stock Round, the stock price markers of floated share companies
+ that have no shares left in both the IPO and Bank Pool are moved up one
+ row in operating order (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:company-operating-order"
+
+\end_inset
+
+).
+ Additionally:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the director owns at least 80% of the share company then the stock price
+ marker is moved up one more row.
+\end_layout
+
+\begin_layout Itemize
+If the stock price marker was in the gray area of the Stock Market at the
+ start of its movements then the stock price marker is moved up one more
+ row.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 If shares of multiple companies are sold at the same time, the seller must
  decide the order in which they are sold and thus the order in which their
@@ -8392,6 +8350,13 @@ reference "subsec:Place-station-marker"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
