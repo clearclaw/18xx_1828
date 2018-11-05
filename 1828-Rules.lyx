@@ -4339,6 +4339,10 @@ reference "par:track-placement-Overview"
 \end_layout
 
 \begin_layout Itemize
+The Canada off-board is comprised of two hexagons A13 & A15.
+\end_layout
+
+\begin_layout Itemize
 The Virginia Coalfields (K11) has special rules for track placement and
  running trains (see 
 \begin_inset CommandInset ref
@@ -7957,8 +7961,15 @@ A route is a single continuous line of track that:
 
 \begin_deeper
 \begin_layout Itemize
-Contains at least two revenue centers each of which is a town, city, coalfield
- or off-board location.
+Contains at least two revenue centers (town, city, coalfield or off-board
+ location) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Map-Explanation"
+
+\end_inset
+
+).
  
 \end_layout
 
@@ -8032,6 +8043,10 @@ reference "subsec:Track-types"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Description
+Note: The Canada off-board is comprised of two hexagons (A13 & A15).
 \end_layout
 
 \end_deeper
@@ -8170,8 +8185,15 @@ name "subsec:Train-Limit"
 \end_layout
 
 \begin_layout Itemize
-The number of trains a share company shell can own is limited by the game
- phase (see 
+The number of trains a share company or system shell can own is limited
+ by the game phase (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Train-purchasing"
+
+\end_inset
+
+ & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Game-Phases"
@@ -8190,7 +8212,7 @@ reference "subsec:Systems"
 
 \begin_deeper
 \begin_layout Itemize
-A public company may own trains up to the current train limit 
+A public company can own trains up to the current train limit 
 \end_layout
 
 \begin_layout Itemize
@@ -8309,8 +8331,9 @@ A share company without a coal marker cannot:
 
 \begin_deeper
 \begin_layout Itemize
-Place track or station markers on a route that passes through the Virginia
- Coalfields (see 
+Place a track tile or station marker that cannot trace a route to one of
+ the company's station markers without passing through the Virginia Coalfields
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Track-placement-&-upgrades"
