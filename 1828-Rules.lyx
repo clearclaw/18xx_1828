@@ -2412,11 +2412,12 @@ The acting player announces which of the two public companies will remain
 \end_layout
 
 \begin_layout Enumerate
-The stock price of the new system is determined: moving up from the left-most
- of the two stock prices and then right across the top of the stock market,
- put the merger marker in the square with the largest value that is not
- larger than, the larger of the two stock prices plus half the smaller,
+The merger marker is placed on the stock price of the new system: moving
+ up from the left-most of the two stock prices and then right across the
+ top of the stock market, the new stock price is the largest value that
+ is not larger than the larger of the two stock prices plus half the smaller,
  rounding down.
+ 
 \end_layout
 
 \begin_layout Enumerate
