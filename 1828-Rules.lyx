@@ -375,7 +375,8 @@ name "sec:Game-Setup"
 \end_layout
 
 \begin_layout Itemize
-Place the map and Stock Market where they can be easily seen and accessed.
+Place the map, Stock Market, public company charters, shares and track tiles
+ where they can be easily seen and accessed.
 \end_layout
 
 \begin_layout Itemize
@@ -383,16 +384,6 @@ Pick otherwise unused areas around the board to serve as the IPO and Bank
  Pool
 \emph on
  (components not provided at this time).
-\end_layout
-
-\begin_layout Itemize
-Place public company charters and shares nearby where they can be easily
- seen & accessed.
-\end_layout
-
-\begin_layout Itemize
-Sort and place the track tiles nearby where they can be easily seen and
- accessed.
 \end_layout
 
 \begin_layout Itemize
@@ -550,7 +541,7 @@ money:
 \end_layout
 
 \begin_layout Itemize
-5-players: $650
+5-players: $640
 \end_layout
 
 \end_deeper
@@ -2776,27 +2767,13 @@ Face-down shares are turned face-up at the end of the trading process and
 
 \end_deeper
 \begin_layout Itemize
-If any of:
+If there are no more system shares for the player to trade up to, the player
+ has insufficient money to pay for the trade-up or the player declines to
+ pay for the trade-up, then the player must sell their single share to the
+ bank pool for its current stock value.
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-There are no more system shares for the player to trade up to.
-\end_layout
-
-\begin_layout Itemize
-The player has insufficient money to pay for the trade-up.
-\end_layout
-
-\begin_layout Itemize
-The player declines to pay for the trade-up.
-\end_layout
-
-\begin_layout Standard
-Then the player must sell their single share to the bank pool for its current
- stock value.
-\end_layout
-
 \begin_layout Itemize
 This counts as a sale of a system share for that player in that Stock Round
  (see 
@@ -2812,7 +2789,7 @@ reference "subsec:Buying-shares"
 \end_deeper
 \begin_layout Itemize
 If there are no remaining system shares for the bank pool or IPO to trade
- up to, any remaining players with untraded shares of the new system must
+ up to, any remaining players with un-traded shares of the new system must
  sell their shares for their current stock price.
 \end_layout
 
@@ -8157,8 +8134,8 @@ The routes can meet or cross at cities provided that they use entirely separate
 \end_deeper
 \begin_layout Itemize
 Off-board locations are termini.
- Routes may not run to an off-board location via one black arrow and proceed
- back onto the board via another.
+ Routes may not run to an off-board location via one black triangle and
+ proceed back onto the board via another.
 \end_layout
 
 \begin_layout Subsection
