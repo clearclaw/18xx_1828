@@ -68,12 +68,6 @@ company:
             "Banks & Money"
         _related_fill: ${colour/wikipedia/han_blue}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
-        bottom_note_text_text: |
-            May place an additional yellow track tile
-            (all placed tiles must be yellow) for $40
-
-            Purchase price of shares goes to bank.
-            Pool shares pay dividends to treasury.
       charter:
         ELEMENTS: ${TEMPLATE_CHARTER_track_hexes/.}
       token:
@@ -296,12 +290,6 @@ company:
         comment_text_text: |
             "Not Yet, No How & Hopeless"
         _related_fill: ${colour/hollasch/tan}
-        bottom_note_text_text: |
-            May place an additional yellow track tile
-            (all placed tiles must be yellow) for $40
-
-            Purchase price of shares goes to bank.
-            Pool shares pay dividends to treasury.
       charter:
         ELEMENTS: ${TEMPLATE_CHARTER_track_hexes/.}
       share:
