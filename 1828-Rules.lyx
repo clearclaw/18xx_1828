@@ -187,7 +187,7 @@ Baltimore & Ohio Railroad
 Carrollton
 \lang english
  laying the first stone of the Carrollton Viaduct.
- In 1828...the train rush had started.
+ In 1828, the train rush had started.
 \end_layout
 
 \begin_layout Standard
@@ -545,217 +545,6 @@ money:
 \end_layout
 
 \end_deeper
-\begin_layout Section
-Game Overview 
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:game-overview"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-1828 begins with the auction of the private companies (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Private-Auction"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-After auctioning the private companies, the game consists of an alternating
- series of Stock Rounds and sets of one to four Operating Rounds
-\noun on
-.
- 
-\noun default
-The round marker is used to track the game's progress through the rounds.
-\end_layout
-
-\begin_layout Itemize
-In Stock Rounds, players may buy and sell shares of share companies, take
- and lose directorship of share companies (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Companies"
-
-\end_inset
-
-), merge public companies into systems and float new public companies and
- systems (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Stock-Rounds"
-
-\end_inset
-
-).
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-At the end of each Stock Round, the player order for the next Stock Round
- is determined by the order in which the players cease acting (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Stock-Round-overview"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-The number of Operating Rounds per set after a Stock Round
-\noun on
- 
-\noun default
-is determined by the current game phase at the end of the Stock Round (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Game-Phases"
-
-\end_inset
-
-)
-\noun on
-.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-In Operating Rounds
-\noun on
-,
-\noun default
- share companies are operated by their directors: buying private companies
- from players, building track and stations, running and buying trains, and
- withholding or paying dividends to shareholders (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Operating-Rounds"
-
-\end_inset
-
-).
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Share companies act in Operating Rounds in descending order of their stock
- prices (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:company-operating-order"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The game starts in
-\noun on
- 
-\noun default
-yellow phase with the yellow trains (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Game-Phases"
-
-\end_inset
-
-).
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Game phases are tied to their matching train colours (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:Game-Phases"
-
-\end_inset
-
-) and change immediately when the first train of a new colour is bought
- by a company.
- 
-\end_layout
-
-\begin_layout Itemize
-New par prices, track tile types and other changes accompany some game phase
- changes (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Game-Phases"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The alternating sequence of Stock Rounds
-\noun on
- 
-\noun default
-and sets of Operating Rounds
-\noun on
- 
-\noun default
-continues until the end of the game (a player is agreed to have won, a player
- bankrupts, a stock price reaches $500, or a complete set of Operating Rounds
- is finished in purple phase) (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-End"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-The player with the largest net worth at the end of the game wins (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "sec:Game-End"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-The holdings of players, public companies and systems are public information
- and must be clearly displayed and visible to all players at all times.
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float table
 wide true
@@ -1331,6 +1120,217 @@ name "tab:Game-Phases"
 \end_layout
 
 \begin_layout Section
+Game Overview 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:game-overview"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+1828 begins with the auction of the private companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Private-Auction"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+After auctioning the private companies, the game consists of an alternating
+ series of Stock Rounds and sets of one to four Operating Rounds
+\noun on
+.
+ 
+\noun default
+The round marker is used to track the game's progress through the rounds.
+\end_layout
+
+\begin_layout Itemize
+In Stock Rounds, players may buy and sell shares of share companies, take
+ and lose directorship of share companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Companies"
+
+\end_inset
+
+), merge public companies into systems and float new public companies and
+ systems (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Stock-Rounds"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At the end of each Stock Round, the player order for the next Stock Round
+ is determined by the order in which the players cease acting (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Stock-Round-overview"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The number of Operating Rounds per set after a Stock Round
+\noun on
+ 
+\noun default
+is determined by the current game phase at the end of the Stock Round (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Game-Phases"
+
+\end_inset
+
+)
+\noun on
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In Operating Rounds
+\noun on
+,
+\noun default
+ share companies are operated by their directors: buying private companies
+ from players, building track and stations, running and buying trains, and
+ withholding or paying dividends to shareholders (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Operating-Rounds"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Share companies act in Operating Rounds in descending order of their stock
+ prices (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:company-operating-order"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The game starts in
+\noun on
+ 
+\noun default
+yellow phase with the yellow trains (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Game-Phases"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Game phases are tied to their matching train colours (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+) and change immediately when the first train of a new colour is bought
+ by a company.
+ 
+\end_layout
+
+\begin_layout Itemize
+New par prices, track tile types and other changes accompany some game phase
+ changes (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The alternating sequence of Stock Rounds
+\noun on
+ 
+\noun default
+and sets of Operating Rounds
+\noun on
+ 
+\noun default
+continues until the end of the game (a player is agreed to have won, a player
+ bankrupts, a stock price reaches $500, or a complete set of Operating Rounds
+ is finished in purple phase) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-End"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The player with the largest net worth at the end of the game wins (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-End"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The holdings of players, public companies and systems are public information
+ and must be clearly displayed and visible to all players at all times.
+\end_layout
+
+\begin_layout Section
 Private Auction 
 \begin_inset CommandInset label
 LatexCommand label
@@ -1364,7 +1364,8 @@ Each player in turn must do one of:
 
 \begin_deeper
 \begin_layout Itemize
-Buy and take the cheapest remaining private company for its cost.
+Buy and take a private company for its cost, subject to the following limitation
+s:
 \end_layout
 
 \begin_deeper
@@ -1373,11 +1374,15 @@ It must not have a bid.
 \end_layout
 
 \begin_layout Itemize
+It must be in the cheapest remaining row.
+\end_layout
+
+\begin_layout Itemize
 If it is in a row with other private companies ($20, $80, $120 or $250),
  all other private companies in that row must already have bids.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 This may cause the bids for other private companies
 \noun on
  
@@ -1394,16 +1399,15 @@ reference "subsec:Private-auction-resolution"
 
 \end_deeper
 \begin_layout Itemize
-Bid on any other remaining private company
+Bid on or increase their current bid any other remaining private company
 \noun on
 .
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-A legal bid is any integer multiple of $5 more than the face value of the
- private company or the largest bid currently on that private company, whichever
- is the larger.
+A legal bid is any integer multiple of $5 that is larger than the face value
+ of the private company and the largest bid currently on that private company.
 \end_layout
 
 \begin_deeper
@@ -1461,8 +1465,8 @@ Exception: The
 \noun on
 Cobourg & Peterborough Railway
 \noun default
- does not place a yellow track tile and instead pays a fixed revenue of
- $15 if owned by a player (see 
+, if owned by a player, pays a special revenue of $15 and does not place
+ a yellow track tile (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Private-Particulars"
@@ -1470,24 +1474,6 @@ reference "subsec:Private-Particulars"
 \end_inset
 
 ).
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-The cost of the 
-\noun on
-Schuylkill Valley Navigation
-\noun default
- is reduced by $20.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If the 
-\noun on
-Schuylkill Valley Navigation
-\noun default
- reaches a price of $0, the next player must purchase it for free.
 \end_layout
 
 \end_deeper
@@ -1520,8 +1506,9 @@ name "subsec:Private-auction-resolution"
 \end_layout
 
 \begin_layout Itemize
-After a player buys a private company, the new cheapest and left-most private
- company is checked for bids:
+After a player buys a private company (or when all players pass consecutively
+ while some private companies remain un-bought), the new cheapest and left-most
+ private company is checked for bids:
 \end_layout
 
 \begin_deeper
@@ -1553,7 +1540,7 @@ When only one bidder remains, that player takes the private company for
 \end_deeper
 \begin_layout Itemize
 This process repeats if the next cheapest and left-most private company
- has one or more bids, until: 
+ has one or more bids, until one of the following: 
 \end_layout
 
 \begin_deeper
@@ -1561,17 +1548,9 @@ This process repeats if the next cheapest and left-most private company
 A private company with no bids is reached.
 \end_layout
 
-\begin_layout Standard
-Or:
-\end_layout
-
 \begin_layout Itemize
 A row of private companies with the same cost is reached and one or more
  of them doesn't have a bid.
-\end_layout
-
-\begin_layout Standard
-Or:
 \end_layout
 
 \begin_layout Itemize
@@ -1579,7 +1558,8 @@ All the private companies have been purchased.
 \end_layout
 
 \begin_layout Standard
-In which case it is the next player's turn.
+In which case it is the next player's turn, following from the player whose
+ purchase of a private company or pass triggered the private auction resolution.
 \end_layout
 
 \end_deeper
@@ -5150,7 +5130,7 @@ Closes: At the start of red phase
 
 \begin_layout Description
 Power: The owning company may pay a fee of $120 to the bank, place or upgrade
- a track tile in Scranton (F20) and optionally also place a station marker
+ a track tile in Scranton (F20) and optionally also place a ssftation marker
  in Scranton (F20).
 \end_layout
 
@@ -5276,7 +5256,7 @@ Cobourg & Peterborough Railway's
 
 \begin_deeper
 \begin_layout Itemize
-The share company cannot have already placed a station marker in this Operating
+The share company cannot have already placed a station marker in that Operating
  Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted

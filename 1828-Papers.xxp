@@ -27,7 +27,7 @@ company:
     - token_embed
     - label_text
     - top_note_text
-    - bottom_note_text
+    - comment_text
     - long_name_text
     - token_1_circle
     - token_2_circle
@@ -328,7 +328,7 @@ company:
         token_3_text_text: $100
         _major_fill: ${colour/xxp/BLACK}
         _minor_fill: ${colour/xxp/BLACK}
-        comment_text_text:
+        comment_text_text: |
             "No You Can't"
         _related_fill: ${colour/x11/gray50}
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
