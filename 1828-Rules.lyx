@@ -1513,6 +1513,13 @@ After a player buys a private company (or when all players pass consecutively
 
 \begin_deeper
 \begin_layout Itemize
+If it is the first of a row of multiple private companies with the same
+ cost and one or more of them doesn't have a bid, then it is the next players
+ turn, following from the player whose purchase of a private company or
+ pass triggered the private auction resolution.
+\end_layout
+
+\begin_layout Itemize
 If it has exactly one bid, that bidder takes the private company for the
  cost of their bid.
  
@@ -1790,6 +1797,37 @@ The player number cards of the current colour are returned to the supply.
 \begin_layout Itemize
 The player number cards of the other colour will determine the player order
  in the next Stock Round.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+At the start of the first Stock Round in purple phase (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Game-Phases"
+
+\end_inset
+
+), blocking station markers are placed on the home stations of all companies
+ with an unbought director's share certificate (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Public-Companies"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the 
+\noun on
+Erie Railway (ERIE)
+\noun default
+, then blocking station markers are placed in both cities in Buffalo/Dunkirk
+ (E15).
 \end_layout
 
 \end_deeper
@@ -2347,8 +2385,8 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-A pair of companies, both parred in this Stock Round (one or both must have
- been floated).
+A pair of companies that were both not floated in a previous Stock Round,
+ but one or both must have been floated in this Stock Round.
 \end_layout
 
 \end_deeper
@@ -2511,7 +2549,7 @@ reference "subsec:Selling-shares"
 
 \end_inset
 
-).
+) but the stock price is not changed.
 \end_layout
 
 \end_deeper
@@ -3576,6 +3614,11 @@ All the trains of a given colour must be bought from the supply before the
 
 \end_deeper
 \begin_layout Itemize
+Trains are purchased one at a time with any phase changes occurring before
+ the company purchases any more trains in that Operating Round.
+\end_layout
+
+\begin_layout Itemize
 Game phase changes are caused by train purchases of new colours (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3665,8 +3708,10 @@ reference "subsec:Train-Limit"
 
 \begin_deeper
 \begin_layout Itemize
-If only one of the shells of a system has a train or trains the director
- may choose to enter Emergency Train Buying for the empty shell (see 
+If only one of the shells of a system has a train or trains and the company
+ has a route between one of its station markers and another revenue center,
+ the director may choose to enter Emergency Train Buying for the empty shell
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Emergency-train-buying"
@@ -3701,20 +3746,6 @@ reference "subsec:General-Route-definition"
 ) must own a train at the end of its operations.
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Exception: Unless there are no more trains available in the supply (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Train-purchasing"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 If the share company does not have enough money in its treasury to buy a
  train, and the company must own a train, then the additional necessary
@@ -3809,7 +3840,7 @@ A train bought from another share company with director's contributions
 
 \begin_layout Itemize
 A share company that buys a train with a director's contribution necessarily
- ends the operating round with no money in its treasury.
+ ends its operations with no money in its treasury.
 \end_layout
 
 \begin_layout Itemize
@@ -7969,6 +8000,11 @@ reference "tab:Game-Phases"
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Trains are purchased one at a time with any phase changes occurring before
+ the company purchases any more trains in that Operating Round.
+\end_layout
+
 \begin_layout Itemize
 The purchase of trains of new types causes phase changes and may change
  the train limit (see 
