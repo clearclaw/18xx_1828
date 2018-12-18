@@ -3366,7 +3366,7 @@ A share company cannot place:
 \begin_layout Itemize
 More than one station marker, not counting its home station(s), per Operating
  Round.
- A private company special power cannot be used by s share company to place
+ A private company special power cannot be used by a share company to place
  a second station marker in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -5182,7 +5182,7 @@ Closes: At the start of red phase
 
 \begin_layout Description
 Power: The owning company may pay a fee of $120 to the bank, place or upgrade
- a track tile in Scranton (F20) and optionally also place a ssftation marker
+ a track tile in Scranton (F20) and optionally also place a station marker
  in Scranton (F20).
 \end_layout
 
