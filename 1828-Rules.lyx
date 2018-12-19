@@ -2529,7 +2529,7 @@ If the total number of shares the player has of both public companies is
 \begin_layout Enumerate
 Starting with the next player in player number card order after the acting
  player and proceeding in rotating player number card order, ending with
- the active player:
+ the currently acting player:
 \end_layout
 
 \begin_deeper
