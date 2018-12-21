@@ -406,6 +406,8 @@ marker:
       token:
         _:
           short_name_text_text: C&P
+          short_name_text_fill: ${colour/xxp/WHITE}
+          name_stripe_box_fill: ${colour/xxp/BLACK}
         index: "$[index_of (1)]"
 
     coal:
