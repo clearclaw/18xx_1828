@@ -8170,7 +8170,7 @@ The routes can meet or cross at cities provided that they use entirely separate
 
 \end_deeper
 \begin_layout Itemize
-Off-board locations are termini.
+Off-board triangle connections are termini.
  Routes may not run to an off-board location via one black triangle and
  proceed back onto the board via another.
 \end_layout
