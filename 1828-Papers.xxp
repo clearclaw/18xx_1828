@@ -246,7 +246,7 @@ company:
         token_1_text_text: Free
         token_2_text_text: $100
         token_3_text_text: $100
-        _major_fill: ${colour/hollasch/blue}
+        _major_fill: ${colour/hollasch/cornflower}
         _minor_fill: ${colour/hollasch/blue}
         comment_text_text: |
             "Nickel Plate Road"
