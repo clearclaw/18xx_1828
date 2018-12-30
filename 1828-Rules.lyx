@@ -4733,7 +4733,7 @@ If a floated share company does not pay a dividend or it withholds its dividend
 \begin_layout Itemize
 At the end of a Stock Round, the stock price markers of floated share companies
  that have no shares left in both the IPO and Bank Pool are moved up one
- row in operating order (see 
+ row on the stock market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:company-operating-order"
@@ -5458,8 +5458,8 @@ Closes: At the start of red phase
 \end_layout
 
 \begin_layout Description
-Power: The owning share company may (once) place an additional yellow track
- tile for $20 paid to the bank as part of its normal track-build.
+Power: The owning share company may (once per game) place an additional
+ yellow track tile for $20 paid to the bank as part of its normal track-build.
  The owning share company cannot upgrade a track tile in that operating
  round.
  
