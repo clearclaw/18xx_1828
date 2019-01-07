@@ -1,6 +1,6 @@
-1828: An 18xx game set in the Eastern states of America featuring a
-great many companies, mergers, unusual private companies, a novel
-stock market and several other curiousities.
+1828: An 18xx game set in the Eastern States of America and features
+16 companies, unusual private companies, mergers, a novel stock
+market, no certificate limit and several other curiousities.
 
 If you make changes to this game under its Creative Commons license,
 to components, art-files, the rules or anything else, please also
