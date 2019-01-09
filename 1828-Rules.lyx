@@ -7722,26 +7722,50 @@ name "par:Virginia-Coalfields"
 \end_layout
 
 \begin_layout Itemize
-A share company that does not own a coal token (see 
+A share company that does not own a coal marker (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Coal-Markers"
 
 \end_inset
 
-) cannot place track that can't trace a route to one of the share company's
- station markers without passing through the Virginia Coalfields (K11),
- and cannot include the Virginia Coalfields (K11) on a train's route (see
- 
+) cannot:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Place a track tile or station marker that cannot trace a route to one of
+ the company's station markers without passing through the Virginia Coalfields
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "sec:Trains-and-Running-Trains"
+reference "subsec:Track-placement-&-upgrades"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Place-station-marker"
 
 \end_inset
 
 ).
 \end_layout
 
+\begin_layout Itemize
+Have one of its train routes end at or pass through the Virginia Coalfields
+ (K11) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:General-Route-definition"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Paragraph
 Virginia Coalfields Tunnel
 \begin_inset CommandInset label
@@ -8440,7 +8464,7 @@ A share company may not own or buy more than one coal marker.
 \end_layout
 
 \begin_layout Itemize
-A share company without a coal marker cannot:
+A share company that does not own a coal marker cannot:
 \end_layout
 
 \begin_deeper
@@ -8477,18 +8501,6 @@ reference "subsec:General-Route-definition"
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-A station marker cannot be placed in the Virginia Coalfields (K11) (see
- 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Place-station-marker"
-
-\end_inset
-
-).
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
