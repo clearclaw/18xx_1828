@@ -1830,7 +1830,7 @@ reference "subsec:Game-Phases"
 \end_inset
 
 ), blocking station markers are placed on the home stations of all companies
- with an unbought director's share certificate (see 
+ with an un-bought director's share certificate (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Public-Companies"
@@ -2415,7 +2415,7 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-A pair of companies that were both not floated in a previous Stock Round,
+A pair of companies, neither of which were floated in a previous Stock Round,
  but one or both must have been floated in this Stock Round.
 \end_layout
 
@@ -2475,6 +2475,7 @@ reference "subsec:Systems"
 \begin_layout Itemize
 If only one of the two companies had been floated, its treasury is discarded
  to the bank.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -2716,9 +2717,10 @@ reference "subsec:Starting-or-floating"
 ).
 \end_layout
 
-\begin_layout Itemize
+\end_deeper
+\begin_layout Enumerate
 If one of the two public companies was not floated at the start of the merger
- process:
+ process, when the merged company floats:
 \end_layout
 
 \begin_deeper
@@ -2740,7 +2742,6 @@ Money equal to 10 times the then current stock price at is put on the system's
  charter.
 \end_layout
 
-\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Paragraph
