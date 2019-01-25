@@ -2561,6 +2561,14 @@ reference "par:Share-trading-process"
 )..
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+Note: A player that sold a share of either of the two public companies in
+ the current Stock Round cannot trade one share to a system share and must
+ exchange that share for its current stock price as below.
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 Or:
 \end_layout
@@ -4018,17 +4026,22 @@ Private companies held by a player are scored at their face value.
 \end_layout
 
 \begin_layout Itemize
-If the 
-\noun on
-Pennsylvania Railroad (PRR)
-\noun default
- has not been parred, then its shares have no value.
-\end_layout
-
-\begin_layout Itemize
 All shares are valued at their stock price when the game ended.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If a share company was not parred (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Starting-or-floating"
+
+\end_inset
+
+), then its shares have no value.
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 
 \emph on
