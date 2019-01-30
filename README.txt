@@ -4,4 +4,4 @@ market, no certificate limit and several other curiousities.
 
 If you make changes to this game under its Creative Commons license,
 to components, art-files, the rules or anything else, please also
-change the name of your new game to somethng other than "1828".
+change the name of your new game to something other than "1828".
