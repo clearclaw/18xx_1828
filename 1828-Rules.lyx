@@ -5288,7 +5288,11 @@ reference "subsec:General-Route-definition"
 
 \end_inset
 
-).
+) and does not need to enclude the 
+\noun on
+Cobourg & Peterborough Railway's
+\noun default
+ station marker.
  The other half of the revenue is accumulated on the private company certificate
  as a treasury.
  If the player does not place or upgrade a track tile or there is only one
@@ -7152,7 +7156,7 @@ Erie Railway
 \noun default
  (
 \noun on
-EIRE
+ERIE
 \noun default
 ) is not required to place its home station in a specific city circle in
  Buffalo/Dunkirk (E15) unless and until a track tile has been placed on
@@ -7167,7 +7171,7 @@ Erie Railway
 \noun default
  (
 \noun on
-EIRE
+ERIE
 \noun default
 ) has floated and a track tile had not previously been placed on Buffalo/Dunkirk
  (E15), it must immediately place its home station on one of the Buffalo/Dunkirk
