@@ -391,6 +391,34 @@ company:
           fill:  ${colour/xxp/L_YELLOW}
         index: $[index_of (10)]
 
+    C&P:
+      _:
+        long_name_text_text: |
+            Cobourg & Peterborough
+            Railway
+        short_name_text_text: C&P
+        _major_fill: ${colour/xxp/WHITE}
+        _minor_fill: ${colour/xxp/WHITE}
+        middle_box_fill: ${_/_minor_fill}
+      charter:
+        index:
+      minor_charter:
+        _:
+          label_text_text: Treasury
+          comment_text_text: |
+              Owning player may place or upgrade track
+              tiles on a route connected to Peterborough
+              (C16). Half-pays the revenue of a 2-train
+              route from that track tile.
+        index: $[index_of (6)]
+      share:
+        index:
+      token:
+        _:
+          short_name_text_text: C&P
+          name_stripe_box_fill: ${colour/hollasch/light_goldenrod}
+        index: "$[index_of (1)]"
+
 marker:
   index:
 
@@ -401,14 +429,6 @@ marker:
           outer_circle_fill:  ${colour/xxp/BLACK}
         ELEMENTS: ${TEMPLATE_solid/.}
         index: "$[index_of (16)]"
-
-    C&P:
-      token:
-        _:
-          short_name_text_text: C&P
-          short_name_text_fill: ${colour/xxp/WHITE}
-          name_stripe_box_fill: ${colour/xxp/BLACK}
-        index: "$[index_of (1)]"
 
     coal:
       token:
@@ -839,13 +859,13 @@ train:
     xx_notecard:
       _:
         long_name_text_text: |
-            The second set
-            of player cards
-            are spares to
-            ease bulk
-            production
-            of the game.
-        long_name_text_size: 14
+            The second set of
+            # cards & extra
+            C&P charters are
+            spares to ease bulk
+            production of the
+            game.
+        long_name_text_size: 12
         cost_text_text:
         rusted_text_text:
 

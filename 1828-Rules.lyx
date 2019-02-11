@@ -294,6 +294,14 @@ Cobourg & Peterborough Railway
 \end_layout
 
 \begin_layout Itemize
+1 
+\noun on
+Cobourg & Peterborough Railway
+\noun default
+ (C&P) charter.
+\end_layout
+
+\begin_layout Itemize
 16 blocking station markers 
 \emph on
 (not count-limited)
@@ -5278,6 +5286,10 @@ Cobourg & Peterborough Railway
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
 Player revenue is half of the 2-train route (two revenue centers) that includes
  the placed tile.
  The placed track tile may be between the two revenue centers that form
@@ -5293,7 +5305,7 @@ reference "subsec:General-Route-definition"
 Cobourg & Peterborough Railway's
 \noun default
  station marker.
- The other half of the revenue is accumulated on the private company certificate
+ The other half of the revenue is accumulated on the private company charter
  as a treasury.
  If the player does not place or upgrade a track tile or there is only one
  revenue center on the route from the placed track tile, then the 
