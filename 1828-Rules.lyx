@@ -187,7 +187,7 @@ Baltimore & Ohio Railroad
 Carrollton
 \lang english
  laying the first stone of the Carrollton Viaduct.
- In 1828, the train rush had started.
+ In 1828, the rush to trains had started.
 \end_layout
 
 \begin_layout Standard
@@ -1518,7 +1518,7 @@ When all private companies have been purchased, the private auction ends:
 
 \begin_deeper
 \begin_layout Itemize
-The stock round starts with the the next player in rotating player number
+The Stock Round starts with the the next player in rotating player number
  card order.
 \end_layout
 
@@ -4424,7 +4424,7 @@ Revenue
 \end_inset
 
 center A location on a hexagon or track tile such as a city, town, coalfield
- or off-board that has an income or revenue value
+ or off-board that has an income or revenue value.
 \end_layout
 
 \begin_layout Description
@@ -4884,7 +4884,7 @@ name "subsec:Private-Companies-Overview"
 
 \begin_layout Itemize
 Private companies pay their revenue from the bank to their owners (a player
- or a share company) at the start of each operating round (see 
+ or a share company) at the start of each Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Operating-round-General"
@@ -5214,17 +5214,25 @@ Closes: At the start of red phase
 \begin_layout Description
 Power: The owning company may pay a fee of $120 to the bank, place or upgrade
  a track tile in Scranton (F20) and optionally also place a station marker
- in Scranton (F20).
-\end_layout
+ in Scranton (F20) without additional cost.
+\begin_inset Newline newline
+\end_inset
 
-\begin_deeper
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 This counts as a yellow track tile lay or upgrade respectively for the share
- company's normal track build.
- The track tile at Scranton (F20) does not need to connect to or be part
- of one of the owning share company's routes.
- The station marker cannot be placed in Scranton if the company has already
- placed a station marker in this Operating Round (see 
+ company's normal track build (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Build-track"
+
+\end_inset
+
+).
+ If a station marker was placed in Scranton, it counts as the company's
+ station marker placement for that Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Place-station-marker"
@@ -5232,12 +5240,14 @@ reference "subsec:Place-station-marker"
 \end_inset
 
 ).
+ The track tile at Scranton (F20) does not need to connect to or be part
+ of one of the owning share company's routes.
+ 
 \end_layout
 
-\end_deeper
 \begin_layout Description
-Use: The power may be used in the track building step of the owning share
- company's operations.
+Use: The power may be used in the track building and station placement steps
+ of the owning share company's operations.
 \end_layout
 
 \end_deeper
@@ -5305,8 +5315,11 @@ reference "subsec:General-Route-definition"
 Cobourg & Peterborough Railway's
 \noun default
  station marker.
- The other half of the revenue is accumulated on the private company charter
- as a treasury.
+ The other half of the revenue is accumulated on the 
+\noun on
+Cobourg & Peterborough Railway's
+\noun default
+ charter as a treasury.
  If the player does not place or upgrade a track tile or there is only one
  revenue center on the route from the placed track tile, then the 
 \noun on
@@ -5383,7 +5396,7 @@ Cobourg & Peterborough Railway
 \end_deeper
 \begin_layout Description
 Use: The power is used by the owning player during the private revenue step
- of operating rounds (see 
+ of Operating Rounds (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Operating-round-General"
@@ -5424,15 +5437,11 @@ Closes: When the power is used or at the start of red phase
 \end_layout
 
 \begin_layout Description
-Power: As the owning player's player's 
+Power: As the owning player's 
 \noun on
-s
+Stock Round 
 \noun default
-tock round
-\noun on
- 
-\noun default
-action in yellow phase or later, or at any time during an operating round,
+action in yellow phase or later, or at any time during an Operating Round,
  may be exchanged for any 10% share from the IPO or bank pool, or for 10%
  (half) of a director's certificate (the purchaser must pay for the other
  10%), if one is available.
@@ -5444,8 +5453,8 @@ Mohawk & Hudson Railroad
 \end_layout
 
 \begin_layout Description
-Use: The power is used as the owning player's action during a stock round
- or any time during an operating round.
+Use: The power is used as the owning player's action during a Stock Round
+ or any time during an Operating Round.
 \end_layout
 
 \begin_layout Description
@@ -5454,7 +5463,7 @@ Note: If the
 Mohawk & Hudson Railroad
 \noun default
  power is used to float a not-yet-floated public company or system during
- an operating round (see 
+ an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Starting-or-floating"
@@ -5499,8 +5508,8 @@ Closes: At the start of red phase
 \begin_layout Description
 Power: The owning share company may (once per game) place an additional
  yellow track tile for $20 paid to the bank as part of its normal track-build.
- The owning share company cannot upgrade a track tile in that operating
- round.
+ The owning share company cannot upgrade a track tile in that Operating
+ Round.
  
 \end_layout
 
@@ -8531,13 +8540,6 @@ reference "subsec:General-Route-definition"
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Game Phases 
 \begin_inset CommandInset label
@@ -8574,7 +8576,7 @@ Train limit is 4.
 \end_layout
 
 \begin_layout Itemize
-There is 1 operating round per set after stock rounds.
+There is 1 Operating Round per set after Stock Rounds.
 \end_layout
 
 \begin_layout Subsection
@@ -8602,7 +8604,7 @@ Train limit is 4.
 \end_layout
 
 \begin_layout Itemize
-There are 2 operating rounds per set after stock rounds.
+There are 2 Operating Rounds per set after Stock Rounds.
 \end_layout
 
 \begin_layout Subsection
@@ -8634,7 +8636,7 @@ Train limit is 4.
 \end_layout
 
 \begin_layout Itemize
-There are 2 operating rounds per set after stock rounds.
+There are 2 Operating Rounds per set after Stock Rounds.
 \end_layout
 
 \begin_layout Subsection
@@ -8658,11 +8660,15 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
+Revenue locations with multiple values use the second (brown) value.
+\end_layout
+
+\begin_layout Itemize
 Train limit is 3.
 \end_layout
 
 \begin_layout Itemize
-There are 3 operating rounds per set after stock rounds.
+There are 3 Operating Rounds per set after Stock Rounds.
 \end_layout
 
 \begin_layout Subsection
@@ -8686,6 +8692,10 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
+Revenue locations with multiple values use the second (brown) value.
+\end_layout
+
+\begin_layout Itemize
 All green trains are removed from the game.
 \end_layout
 
@@ -8694,7 +8704,7 @@ Train limit is 2.
 \end_layout
 
 \begin_layout Itemize
-There are 3 operating rounds per set after stock rounds.
+There are 3 Operating Rounds per set after Stock Rounds.
 \end_layout
 
 \begin_layout Subsection
@@ -8714,6 +8724,10 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
+Revenue locations with multiple values use the second (brown) value.
+\end_layout
+
+\begin_layout Itemize
 All blue trains are removed from the game.
 \end_layout
 
@@ -8722,7 +8736,7 @@ Train limit is 2.
 \end_layout
 
 \begin_layout Itemize
-There are 3 operating rounds per set after stock rounds.
+There are 3 Operating Rounds per set after Stock Rounds.
 \end_layout
 
 \begin_layout Subsection
@@ -8747,6 +8761,10 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
+Revenue locations with multiple values use the second (brown) value.
+\end_layout
+
+\begin_layout Itemize
 All brown trains are removed from the game.
 \end_layout
 
@@ -8755,11 +8773,11 @@ Train limit is 2.
 \end_layout
 
 \begin_layout Itemize
-There are 4 operating rounds per set after the stock round.
+There are 4 Operating Rounds per set after the Stock Round.
 \end_layout
 
 \begin_layout Itemize
-The game ends after the first set of operating rounds in purple phase.
+The game ends after the first set of Operating Rounds in purple phase.
 \end_layout
 
 \end_body
