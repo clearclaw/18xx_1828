@@ -4379,7 +4379,8 @@ reference "par:track-placement-Overview"
 \end_layout
 
 \begin_layout Itemize
-The Canada off-board is comprised of two hexagons A13 & A15.
+The Canada off-board is a single revenue center comprised of two hexagons
+ A13 & A15.
 \end_layout
 
 \begin_layout Itemize
@@ -4436,8 +4437,9 @@ of
 \begin_inset space ~
 \end_inset
 
-track A track-connection between a hexagon edge and a revenue center, or
- between a specific pair of hexagon edges on the same or different hexagons.
+track A continuous track-connection between a hexagon edge and a revenue
+ center, or between a specific pair of hexagon edges on the same or different
+ hexagons.
 \end_layout
 
 \end_deeper

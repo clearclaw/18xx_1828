@@ -4,8 +4,12 @@ set -e
 GAMENAME=1828
 
 dir_root=`pwd`
+
 mkdir -p build
 rm build/* || true
+
+\rm -f 1828-Map.png
+convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
 
 lyx --export pdf2 ./${GAMENAME}-Rules.lyx
 mv ./${GAMENAME}-Rules.pdf build
@@ -19,7 +23,7 @@ do
   xxpaper make 1828-Papers -p ${paper} -c build/1828-Papers-${paper}-outline.pdf
 done
 for suffix in Map-A4 Map-B2 Map-letter Market-A3 Market-A4 Market-letter \
-              Market-tabloid TrackTiles-letter-diecut
+              Market-tabloid TrackTiles-letter-diecut TrackTiles-letter-outline
 do
   cp ${GAMENAME}-${suffix}.pdf build
 done  
