@@ -8,8 +8,9 @@ dir_root=`pwd`
 mkdir -p build
 rm build/* || true
 
-\rm -f 1828-Map.png
+\rm -f 1828-Map.png 1828-Market.png
 convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
+convert -density 150 1828-Market-tabloid.pdf -quality 90 1828-Market.png
 
 lyx --export pdf2 ./${GAMENAME}-Rules.lyx
 mv ./${GAMENAME}-Rules.pdf build

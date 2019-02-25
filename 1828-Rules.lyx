@@ -4453,7 +4453,7 @@ status open
 \begin_inset Graphics
 	filename 1828-Map.png
 	lyxscale 20
-	width 7in
+	width 6.75in
 	height 8.5in
 	keepAspectRatio
 	rotateOrigin centerTop
@@ -4633,7 +4633,7 @@ status open
 \begin_inset Graphics
 	filename 1828-Market.png
 	lyxscale 50
-	width 6.75in
+	width 7in
 	height 8.5in
 	keepAspectRatio
 
