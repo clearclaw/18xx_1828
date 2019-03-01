@@ -6,7 +6,7 @@ GAMENAME=1828
 dir_root=`pwd`
 
 mkdir -p build
-rm -f build/*
+rm -f build/* || true # 'f' hides the error message, `true` hides the dir error
 
 \rm -f 1828-Map.png 1828-Market.png
 convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
