@@ -6,7 +6,7 @@ GAMENAME=1828
 dir_root=`pwd`
 
 mkdir -p build
-rm build/* || true
+rm -f build/*
 
 \rm -f 1828-Map.png 1828-Market.png
 convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
@@ -17,6 +17,7 @@ mv ./${GAMENAME}-Rules.pdf build
 
 cp ${GAMENAME}-Papers.xxp build/
 cp LICENSE build/
+cp masthead.jpg 1828-box-sides.pdf build/
 
 for paper in letter A4
 do
