@@ -1,5 +1,5 @@
 #! /bin/bash
-set -ex
+set -e
 
 GAMENAME=1828
 
