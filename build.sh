@@ -6,18 +6,21 @@ GAMENAME=1828
 dir_root=`pwd`
 
 mkdir -p build
-rm -f build/* || true # 'f' hides the error message, `true` hides the dir error
+rm -f build/* || true
 
 \rm -f 1828-Map.png 1828-Market.png
 convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
 convert -density 150 1828-Market-tabloid.pdf -quality 90 1828-Market.png
 
-lyx --export pdf2 ./${GAMENAME}-Rules.lyx
-mv ./${GAMENAME}-Rules.pdf build
+#lyx --export pdf2 ./${GAMENAME}-Rules.lyx
+#mv ./${GAMENAME}-Rules.pdf build
 
 cp ${GAMENAME}-Papers.xxp build/
-cp LICENSE build/
-cp masthead.jpg 1828-box-sides.pdf build/
+
+for file in LICENSE 1828-box-Letter.pdf 1828-box-A4.pdf
+do
+  cp ${file} build/
+done
 
 for paper in letter A4
 do
