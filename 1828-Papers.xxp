@@ -428,7 +428,7 @@ marker:
           name_stripe_box_suppress: True
           outer_circle_fill:  ${colour/xxp/BLACK}
         ELEMENTS: ${TEMPLATE_solid/.}
-        index: "$[index_of (16)]"
+        index: "$[index_of (8)]"
 
     coal:
       token:
