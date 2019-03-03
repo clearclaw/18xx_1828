@@ -3136,7 +3136,7 @@ reference "subsec:General-Route-definition"
 ) from one of its station markers to the Virginia Coalfields (K11), and
  that does not already own a coal token, may purchase a coal token from
  the supply on the Virginia Coalfields (K11) for $120 paid from its treasury
- to the bank at time during its operations (see 
+ to the bank at any time during its operations (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Coal-Markers"
