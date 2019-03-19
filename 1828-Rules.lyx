@@ -582,13 +582,14 @@ status open
 
 \begin_layout Description
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="7">
+<lyxtabular version="3" rows="8" columns="8">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="middle" width="0.6in">
 <column alignment="center" valignment="middle" width="0.6in">
 <column alignment="center" valignment="middle" width="1in">
 <column alignment="center" valignment="middle" width="0.6in">
 <column alignment="center" valignment="middle" width="0.5in">
+<column alignment="center" valignment="middle" width="0.8in">
 <column alignment="center" valignment="middle" width="0.8in">
 <column alignment="center" valignment="middle" width="0.75in">
 <row>
@@ -642,6 +643,15 @@ Train Limit
 
 \begin_layout Plain Layout
 Track Tiles Available
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operating Rounds per Set
 \end_layout
 
 \end_inset
@@ -715,6 +725,15 @@ Yellow
 \begin_inset Text
 
 \begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Yellow
 \end_layout
 
@@ -772,6 +791,15 @@ $160
 
 \begin_layout Plain Layout
 Yellow & Green
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
 \end_layout
 
 \end_inset
@@ -845,6 +873,15 @@ Yellow & Green
 \begin_inset Text
 
 \begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Yellow, Green & Blue 
 \end_layout
 
@@ -902,6 +939,15 @@ $350
 
 \begin_layout Plain Layout
 Yellow, Green & Brown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
 \end_layout
 
 \end_inset
@@ -975,6 +1021,15 @@ Yellow, Green & Brown
 \begin_inset Text
 
 \begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Yellow, Green, Blue & Brown
 \end_layout
 
@@ -1027,11 +1082,20 @@ $800
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none" width="0.8in">
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none" width="0.8in">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Yellow, Green & Brown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
 \end_layout
 
 \end_inset
@@ -1101,6 +1165,15 @@ $900
 
 \begin_layout Plain Layout
 Yellow, Green & Brown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
 \end_layout
 
 \end_inset
@@ -2482,8 +2555,8 @@ reference "subsec:Systems"
 \begin_deeper
 \begin_layout Itemize
 If only one of the two companies had been floated, its treasury is discarded
- to the bank.
- 
+ to the bank and any station markers on the charter are returned to the
+ supply.
 \end_layout
 
 \begin_layout Itemize
@@ -3801,13 +3874,13 @@ If the share company does not have enough money in its treasury to buy a
 
 \begin_deeper
 \begin_layout Itemize
-Money donated from the director's personal funds.
+Money contributed from the director's personal funds.
 \end_layout
 
 \begin_layout Itemize
 
 \emph on
-(if the director does not have enough money to donate to buy the train)
+(if the director does not have enough money to contribute to buy the train)
 \emph default
  The director must sell shares to raise the additional funds (see 
 \begin_inset CommandInset ref
@@ -4278,8 +4351,7 @@ Yellow
 \begin_inset space ~
 \end_inset
 
-hexagons: Yellow hexagons represent yellow pre-built track tiles on the
- map.
+hexagons: Yellow hexagons represent yellow pre-built track on the map.
  They can be upgraded using green track tiles in green phase or later (see
  
 \begin_inset CommandInset ref
@@ -4335,7 +4407,7 @@ Terrain is marked with a wavy line (river) or triangle (mountains) along
 \end_layout
 
 \begin_layout Itemize
-Revenue locations are marked with their revenue as a number in a small white
+Revenue centers are marked with their revenue as a number in a small white
  circle, or as a series of numbers matching the game phases (yellow/brown)
  at which they start applying (see 
 \begin_inset CommandInset ref
@@ -7732,9 +7804,9 @@ reference "sec:Map-Explanation"
 
 \end_deeper
 \begin_layout Itemize
-A share company placing a track tile on a river ($80) or mountain ($120)
- hexagon that has not previously contained a track tile must pay the terrain
- cost from its treasury to the bank before placing the tile (see 
+A company placing a track tile on a river ($80) or mountain ($120) hexagon
+ that has not previously contained a track tile must pay the terrain cost
+ from its treasury to the bank before placing the tile (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Map-Explanation"
@@ -8662,7 +8734,7 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
-Revenue locations with multiple values use the second (brown) value.
+Revenue centers with multiple values use the second (brown) value.
 \end_layout
 
 \begin_layout Itemize
@@ -8694,7 +8766,7 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
-Revenue locations with multiple values use the second (brown) value.
+Revenue centers with multiple values use the second (brown) value.
 \end_layout
 
 \begin_layout Itemize
@@ -8726,7 +8798,7 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
-Revenue locations with multiple values use the second (brown) value.
+Revenue centers with multiple values use the second (brown) value.
 \end_layout
 
 \begin_layout Itemize
@@ -8763,7 +8835,7 @@ Brown, green and yellow track tiles are available.
 \end_layout
 
 \begin_layout Itemize
-Revenue locations with multiple values use the second (brown) value.
+Revenue centers with multiple values use the second (brown) value.
 \end_layout
 
 \begin_layout Itemize
