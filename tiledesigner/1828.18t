@@ -1,0 +1,180 @@
+object TTilesWrapper
+  Collection = <
+    item
+      Code = 53L
+      Number= 53
+      LongName = '1828 Map Baltimore'
+      Category = 'Baltimore'
+      CategoryPosition = tp2SideD
+      Level = tlGreen
+      Connections = <
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideA
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideC
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideE
+        end>
+      Junctions = <
+        item
+          JunType = jtCity
+          Revenue = 50
+        end>
+    end
+
+    item
+      Code = 61L
+      Number = 61
+      LongName = '1828 Map Baltimore'
+      Category = 'Baltimore'
+      CategoryPosition = tp2SideD
+      Level = tlBrown
+      Connections = <
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideA
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideB
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideC
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideE
+        end>
+      Junctions = <
+        item
+          JunType = jtCity
+          Revenue = 60
+        end>
+    end
+
+    item
+      Code = 121L
+      Number = 121
+      LongName = '1828 Map Boston'
+      Category = 'Boston'
+      CategoryPosition = tp2SideA
+      Level = tlGreen
+      Connections = <
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideF
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideB
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideD
+        end>
+      Junctions = <
+        item
+          JunType = jtDoubleCity
+          Revenue = 50
+          RevenuePosition = tp3CornerF
+        end>
+    end
+
+    item
+        Code = 448
+        Number = 448
+        LongName = 448
+        Level = tlBrown
+        Connections = <
+        item
+                Position1 = tp4SideA
+                Position2 = tpCenter
+        end
+        item
+                Position1 = tp4SideB
+                Position2 = tpCenter
+        end
+        item
+                Position1 = tp4SideC
+                Position2 = tpCenter
+        end
+        item
+                Position1 = tp4SideD
+                Position2 = tpCenter
+        end>
+        Junctions = <
+        item
+                JunType = jtDoubleCity
+                Position = tpCenter
+                Revenue = 40
+        end>
+    end
+
+    item
+        Code = 449
+        Number = 449
+        LongName = 449
+        Level = tlBrown
+        Connections = <
+        item
+                Position1 = tp4SideA
+                Position2 = tpCenter
+        end
+        item
+                Position1 = tp4SideB
+                Position2 = tpCenter
+        end
+        item
+                Position1 = tp4SideE
+                Position2 = tpCenter
+        end
+        item
+                Position1 = tp4SideD
+                Position2 = tpCenter
+        end>
+        Junctions = <
+        item
+                JunType = jtDoubleCity
+                Position = tpCenter
+                Revenue = 40
+        end>
+    end
+
+    item
+      Code = 997L
+      Number = 997
+      LongName = '1828 Map Boston'
+      Category = 'Boston'
+      CategoryPosition = tp2SideD
+      Level = tlBrown
+      Connections = <
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideA
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideC
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideE
+        end
+        item
+          Position1 = tpCenter
+          Position2 = tp4SideF
+        end>
+      Junctions = <
+        item
+          JunType = jtDoubleCity
+          Revenue = 60
+        end>
+    end>
+
+end>

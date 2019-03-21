@@ -1,0 +1,47 @@
+Dictionary EU-orientations.18t
+Dictionary 1828.18t
+Dictionary Map.18t
+Style revenueSize=11.4
+Style revenueFont=Times-Roman
+#Style categorySize=12.3
+Style categorySize=11.5
+Style categoryFont=Times-Roman
+Render drawTileCode=1
+Render codeInsetDistance=1.0
+Render shiftEdgeCities=0
+
+1 1828 Tiles 1 of 6
+7 9 9 9 9 7/3
+7 9 9 9 9 7/3
+7 9 9 9 9 3/3
+7 9 9 9 9 3/3
+
+1 1828 Tiles 2 of 6
+8 4 4 8/5 8 8/5
+8 4 8/5 8 8/5 8
+8 4 8/5 8 8/5 8
+3 1 2 55 56 69
+
+1 1828 Tiles 3 of 6
+58 57 57 57 57 58/5
+58 57 57 57 57 8/5
+8 - 14 14 14 14
+15 15 15 15 14 14
+
+1 1828 Tiles 4 of 6
+19 20 23 23 23 23
+24 24 24 24 25/3 25
+25 26 26 27 27 28/3
+28 29/5 29 30 30 31
+
+1 1828 Tiles 5 of 6
+16 17 18 31 205 206
+121L/1 53L/1 54 59/5 59/4 59/4
+39 39/3 40 40/3 70/2 70/5
+41 41 42 42 43 43
+
+1 1828 Tiles 6 of 6
+44 44 45 45 46 46
+47 47 62 63 63 63
+448 448 449 449 61L/2 997L/1
+64 65 66 67 68 -

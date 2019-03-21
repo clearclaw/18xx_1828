@@ -1,0 +1,16 @@
+These files will be kept up to date on a vaguely best-effort basis.
+If they don't agree with the track-tile PDFs in the directory above,
+these files are out of date and the PDFs are correct.
+
+Note that I run a customised version of tile designer, tweaked both
+for its colours (below) and its typefaces (more extensive and
+undetailed at this time).  As such, plopping these files straight
+into an unadorned copy of tiledesigner will produce inaccurate
+results.
+
+  # x11/gold
+  'yellow'=> '1.0 0.843137254902 0.0',
+  # resene/DaisyBush
+  'green'=> '0.309804 0.596078 0.137255',
+  # resene/Hibiscus
+  'brown'=> '0.713725 0.423529 0.192157',
