@@ -4,6 +4,8 @@ set -e
 
 GAMENAME=1828
 
+./gitinfo_install
+
 ./build.sh 
 pushd build
   chmod 644 *
