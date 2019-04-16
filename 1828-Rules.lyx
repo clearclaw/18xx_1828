@@ -3286,9 +3286,9 @@ reference "subsec:Game-Phases"
 \end_layout
 
 \begin_layout Itemize
-A system may do this twice, but cannot upgrade two track tiles in the same
- Operating Round and cannot upgrade a track tile it placed in the same Operating
- Round.
+A system may do this twice, but cannot upgrade two track tiles or hexagons
+ in the same Operating Round and cannot upgrade a track tile it placed in
+ the same Operating Round.
 \end_layout
 
 \begin_layout Itemize
@@ -5547,6 +5547,20 @@ reference "subsec:Starting-or-floating"
 ) then the newly floated company will operate in the normal manner and order
  in that Operating Round if no other share companies have operated in that
  Operating Round and otherwise will operate in the next Operating Round.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Exchanging the 
+\noun on
+Mohawk & Hudson Railroad
+\noun default
+ private company for a 10% share of a company is not considered a purchase
+ and as such is not subject to the 60% limit or the limitation of not having
+ sold that company in that Stock Round.
 \end_layout
 
 \end_deeper
@@ -8576,6 +8590,15 @@ The supply of coal markers is limited to 3.
 A share company may not own or buy more than one coal marker.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If a share company that already owns a coal marker pays the $120 terrain
+ cost for the the Virginia Coalfields Tunnel (K13) and places a track tile
+ there, the coal marker on the Virginia Coalfields Tunnel (K13) is moved
+ to the supply on the Virginia Coalfields (K11).
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 A share company that does not own a coal marker cannot:
 \end_layout
