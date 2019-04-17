@@ -8592,10 +8592,9 @@ A share company may not own or buy more than one coal marker.
 
 \begin_deeper
 \begin_layout Itemize
-If a share company that already owns a coal marker pays the $120 terrain
- cost for the the Virginia Coalfields Tunnel (K13) and places a track tile
- there, the coal marker on the Virginia Coalfields Tunnel (K13) is moved
- to the supply on the Virginia Coalfields (K11).
+If a share company that already owns a coal marker places a track tile on
+ the Virginia Coalfields Tunnel (K13), the coal marker on the Virginia Coalfield
+s Tunnel (K13) is moved to the supply on the Virginia Coalfields (K11).
 \end_layout
 
 \end_deeper
