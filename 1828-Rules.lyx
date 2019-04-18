@@ -4487,6 +4487,12 @@ reference "subsec:Track-placement-&-upgrades"
 \end_layout
 
 \begin_layout Itemize
+A small gap in some printings of the the track line in E13 is the result
+ of a software bug and is unintentional.
+ The track in that hex connects D12 to Hamilton/Tononto (D14).
+\end_layout
+
+\begin_layout Itemize
 Related terms:
 \end_layout
 
