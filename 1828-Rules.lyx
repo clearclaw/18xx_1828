@@ -8600,7 +8600,22 @@ A share company may not own or buy more than one coal marker.
 \begin_layout Itemize
 If a share company that already owns a coal marker places a track tile on
  the Virginia Coalfields Tunnel (K13), the coal marker on the Virginia Coalfield
-s Tunnel (K13) is moved to the supply on the Virginia Coalfields (K11).
+s Tunnel (K13) is moved to the supply on the Virginia Coalfields (K11) (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Virginia-Coalfields"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Virginia-Coalfields-Tunnel"
+
+\end_inset
+
+)..
 \end_layout
 
 \end_deeper
