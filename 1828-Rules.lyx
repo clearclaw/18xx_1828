@@ -5695,7 +5695,11 @@ Closes: At the start of red phase or when the
 \noun on
 Canadian Pacific
 \noun default
- (CPR) share company acquires a train.
+ (CPR) share company or a system including the 
+\noun on
+Canadian Pacific
+\noun default
+ (CPR) acquires a train.
 \end_layout
 
 \begin_layout Description
@@ -5760,7 +5764,15 @@ Grand Trunk
 \noun on
 GT
 \noun default
-) share company acquires a train.
+) share company or a system including the 
+\noun on
+Grand Trunk 
+\noun default
+(
+\noun on
+GT
+\noun default
+) acquires a train.
 \end_layout
 
 \begin_layout Description
@@ -5827,7 +5839,15 @@ Illinois Central
 \noun on
 IC
 \noun default
-) share company acquires a train.
+) share company or a system including the 
+\noun on
+Illinois Central
+\noun default
+ (
+\noun on
+IC
+\noun default
+) acquires a train.
 \end_layout
 
 \begin_layout Description
@@ -5894,7 +5914,15 @@ Michigan Central
 \noun on
 MC
 \noun default
-) share company acquires a train.
+) share company or a system including the 
+\noun on
+Michigan Central
+\noun default
+ (
+\noun on
+MC
+\noun default
+) acquires a train.
 \end_layout
 
 \begin_layout Description
@@ -5961,7 +5989,15 @@ Missouri Pacific
 \noun on
 M
 \noun default
-P) share company acquires a train.
+P) share company or a system including the 
+\noun on
+Missouri Pacific
+\noun default
+ (
+\noun on
+M
+\noun default
+P) acquires a train.
 \end_layout
 
 \begin_layout Description
@@ -6030,7 +6066,16 @@ New York, Chicago & St.
 \noun on
 NKP
 \noun default
-) share company acquires a train.
+) share company or a system including the 
+\noun on
+New York, Chicago & St.
+ Louis Railroad
+\noun default
+ (
+\noun on
+NKP
+\noun default
+) acquires a train.
 \end_layout
 
 \begin_layout Description
@@ -6100,7 +6145,15 @@ Norfolk & Western
 \noun on
 NW
 \noun default
-) share company acquires a train.
+) share company or a system including the 
+\noun on
+Norfolk & Western
+\noun default
+ (
+\noun on
+NW
+\noun default
+) acquires a train.
 \end_layout
 
 \begin_layout Description
@@ -6167,7 +6220,15 @@ Ontario, Simcoe & Huron
 \noun on
 OS&H
 \noun default
-) share company acquires a train.
+) share company or a system including the 
+\noun on
+Ontario, Simcoe & Huron
+\noun default
+ (
+\noun on
+OS&H
+\noun default
+) acquires a train.
 \end_layout
 
 \begin_layout Description
