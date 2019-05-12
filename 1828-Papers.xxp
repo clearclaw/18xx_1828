@@ -472,7 +472,7 @@ private:
       _:
         asset_interior_box_fill: ${colour/scale/yellow_0}
         long_name_text_text: |
-            Schuykill Valley
+            Schuylkill Valley
             Navigation
         power_text_text: "Blocks: G19."
         cost_text_text: "Cost: $20"
@@ -491,7 +491,7 @@ private:
       _:
         asset_interior_box_fill: ${colour/scale/lime_0}
         long_name_text_text: |
-            Champlain & St Larence
+            Champlain & St Lawrence
             Railway
         power_text_text: |
             Blocks: Burlington (B24).

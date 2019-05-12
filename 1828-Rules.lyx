@@ -1378,7 +1378,7 @@ reference "tab:Game-Phases"
 \end_inset
 
 ) and change immediately when the first train of a new colour is bought
- by a company.
+ by a share company.
  
 \end_layout
 
@@ -1580,7 +1580,7 @@ reference "subsec:Private-Particulars"
 
 \end_deeper
 \begin_layout Itemize
-The auction resumes with the the next player in rotating player number card
+The auction resumes with the next player in rotating player number card
  order.
 \end_layout
 
@@ -1591,8 +1591,8 @@ When all private companies have been purchased, the private auction ends:
 
 \begin_deeper
 \begin_layout Itemize
-The Stock Round starts with the the next player in rotating player number
- card order.
+The Stock Round starts with the next player in rotating player number card
+ order.
 \end_layout
 
 \end_deeper
@@ -2496,8 +2496,8 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-A pair of companies, neither of which were floated in a previous Stock Round,
- but one or both must have been floated in this Stock Round.
+A pair of public companies, neither of which were floated in a previous
+ Stock Round, but one or both must have been floated in this Stock Round.
 \end_layout
 
 \end_deeper
@@ -2554,9 +2554,9 @@ reference "subsec:Systems"
 
 \begin_deeper
 \begin_layout Itemize
-If only one of the two companies had been floated, its treasury is discarded
- to the bank and any station markers on the charter are returned to the
- supply.
+If only one of the two public companies had been floated, its treasury is
+ discarded to the bank and any station markers on the charter are returned
+ to the supply.
 \end_layout
 
 \begin_layout Itemize
@@ -2809,7 +2809,7 @@ reference "subsec:Starting-or-floating"
 \end_deeper
 \begin_layout Enumerate
 If one of the two public companies was not floated at the start of the merger
- process, when the merged company floats:
+ process, when the merged company (system) floats:
 \end_layout
 
 \begin_deeper
@@ -3234,8 +3234,8 @@ reference "subsec:company-operating-order"
 
 \end_inset
 
-), or if it was the last company in operating order, the Operating Round
- ends (see 
+), or if it was the last share company in operating order, the Operating
+ Round ends (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:game-overview"
@@ -4154,8 +4154,8 @@ The designer would like to thank Francis Tresham for the design and development
  of inspiration, notions, complaints and sounding board in equal measures.
  In particular Daniel Barnes prompted key aspects of the train roster and
  got me to re-focus on aspects I had the most difficulty with as a player,
- Bruce Murphy made key suggestions around the the system formation rules,
- Roel prompted the key inspirations that drove player capitalisation amounts
+ Bruce Murphy made key suggestions around the system formation rules, Roel
+ prompted the key inspirations that drove player capitalisation amounts
  and the $250 private companies, Shelby Noonan helped with the tile roster
  and many map details & balances, and Brian Joughin helped with the rules.
  Additional thanks go to the many other play-testers too numerous to list.
@@ -4487,8 +4487,8 @@ reference "subsec:Track-placement-&-upgrades"
 \end_layout
 
 \begin_layout Itemize
-A small gap in some printings of the the track line in E13 is the result
- of a software bug and is unintentional.
+A small gap in some printings of the track line in E13 is the result of
+ a software bug and is unintentional.
  The track in that hex connects D12 to Hamilton/Tononto (D14).
 \end_layout
 
@@ -5522,9 +5522,16 @@ Power: As the owning player's
 Stock Round 
 \noun default
 action in yellow phase or later, or at any time during an Operating Round,
- may be exchanged for any 10% share from the IPO or bank pool, or for 10%
- (half) of a director's certificate (the purchaser must pay for the other
- 10%), if one is available.
+ may be exchanged for any 10% share certificate from the IPO or bank pool,
+ or for 10% (half) of a director's certificate (the purchaser must pay for
+ the other 10% and par the company in the normal manner, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Starting-or-floating"
+
+\end_inset
+
+), if one is available.
  The 
 \noun on
 Mohawk & Hudson Railroad
@@ -7759,6 +7766,15 @@ town: Have two distinct track lines, each of which has a small cross-bar
 \begin_layout Description
 Tunnel: Only a yellow #4 town track tile may be placed in the Virginia Coalfield
 s Tunnel (K13).
+ Once a track tile is placed on the Virginia Coalfields Tunnel (K13), it
+ is treated as a town (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Virginia-Coalfields-Tunnel"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
