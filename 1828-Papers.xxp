@@ -75,6 +75,9 @@ company:
           _major_fill: ${colour/wikipedia/ultramarine}
           _minor_fill: ${colour/wikipedia/ultramarine}
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (10)]"
@@ -139,6 +142,9 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (10)]"
@@ -300,7 +306,9 @@ company:
           _major_fill: ${colour/x11/sandybrown}
           _minor_fill: ${colour/x11/sandybrown}
           short_name_text_fill: $[black_or_white (${colour/x11/sandybrown})]
-          short_name_text_size: 11
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (10)]"
@@ -365,6 +373,11 @@ company:
         _share_pct_text_fill_x: ${colour/xxp/WHITE}
         short_name_text_fill: $[black_or_white (${colour/hollasch/cadmium_red_light})]
       token:
+        _:
+          short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
+          short_name_text_size: 12
+          short_name_text_x_inset: 0
+          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (11)]"
