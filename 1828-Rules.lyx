@@ -5381,7 +5381,7 @@ Cobourg & Peterborough Railway
 \end_inset
 
 Player revenue is half of the 2-train route (two revenue centers) that includes
- the placed tile.
+ the placed tile and any revenue center on it.
  The placed track tile may be between the two revenue centers that form
  the route or off one end (see 
 \begin_inset CommandInset ref
