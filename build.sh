@@ -24,7 +24,7 @@ do
   xxpaper make 1828-Papers -p ${paper} -c build/1828-Papers-${paper}-outline.pdf
   pdfunite masthead-${paper}.pdf box-sides-${paper}.pdf build/1828-BoxCovers-${paper}.pdf
 done
-for suffix in Map-A4 Map-B2 Map-letter Market-A3 Market-A4 Market-letter \
+for suffix in Map-A3 Map-A4 Map-B2 Map-letter Map-tabloid Market-A3 Market-A4 Market-letter \
               Market-tabloid TrackTiles-letter-diecut TrackTiles-letter-outline
 do
   cp ${GAMENAME}-${suffix}.pdf build

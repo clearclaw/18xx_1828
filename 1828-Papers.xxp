@@ -75,9 +75,6 @@ company:
           _major_fill: ${colour/wikipedia/ultramarine}
           _minor_fill: ${colour/wikipedia/ultramarine}
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (10)]"
@@ -142,9 +139,6 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (10)]"
@@ -306,9 +300,6 @@ company:
           _major_fill: ${colour/x11/sandybrown}
           _minor_fill: ${colour/x11/sandybrown}
           short_name_text_fill: $[black_or_white (${colour/x11/sandybrown})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (10)]"
@@ -375,9 +366,6 @@ company:
       token:
         _:
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
-          short_name_text_size: 12
-          short_name_text_x_inset: 0
-          short_name_text_y_inset: -2
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
         index: "$[index_of (11)]"
@@ -509,7 +497,7 @@ private:
         power_text_text: |
             Blocks: Burlington (B24).
             Owning corporation may place a free,
-            track tile at B25 at any time in
+            track tile at B24 at any time in
             its operations.
         cost_text_text: "Cost: $40"
         revenue_text_text: "Revenue: $10"

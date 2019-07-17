@@ -2488,7 +2488,7 @@ There are two forms of merger:
 
 \begin_deeper
 \begin_layout Itemize
-A pair of public companies floated in a previous Stock Round.
+A pair of public companies, each floated in a previous Stock Round.
 \end_layout
 
 \begin_layout Standard
@@ -2555,8 +2555,7 @@ reference "subsec:Systems"
 \begin_deeper
 \begin_layout Itemize
 If only one of the two public companies had been floated, its treasury is
- discarded to the bank and any station markers on the charter are returned
- to the supply.
+ discarded to the bank.
 \end_layout
 
 \begin_layout Itemize
@@ -2577,8 +2576,8 @@ If both merging public companies had station markers in the same hexagon:
 \begin_deeper
 \begin_layout Itemize
 One of the two station markers must be replaced with a blocking station
- marker (director's choice) and the removed station marker is returned to
- the new system's charter.
+ marker (active player's choice) and the removed station marker is returned
+ to the new system's charter.
 \end_layout
 
 \end_deeper
@@ -2597,7 +2596,7 @@ Starting with the acting payer and proceeding in rotating player number
 
 \begin_deeper
 \begin_layout Itemize
-Each player trades any pairs of shares they have of either and/or both merging
+Each player trades all pairs of shares they have of either and/or both merging
  public companies for single shares of the new system if available (see
  
 \begin_inset CommandInset ref
@@ -2683,7 +2682,14 @@ Bank pool shares followed by IPO shares of the merging public companies
 \end_layout
 
 \begin_layout Enumerate
-Any remaining discarded shares are placed in the bank pool.
+Any remaining discarded shares are placed in the bank pool (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Share-trading-process"
+
+\end_inset
+
+).
 \end_layout
 
 \end_deeper
@@ -2724,8 +2730,45 @@ reference "subsec:Systems"
 
 \begin_deeper
 \begin_layout Itemize
+The currently active player is the director of the system unless another
+ player owns more shares of the new system (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Company-directors"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
 The donated share is placed on the new system's charter (the director receives
  no compensation for the donated share).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The share donation may change which player is the director of the system
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Company-directors"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Systems"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Only one share can be donated to the system.
 \end_layout
 
 \begin_layout Itemize
@@ -2881,11 +2924,11 @@ If the receiving player doesn't have enough cash to pay for the share they
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-The IPO.
+The IPO, replacing it with a discarded share of the other public company.
 \end_layout
 
 \begin_layout Enumerate
-The bank pool.
+The bank pool, replacing it with a discarded share of the other public company.
 \end_layout
 
 \end_deeper
@@ -2904,6 +2947,11 @@ Face-down shares are turned face-up at the end of the trading process and
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Shares given in exchange for a system share during the trading process are
+ discarded shares.
+\end_layout
+
 \begin_layout Itemize
 If there are no more system shares for the player to trade up to, the player
  has insufficient money to pay for the trade-up or the player declines to
@@ -3648,7 +3696,7 @@ name "par:Train-purchasing"
 
 \begin_layout Itemize
 At the start of the train-buying step, a system may freely arrange its trains
- among its shells (see 
+ between its shells (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Systems"
@@ -3924,6 +3972,12 @@ If shares are sold such that director control of a different share company
  may be bought from it.
 \end_layout
 
+\begin_layout Itemize
+The director of the share company cannot contribute more money than is required
+ to buy the selected train and cannot sell additional shares once enough
+ money has been raised to buy the selected train.
+\end_layout
+
 \end_deeper
 \end_deeper
 \begin_layout Itemize
@@ -3946,11 +4000,6 @@ reference "subsec:Game-end-criteria"
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Itemize
-The share company director cannot contribute more money than is required
- to buy the selected train.
 \end_layout
 
 \begin_layout Itemize
@@ -4280,6 +4329,18 @@ reference "subsec:Buying-shares"
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Any offers, suggestions, negotiations or other game discussions must conform
+ to the above limits and must be fully communicated to all players when
+ they occur.
+ 
+\end_layout
+
+\begin_layout Itemize
+Any agreements or understandings among players must be disclosed to all
+ players.
+\end_layout
+
 \begin_layout Section
 Map
 \begin_inset CommandInset label
@@ -7388,14 +7449,6 @@ reference "subsec:Starting-or-floating"
 \end_layout
 
 \begin_layout Itemize
-If a player buys shares such that they own a larger percentage of the share
- company than the current director, they become the new company director
- and exchange company certificates totaling 20% of the company for the 20%
- director's certificate of the company, taking control of the company charter
- and its assets.
-\end_layout
-
-\begin_layout Itemize
 The director's certificate can never be sold, only transferred to another
  player.
  Once a company has floated, there is always a player that owns the 20%
@@ -7403,7 +7456,30 @@ The director's certificate can never be sold, only transferred to another
 \end_layout
 
 \begin_layout Itemize
-In order to transfer director control of a company via share sales:
+If a player acquires shares such that they own a larger percentage of the
+ share company than the current director, they become the new company director
+ and exchange company certificates totaling 20% of the company for the 20%
+ director's certificate of the company, taking control of the company charter
+ and its assets.
+\end_layout
+
+\begin_layout Itemize
+In order to transfer director control of a company via share sales or share
+ donation (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Selling-shares"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Merger-process:"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_deeper
@@ -7414,14 +7490,14 @@ Another player must own at least 20% of the company in order for the exchange
 
 \begin_layout Itemize
 The director's certificate must be exchanged for certificates of the player
- with the most shares of the company after the sale, assigning control of
- the public company and its charter and assets to that player.
+ with the most shares of the company after the sale or donation, assigning
+ control of the public company and its charter and assets to that player.
 \end_layout
 
 \begin_layout Itemize
-The previous director must sell sufficient shares of the public company
- such that they own fewer shares of the public company than the new director
- after the sale.
+The previous director must sell or donate sufficient shares of the public
+ company such that they own fewer shares of the public company than the
+ new director after the sale.
 \end_layout
 
 \begin_deeper
