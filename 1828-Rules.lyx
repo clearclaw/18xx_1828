@@ -7502,9 +7502,9 @@ The previous director must sell or donate sufficient shares of the public
 
 \begin_deeper
 \begin_layout Itemize
-In the case of a tie among other players for the most shares after the sale,
- the next tied player in player number card order from the current director
- becomes the new director.
+In the case of a tie among other players for the most shares after the sale
+ or donation, the next tied player in player number card order from the
+ current director becomes the new director.
 \end_layout
 
 \end_deeper
