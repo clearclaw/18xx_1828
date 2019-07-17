@@ -2730,7 +2730,7 @@ reference "subsec:Systems"
 
 \begin_deeper
 \begin_layout Itemize
-The currently active player is the director of the system unless another
+The currently active player is the director of the new system unless another
  player owns more shares of the new system (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -2738,7 +2738,7 @@ reference "subsec:Company-directors"
 
 \end_inset
 
-) 
+).
 \end_layout
 
 \begin_layout Itemize
