@@ -2805,8 +2805,8 @@ reference "subsec:Company-directors"
 
 \end_deeper
 \begin_layout Enumerate
-Shares of the new system can be bought and/or sold on subsequent turns in
- the normal manner (see 
+Shares of the new system can subsequently be bought and/or sold in the normal
+ manner (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Selling-shares"
@@ -2838,7 +2838,7 @@ reference "subsec:Buying-shares"
 \end_layout
 
 \begin_layout Itemize
-The resulting system has floated when no more than 4 shares of the system
+The resulting system has floated when no more than 40% of the system shares
  remain in the IPO (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -2870,8 +2870,8 @@ reference "tab:Public-Companies"
 \end_layout
 
 \begin_layout Itemize
-Money equal to 10 times the then current stock price at is put on the system's
- charter.
+Money equal to 10 times the then current stock price is put on the system's
+ charter as its treasury.
 \end_layout
 
 \end_deeper
@@ -5441,8 +5441,9 @@ Cobourg & Peterborough Railway
 \begin_inset Newline newline
 \end_inset
 
-Player revenue is half of the 2-train route (two revenue centers) that includes
- the placed tile and any revenue center on it.
+Player revenue is the owning player's choice of half of a 2-train route
+ (two revenue centers) that includes the placed tile and any revenue center
+ on it.
  The placed track tile may be between the two revenue centers that form
  the route or off one end (see 
 \begin_inset CommandInset ref

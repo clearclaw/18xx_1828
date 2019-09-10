@@ -77,7 +77,7 @@ company:
           short_name_text_fill: $[black_or_white (${colour/wikipedia/ultramarine})]
         ELEMENTS: ${TEMPLATE_solid/.}
         EMBED_ELEMENTS: ${TEMPLATE_solid_embed/.}
-        index: "$[index_of (10)]"
+        index: "$[index_of (11)]"
 
     B&O:
       _:
