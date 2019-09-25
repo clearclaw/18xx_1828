@@ -2568,7 +2568,8 @@ The merger marker is placed on the stock price of the new system: moving
 
 \begin_layout Enumerate
 The other public company's charter is placed partially underneath the new
- system's charter so that each can be clearly seen (see 
+ system's charter so that each can be clearly seen and the assets of the
+ two companies are combined (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Systems"
@@ -2608,6 +2609,18 @@ One of the two station markers must be replaced with a blocking station
 
 \end_deeper
 \end_deeper
+\begin_layout Itemize
+Any trains owned by the two public companies remain on the charters for
+ their respective shells (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Systems"
+
+\end_inset
+
+).
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 Players trade their shares of the two public companies for shares of the
