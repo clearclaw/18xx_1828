@@ -1542,8 +1542,8 @@ un-bought
 
 \begin_deeper
 \begin_layout Itemize
-All private companies with bids are auctioned or awarded for their bid in
- the normal manner, cheapest to most expensive, left to right (see 
+All private companies with bids are auctioned or awarded for their bid,
+ cheapest to most expensive, left to right (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Private-auction-resolution"
@@ -1553,6 +1553,33 @@ reference "subsec:Private-auction-resolution"
 ).
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If it has exactly one bid, that bidder takes the private company for the
+ cost of their bid.
+ 
+\end_layout
+
+\begin_layout Itemize
+If it has more than one bid, those players auction the private company among
+ themselves:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each player, in rotating order of increasing bids and starting with the
+ player with the lowest bid, either raises their bid on the private company
+ to a multiple of $5 more than the current highest bid on the private company,
+ or passes and drops out of the auction for that private company.
+\end_layout
+
+\begin_layout Itemize
+When only one bidder remains, that player takes the private company for
+ the cost of their bid and the other bidders recover their bids.
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Itemize
 All purchased private companies
 \noun on
@@ -1608,9 +1635,8 @@ name "subsec:Private-auction-resolution"
 \end_layout
 
 \begin_layout Itemize
-After a player buys a private company (or when all players pass consecutively
- while some private companies remain un-bought), the new cheapest and left-most
- private company is checked for bids:
+After a player buys a private company, the new cheapest and left-most private
+ company is checked for bids:
 \end_layout
 
 \begin_deeper
@@ -2534,9 +2560,9 @@ The acting player announces which of the two public companies will remain
 \begin_layout Enumerate
 The merger marker is placed on the stock price of the new system: moving
  up from the left-most of the two stock prices and then right across the
- top of the stock market, the new stock price is the largest value that
- is not larger than the larger of the two stock prices plus half the smaller,
- rounding down.
+ top line of the stock market, the new stock price is the largest value
+ that is not larger than the larger of the two stock prices plus half the
+ smaller, rounding down.
  
 \end_layout
 
