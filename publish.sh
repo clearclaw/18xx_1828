@@ -2,9 +2,13 @@
 
 set -e
 
+ARG="${1}"
 GAMENAME=1828
 
-./gitinfo_install
+if [ -n "${ARG}" ]
+then
+  ./gitinfo_install
+fi
 
 ./build.sh 
 pushd build
