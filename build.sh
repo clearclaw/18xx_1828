@@ -9,8 +9,9 @@ dir_root=`pwd`
 mkdir -p build
 rm -f build/* || true
 
-if [ -n "${ARG}" ]
+if [[ ! -f "1828-Market.png" || ! -f "1828-Map.png" ]]
 then
+  echo "Making rules images"
   \rm -f 1828-Map.png 1828-Market.png
   convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
   convert -density 150 1828-Market-tabloid.pdf -quality 90 1828-Market.png
