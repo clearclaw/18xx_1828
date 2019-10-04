@@ -1767,6 +1767,20 @@ Stock Rounds start with the player with the #1 player number card and proceed
  the largest player number card.
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+Exception: The first Stock Round after the private auction starts with the
+ next player in rotating player number card order (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Private-auction-process"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 On their turn a player may pass or do any or all of the following in the
  following order:
@@ -2624,7 +2638,14 @@ reference "subsec:Systems"
 \end_deeper
 \begin_layout Enumerate
 Players trade their shares of the two public companies for shares of the
- system:
+ system (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Merger-failure"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_deeper
@@ -2760,6 +2781,13 @@ The director of the new system must donate a 10% share certificate that
  they own of the new system to the new system's charter (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
+reference "par:Merger-failure"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
 reference "subsec:Systems"
 
 \end_inset
@@ -2810,26 +2838,6 @@ reference "subsec:Systems"
 Only one share can be donated to the system.
 \end_layout
 
-\begin_layout Itemize
-If the director does not have a 10% share certificate to donate to the new
- system, the merger has failed and all components and monies are returned
- to their previous positions.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In this case the acting player is considered to have passed on their turn
- in the Stock Round (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Stock-Round-overview"
-
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 The charter and control of the system is given to the player holding the
  director's certificate (see 
@@ -3022,6 +3030,52 @@ If there are no remaining system shares for the bank pool or IPO to trade
 The trading process then stops.
 \end_layout
 
+\begin_layout Paragraph
+Merger failure
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Merger-failure"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If upon completion of the share trading process no player holds at least
+ two shares and is thus the director of the company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Company-directors"
+
+\end_inset
+
+), or the director does not have a 10% share certificate to donate to the
+ new system (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Merger-process:"
+
+\end_inset
+
+), the merger has failed and all components and monies are returned to their
+ prior positions.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In this case the acting player is considered to have passed on their turn
+ in the Stock Round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Stock-Round-overview"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Operating Rounds
 \begin_inset CommandInset label
@@ -4779,7 +4833,7 @@ Share companies have a stock price that is tracked on the Stock Market with
 \end_layout
 
 \begin_layout Itemize
-When a share company is floated, its stock price marker is placed on the
+When a share company is parred, its stock price marker is placed on the
  matching location on the Stock Market (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
