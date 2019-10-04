@@ -1,6 +1,7 @@
 #! /bin/bash
-set -e
+set -ex
 
+ARG="${1}"
 GAMENAME=1828
 
 dir_root=`pwd`
@@ -8,9 +9,12 @@ dir_root=`pwd`
 mkdir -p build
 rm -f build/* || true
 
-\rm -f 1828-Map.png 1828-Market.png
-convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
-convert -density 150 1828-Market-tabloid.pdf -quality 90 1828-Market.png
+if [ -n "${ARG}" ]
+then
+  \rm -f 1828-Map.png 1828-Market.png
+  convert -density 150 1828-Map-B2.pdf -quality 90 1828-Map.png
+  convert -density 150 1828-Market-tabloid.pdf -quality 90 1828-Market.png
+fi
 
 lyx --export pdf2 ./${GAMENAME}-Rules.lyx
 mv ./${GAMENAME}-Rules.pdf build
