@@ -1,5 +1,5 @@
 #! /bin/bash
-set -ex
+set -e
 
 ARG="${1}"
 GAMENAME=1828
