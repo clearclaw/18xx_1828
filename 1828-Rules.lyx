@@ -19,6 +19,20 @@
 \usepackage[UKenglish]{datetime}
 \usepackage{lastpage}
 
+\usepackage{hyperref}
+\hypersetup{
+plainpages    = true,
+         breaklinks    = true,% not default in dvips mode, so we must specify
+         hypertexnames = false,%not ideal, but needed when pagenums duplicate (`i' vs. `1')
+         pageanchor    = true,
+         pagecolor     = blue,
+         anchorcolor   = blue,
+         colorlinks    = true, %Colours links instead of ugly boxes
+urlcolor      = blue, %Colour for external hyperlinks
+         linkcolor     = blue, %Colour of internal links
+         citecolor     = red %Colour of citations
+}
+
 \fancyhf{}
 
 \renewcommand{\headrulewidth}{1pt}
@@ -1598,7 +1612,7 @@ Cobourg & Peterborough Railway
  a yellow track tile (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
@@ -1872,7 +1886,7 @@ Mohawk & Hudson Railroad
  private company for any 10% share from the IPO or bank pool (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
@@ -3113,7 +3127,7 @@ Cobourg & Peterborough Railway
  pays the resulting revenue (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
@@ -3589,7 +3603,7 @@ Cobourg & Peterborough Railway
  private company without satisfying the above limits (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
@@ -3610,7 +3624,7 @@ More than one station marker, not counting its home station(s), per Operating
  a second station marker in an Operating Round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
@@ -3637,7 +3651,7 @@ A station marker in Buffalo/Dunkirk (E15) until the
  in that hexagon (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
@@ -5147,11 +5161,11 @@ Exception: The
 \noun on
  Cobourg & Peterborough Railway
 \noun default
- private company lays track and runs a train from the tile placed when it
- operates (see 
+ private company lays track and its revenue is defined by a train-route
+ from the tile placed when it operates (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
@@ -5161,18 +5175,18 @@ reference "subsec:Private-Particulars"
 \end_deeper
 \begin_layout Itemize
 All remaining private companies close at the start of red phase and are
- discarded from the game (see 
+ discarded from the game.
+ Some private companies may close earlier in the game (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "subsec:Saleable-private-companies"
 
 \end_inset
 
-).
- Some private companies close may closer earlier in the game (see 
+ & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Particulars"
+reference "par:Unsaleable-private-companies"
 
 \end_inset
 
@@ -5180,7 +5194,7 @@ reference "subsec:Private-Particulars"
 \end_layout
 
 \begin_layout Itemize
-In green phase or later, share companies may purchase private companies
+In green phase or later, share companies may purchase sellable private companies
  from players (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -5188,7 +5202,14 @@ reference "subsec:Operating-round-actions"
 
 \end_inset
 
-), at any time during the operation of the buying company.
+) at any time during the operation of the buying company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Saleable-private-companies"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_deeper
@@ -5218,7 +5239,19 @@ The owning company may use the special power of the private company, if
 
 \end_deeper
 \begin_layout Itemize
-Some private companies block specific hexagons on the map.
+Private companies with $250 face values cannot be bought by share companies
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Unsaleable-private-companies"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The saleable private companies block specific hexagons on the map.
  Track tiles cannot be built or upgraded at those hexagons by any private
  or share company until the matching private company has been purchased
  by a share company or closed.
@@ -5292,23 +5325,22 @@ blocks H22.
 
 \end_deeper
 \begin_layout Subsubsection
-Private company particulars
+Saleable private companies
 \begin_inset CommandInset label
 LatexCommand label
-name "subsec:Private-Particulars"
+name "subsec:Saleable-private-companies"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Schuylkill Valley Navigation
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5337,14 +5369,12 @@ Power: None.
 Use: N/A.
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Saint Clair Tunnel
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5373,15 +5403,13 @@ Power: None.
 Use: N/A.
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Champlain & St.
  Lawrence Railroad
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5415,14 +5443,12 @@ Power: The owning company may place a yellow track tile in B24 for free
 Use: The power may be used at any time during the owning company's operation.
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Delaware & Hudson Railroad
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5484,14 +5510,12 @@ Use: The power may be used in the track building and station placement steps
  of the owning share company's operations.
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Cobourg & Peterborough Railway
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5641,14 +5665,12 @@ reference "subsec:Operating-round-General"
 ).
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Mohawk & Hudson Railroad
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5731,14 +5753,12 @@ Mohawk & Hudson Railroad
  sold that company in that Stock Round.
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Erie & Kalamazoo Railroad
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5784,14 +5804,12 @@ Erie & Kalamazoo Railroad
  This is in addition to its normal operations.
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Paragraph
 
 \noun on
 Camden & Amboy Railroad
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 Face
 \begin_inset space ~
@@ -5828,532 +5846,80 @@ PRR
 ).
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
+\begin_layout Subsubsection
+Unsaleable private companies
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Unsaleable-private-companies"
 
-\noun on
-Canadian Pacific
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 8 unsaleable private companies correspond to 8 matching share companies
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Public-company-particulars"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Face
-\begin_inset space ~
-\end_inset
+\begin_layout Enumerate
 
-value: $250
-\end_layout
-
-\begin_layout Description
-Revenue: $40
-\end_layout
-
-\begin_layout Description
-Blocks: None
-\end_layout
-
-\begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-Canadian Pacific
-\noun default
- (CPR) share company or a system including the 
-\noun on
-Canadian Pacific
-\noun default
- (CPR) acquires a train.
-\end_layout
-
-\begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-Canadian Pacific
-\noun default
- (
-\noun on
-CPR)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
 \noun on
 Canadian Pacific (CPR)
-\noun default
- to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- Canadian Pacific
-\noun default
- private company cannot be purchased by a share company.
 \end_layout
 
-\begin_layout Description
-Use: None.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
-Grand Trunk
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Face
-\begin_inset space ~
-\end_inset
-
-value: $250
-\end_layout
-
-\begin_layout Description
-Revenue: $40
-\end_layout
-
-\begin_layout Description
-Blocks: None
-\end_layout
-
-\begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-Grand Trunk 
-\noun default
-(
-\noun on
-GT
-\noun default
-) share company or a system including the 
-\noun on
-Grand Trunk 
-\noun default
-(
-\noun on
-GT
-\noun default
-) acquires a train.
-\end_layout
-
-\begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-Grand Trunk 
-\noun default
-(
-\noun on
-GT)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
-\noun on
 Grand Trunk (GT)
-\noun default
- to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- Grand Trunk
-\noun default
- private company cannot be purchased by a share company.
 \end_layout
 
-\begin_layout Description
-Use: None.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 
-\noun on
-Illinois Central
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Face
-\begin_inset space ~
-\end_inset
-
-value: $250
-\end_layout
-
-\begin_layout Description
-Revenue: $40
-\end_layout
-
-\begin_layout Description
-Blocks: None
-\end_layout
-
-\begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-Illinois Central
-\noun default
- (
-\noun on
-IC
-\noun default
-) share company or a system including the 
-\noun on
-Illinois Central
-\noun default
- (
-\noun on
-IC
-\noun default
-) acquires a train.
-\end_layout
-
-\begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-Illinois Central
-\noun default
- (
-\noun on
-IC)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
 \noun on
 Illinois Central (IC)
-\noun default
- to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- Illinois Central
-\noun default
- private company cannot be purchased by a share company.
 \end_layout
 
-\begin_layout Description
-Use: None.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 
 \noun on
-Michigan Central
+Michigan Central (MC)
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Face
-\begin_inset space ~
-\end_inset
-
-value: $250
-\end_layout
-
-\begin_layout Description
-Revenue: $40
-\end_layout
-
-\begin_layout Description
-Blocks: None
-\end_layout
-
-\begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-Michigan Central
-\noun default
- (
-\noun on
-MC
-\noun default
-) share company or a system including the 
-\noun on
-Michigan Central
-\noun default
- (
-\noun on
-MC
-\noun default
-) acquires a train.
-\end_layout
-
-\begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-Michigan Central
-\noun default
- (
-\noun on
-MC)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
-\noun on
-Michigan Central
-\noun default
- (MC) to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- Michigan Central
-\noun default
- private company cannot be purchased by a share company.
-\end_layout
-
-\begin_layout Description
-Use: None.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 
 \noun on
-Missouri Pacific Railroad
+Missouri Pacific Railroad (MP)
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Face
-\begin_inset space ~
-\end_inset
-
-value: $250
-\end_layout
-
-\begin_layout Description
-Revenue: $40
-\end_layout
-
-\begin_layout Description
-Blocks: None
-\end_layout
-
-\begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-Missouri Pacific
-\noun default
- (
-\noun on
-M
-\noun default
-P) share company or a system including the 
-\noun on
-Missouri Pacific
-\noun default
- (
-\noun on
-M
-\noun default
-P) acquires a train.
-\end_layout
-
-\begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-Missouri Pacific
-\noun default
- (
-\noun on
-MP)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
-\noun on
-Missouri Pacific (MP)
-\noun default
- to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- Missouri Pacific
-\noun default
- private company cannot be purchased by a share company.
-\end_layout
-
-\begin_layout Description
-Use: None.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 
-\noun on
-New York, Chicago & St.
- Louis Railroad
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Face
-\begin_inset space ~
-\end_inset
-
-value: $250
-\end_layout
-
-\begin_layout Description
-Revenue: $40
-\end_layout
-
-\begin_layout Description
-Blocks: None
-\end_layout
-
-\begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-New York, Chicago & St.
- Louis Railroad
-\noun default
- (
-\noun on
-NKP
-\noun default
-) share company or a system including the 
-\noun on
-New York, Chicago & St.
- Louis Railroad
-\noun default
- (
-\noun on
-NKP
-\noun default
-) acquires a train.
-\end_layout
-
-\begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-New York, Chicago & St.
- Louis Railroad
-\noun default
- (
-\noun on
-NKP)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
 \noun on
 New York, Chicago & St.
  Louis Railroad (NKP)
-\noun default
- to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- New York, Chicago & St.
- Louis Railroad
-\noun default
- private company cannot be purchased by a share company.
 \end_layout
 
-\begin_layout Description
-Use: None.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 
-\noun on
-Norfolk & Western
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-Face
-\begin_inset space ~
-\end_inset
-
-value: $250
-\end_layout
-
-\begin_layout Description
-Revenue: $40
-\end_layout
-
-\begin_layout Description
-Blocks: None
-\end_layout
-
-\begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-Norfolk & Western
-\noun default
- (
-\noun on
-NW
-\noun default
-) share company or a system including the 
-\noun on
-Norfolk & Western
-\noun default
- (
-\noun on
-NW
-\noun default
-) acquires a train.
-\end_layout
-
-\begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-Norfolk & Western
-\noun default
- (
-\noun on
-NW)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
 \noun on
 Norfolk & Western (NW)
-\noun default
- to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- Norfolk & Western
-\noun default
- private company cannot be purchased by a share company.
 \end_layout
 
-\begin_layout Description
-Use: None.
-\end_layout
-
-\end_deeper
 \begin_layout Enumerate
 
 \noun on
-Ontario, Simcoe & Huron
+Ontario, Simcoe & Huron (OS&H)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Each of the unsaleable private companies has the following attributes:
 \end_layout
 
 \begin_deeper
@@ -6374,57 +5940,43 @@ Blocks: None
 \end_layout
 
 \begin_layout Description
-Closes: At the start of red phase or when the 
-\noun on
-Ontario, Simcoe & Huron
-\noun default
- (
-\noun on
-OS&H
-\noun default
-) share company or a system including the 
-\noun on
-Ontario, Simcoe & Huron
-\noun default
- (
-\noun on
-OS&H
-\noun default
-) acquires a train.
+Closes: At the start of red phase or when the matching share company or
+ a system including that share company as a constituent acquires a train.
 \end_layout
 
 \begin_layout Description
-Power: When purchased during the private auction comes with the 20% director's
- certificate and a 10% share certificate of the 
-\noun on
-Ontario, Simcoe & Huron
-\noun default
- (
-\noun on
-OS&H)
-\noun default
- share company.
- The buying player must immediately set the par price for the 
-\noun on
-Ontario, Simcoe & Huron (OS&H)
-\noun default
- to any yellow par price
-\noun on
-.
- 
-\noun default
-The
-\noun on
- Ontario, Simcoe & Huron
-\noun default
- private company cannot be purchased by a share company.
+Power: None
 \end_layout
 
 \begin_layout Description
 Use: None.
 \end_layout
 
+\begin_layout Description
+Note: When purchased during the private auction comes with the 20% director's
+ certificate and a 10% share certificate of the matching share company.
+ The buying player must immediately set the par price for the matching share
+ company to any yellow par price
+\noun on
+.
+ 
+\noun default
+An unsaleable private company cannot be purchased by a share company.
+\end_layout
+
 \end_deeper
+\begin_layout Itemize
+A subset of the unsaleable private companies are used in each game (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Game-Setup"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Subsection
 Public companies
 \begin_inset CommandInset label
