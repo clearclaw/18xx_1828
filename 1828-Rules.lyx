@@ -1250,7 +1250,7 @@ name "sec:game-overview"
 1828 begins with the auction of the private companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Private-Auction"
+reference "sec:Private-Auction"
 
 \end_inset
 
@@ -1317,7 +1317,7 @@ reference "tab:Game-Phases"
  & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -1374,7 +1374,7 @@ reference "tab:Game-Phases"
  & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -1401,7 +1401,7 @@ New par prices, track tile types and other changes accompany some game phase
  changes (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -1450,7 +1450,7 @@ The holdings of players, public companies and systems are public information
 Private Auction 
 \begin_inset CommandInset label
 LatexCommand label
-name "subsec:Private-Auction"
+name "sec:Private-Auction"
 
 \end_inset
 
@@ -1612,7 +1612,7 @@ Cobourg & Peterborough Railway
  a yellow track tile (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Saleable-private-companies"
+reference "par:Cobourg-&-Peterborough"
 
 \end_inset
 
@@ -1886,7 +1886,7 @@ Mohawk & Hudson Railroad
  private company for any 10% share from the IPO or bank pool (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Saleable-private-companies"
+reference "par:Mohawk-&-Hudson"
 
 \end_inset
 
@@ -1960,7 +1960,7 @@ The player number cards of the other colour will determine the player order
 At the start of the first Stock Round in purple phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -2013,7 +2013,7 @@ set
  
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -2181,7 +2181,7 @@ Exception: Director's certificates cannot be bought in purple phase (see
  
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -2368,7 +2368,7 @@ Directors' certificates can be bought from the IPO in any Stock Round, except
  during purple phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -2390,7 +2390,7 @@ Selecting an available par price for the public company, limited by the
  current game phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -2521,6 +2521,13 @@ name "subsec:Merging-companies-into"
 
 \begin_layout Subsubsection
 Merger overview
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Merger-overview"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -3127,7 +3134,7 @@ Cobourg & Peterborough Railway
  pays the resulting revenue (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Saleable-private-companies"
+reference "par:Cobourg-&-Peterborough"
 
 \end_inset
 
@@ -3433,7 +3440,7 @@ reference "subsec:Upgrading-track"
  & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -3603,7 +3610,14 @@ Cobourg & Peterborough Railway
  private company without satisfying the above limits (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Saleable-private-companies"
+reference "par:Delaware-&-Hudson"
+
+\end_inset
+
+ & 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Cobourg-&-Peterborough"
 
 \end_inset
 
@@ -3651,7 +3665,7 @@ A station marker in Buffalo/Dunkirk (E15) until the
  in that hexagon (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Saleable-private-companies"
+reference "subsec:Public-companies"
 
 \end_inset
 
@@ -3837,7 +3851,7 @@ A public company or system shell that has not reached its train limit may
  game phase change caused by the purchase takes effect (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -3904,7 +3918,7 @@ reference "tab:Game-Phases"
  and 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -3924,7 +3938,7 @@ rust
  and be removed from the game (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -3935,7 +3949,7 @@ reference "subsec:Game-Phases"
 Some game phase changes reduce the train limit (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -4219,7 +4233,7 @@ reference "subsec:Scoring"
 After the first complete set of Operating Rounds in purple phase (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -4334,7 +4348,7 @@ Addenda
 Negotiation 
 \begin_inset CommandInset label
 LatexCommand label
-name "subsec:Negotiation"
+name "sec:Negotiation"
 
 \end_inset
 
@@ -4524,7 +4538,7 @@ hexagons: Yellow hexagons represent yellow pre-built track on the map.
  
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -5165,7 +5179,7 @@ Exception: The
  from the tile placed when it operates (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Saleable-private-companies"
+reference "par:Cobourg-&-Peterborough"
 
 \end_inset
 
@@ -5179,14 +5193,7 @@ All remaining private companies close at the start of red phase and are
  Some private companies may close earlier in the game (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Saleable-private-companies"
-
-\end_inset
-
- & 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "par:Unsaleable-private-companies"
+reference "subsec:Private-Companies"
 
 \end_inset
 
@@ -5339,6 +5346,13 @@ name "subsec:Saleable-private-companies"
 
 \noun on
 Schuylkill Valley Navigation
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Schuylkill-Valley-Navigation"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -5373,6 +5387,13 @@ Use: N/A.
 
 \noun on
 Saint Clair Tunnel
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Saint-Clair-Tunnel"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -5408,6 +5429,13 @@ Use: N/A.
 \noun on
 Champlain & St.
  Lawrence Railroad
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Champlain-&-St."
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -5447,6 +5475,13 @@ Use: The power may be used at any time during the owning company's operation.
 
 \noun on
 Delaware & Hudson Railroad
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Delaware-&-Hudson"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -5514,6 +5549,13 @@ Use: The power may be used in the track building and station placement steps
 
 \noun on
 Cobourg & Peterborough Railway
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Cobourg-&-Peterborough"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -5669,6 +5711,13 @@ reference "subsec:Operating-round-General"
 
 \noun on
 Mohawk & Hudson Railroad
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Mohawk-&-Hudson"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -5757,6 +5806,13 @@ Mohawk & Hudson Railroad
 
 \noun on
 Erie & Kalamazoo Railroad
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Erie-&-Kalamazoo"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -5808,6 +5864,13 @@ Erie & Kalamazoo Railroad
 
 \noun on
 Camden & Amboy Railroad
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Camden-&-Amboy"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -6067,7 +6130,7 @@ Public companies may:
 Buy private companies (green phase or later, see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -8270,7 +8333,7 @@ reference "par:Train-purchasing"
  & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Game-Phases"
+reference "sec:Game-Phases"
 
 \end_inset
 
@@ -8464,7 +8527,7 @@ reference "subsec:General-Route-definition"
 Game Phases 
 \begin_inset CommandInset label
 LatexCommand label
-name "subsec:Game-Phases"
+name "sec:Game-Phases"
 
 \end_inset
 
