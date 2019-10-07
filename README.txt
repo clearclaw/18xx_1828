@@ -10,5 +10,6 @@ to components, art-files, the rules or anything else, please also
 change the name of your new game to something other than "1828".
 
 Note that under this license a commercial service cannot be used for
-printing the game or any part of it.  License is given solely for
-private reproduction of the game.
+printing or making the game or any part of it.  License is given
+solely for private reproduction of the game without the use of third
+party services.

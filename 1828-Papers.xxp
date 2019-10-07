@@ -349,7 +349,7 @@ company:
     PRR:
       _:
         long_name_text_text: |
-             Pennsylania
+             Pennsylvania
              Railroad
         short_name_text_text: PRR
         token_1_text_text: Free
