@@ -2735,8 +2735,8 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-Put that single share in the bank pool in exchange for its current stock
- price from the bank.
+Discard that single share in exchange for its current stock price from the
+ bank.
 \end_layout
 
 \begin_deeper
@@ -2756,10 +2756,10 @@ reference "subsec:Selling-shares"
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-Bank pool shares followed by IPO shares of the merging public companies
+All bank pool shares followed by all IPO shares of the merging public companies
  are traded for system shares.
- First, pairs of shares, then any remaining single shares are traded up
- to system shares.
+ First pairs of shares, then any remaining single shares are traded up to
+ system shares.
 \end_layout
 
 \begin_layout Enumerate
@@ -2984,8 +2984,8 @@ The other player must give or take money to or from the bank to cover any
 \begin_deeper
 \begin_layout Itemize
 If the receiving player doesn't have enough cash to pay for the share they
- receive, they must instead put the share in the bank pool and take its
- current stock value from the bank in cash.
+ receive, they must instead discard the share and take its current stock
+ value from the bank in cash.
  
 \end_layout
 
@@ -3016,8 +3016,8 @@ Face-down shares are turned face-up at the end of the trading process and
 
 \end_deeper
 \begin_layout Itemize
-Shares given in exchange for a system share during the trading process are
- discarded shares.
+Shares given in exchange for a system share or discarded during the trading
+ process are discarded shares.
 \end_layout
 
 \begin_layout Itemize
@@ -3044,7 +3044,7 @@ reference "subsec:Buying-shares"
 \begin_layout Itemize
 If there are no remaining system shares for the bank pool or IPO to trade
  up to, any remaining players with un-traded shares of the new system must
- sell their shares for their current stock price.
+ discard their shares for their current stock price.
 \end_layout
 
 \begin_layout Itemize
@@ -3572,15 +3572,9 @@ s line of track to a previously placed station marker of that company:
 \begin_deeper
 \begin_layout Itemize
 Without passing through a city all of whose station-marker spaces are filled
- with:
+ with other companies' station markers and/or blocking station markers.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Other company's station markers and/or blocking station markers.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Without passing through the Virginia Coalfields (K11) if the company does
  not own a coal marker (see 
@@ -5259,8 +5253,8 @@ reference "par:Unsaleable-private-companies"
 
 \begin_layout Itemize
 The saleable private companies block specific hexagons on the map.
- Track tiles cannot be built or upgraded at those hexagons by any private
- or share company until the matching private company has been purchased
+ Track tiles cannot be built or upgraded at those hexagons by any other
+ private or share company until the matching private company has been purchased
  by a share company or closed.
 \end_layout
 
@@ -5465,6 +5459,9 @@ Closes: At the start of red phase
 Power: The owning company may place a yellow track tile in B24 for free
  at any time in its operations.
  This does not count as part of the owning company's track lay.
+ The track tile at Burlington (B24) does not need to connect to or be part
+ of one of the owning share company's routes.
+ 
 \end_layout
 
 \begin_layout Description
@@ -7640,7 +7637,7 @@ After placing or upgrading a track tile the placing share company must be
 \begin_deeper
 \begin_layout Itemize
 Passing through a city with all of station-marker spaces filled with other
- share companies' station or blocking station markers.
+ companies' station or blocking station markers.
 \end_layout
 
 \begin_layout Itemize
@@ -7737,13 +7734,6 @@ reference "sec:Coal-Markers"
 Place a track tile or station marker that cannot trace a route to one of
  the company's station markers without passing through the Virginia Coalfields
  (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Track-placement-&-upgrades"
-
-\end_inset
-
- & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Place-station-marker"
