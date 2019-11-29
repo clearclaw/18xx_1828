@@ -48,6 +48,9 @@ plainpages    = true,
 \fancyfoot[C]{Page: \thepage\  of  \pageref{LastPage}}
 
 \pagestyle{fancy}
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
 \end_preamble
 \options ,UKenglish
 \use_default_options true
@@ -2671,7 +2674,7 @@ reference "par:Merger-failure"
 
 \begin_deeper
 \begin_layout Enumerate
-Starting with the acting payer and proceeding in rotating player number
+Starting with the acting player and proceeding in rotating player number
  card order:
 \end_layout
 
@@ -2755,15 +2758,13 @@ reference "subsec:Selling-shares"
 \end_deeper
 \end_deeper
 \end_deeper
+\end_deeper
 \begin_layout Enumerate
 All bank pool shares followed by all IPO shares of the merging public companies
  are traded for system shares.
  First pairs of shares, then any remaining single shares are traded up to
  system shares.
-\end_layout
-
-\begin_layout Enumerate
-Any remaining discarded shares are placed in the bank pool (see 
+ Any remaining discarded shares are placed in the bank pool (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "par:Share-trading-process"
@@ -2773,7 +2774,6 @@ reference "par:Share-trading-process"
 ).
 \end_layout
 
-\end_deeper
 \begin_layout Enumerate
 The merger marker is replaced with the stock marker of the new system.
 \end_layout
@@ -2788,8 +2788,6 @@ Systems
 \end_inset
 
  box on the par chart.
- indicating that all pool and IPO shares are bought at the current stock
- price.
 \end_layout
 
 \begin_layout Enumerate
@@ -2860,8 +2858,8 @@ Only one share can be donated to the system.
 \end_layout
 
 \begin_layout Itemize
-The charter and control of the system is given to the player holding the
- director's certificate (see 
+The paired charters and control of the system is given to the player holding
+ the director's certificate (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Company-directors"
@@ -2873,18 +2871,18 @@ reference "subsec:Company-directors"
 
 \end_deeper
 \begin_layout Enumerate
-Shares of the new system can subsequently be bought and/or sold in the normal
- manner (see 
+Shares of the new system can be bought and/or sold after the merger in the
+ normal manner for the then current stock price (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Selling-shares"
+reference "subsec:Buying-shares"
 
 \end_inset
 
  & 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "subsec:Buying-shares"
+reference "subsec:Selling-shares"
 
 \end_inset
 
@@ -2892,19 +2890,12 @@ reference "subsec:Buying-shares"
  
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-System shares purchased after the merger process has begun are bought from
- the IPO for the then current stock price (see 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Buying-shares"
-
-\end_inset
-
-).
+\begin_layout Enumerate
+If one of the two public companies was not floated at the start of the merger
+ process, when the merged company (system) floats:
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 The resulting system has floated when no more than 40% of the system shares
  remain in the IPO (see 
@@ -2917,13 +2908,6 @@ reference "subsec:Starting-or-floating"
 ).
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
-If one of the two public companies was not floated at the start of the merger
- process, when the merged company (system) floats:
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 Six, seven or eight station markers matching the system are placed on the
  company's charter, matching the total number of station markers across
@@ -3043,8 +3027,7 @@ reference "subsec:Buying-shares"
 \end_deeper
 \begin_layout Itemize
 If there are no remaining system shares for the bank pool or IPO to trade
- up to, any remaining players with un-traded shares of the new system must
- discard their shares for their current stock price.
+ up to, the shares to be traded are discarded.
 \end_layout
 
 \begin_layout Itemize
@@ -5195,7 +5178,7 @@ reference "subsec:Private-Companies"
 \end_layout
 
 \begin_layout Itemize
-In green phase or later, share companies may purchase sellable private companies
+In green phase or later, share companies may purchase saleable private companies
  from players (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
