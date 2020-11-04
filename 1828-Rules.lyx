@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -48,9 +48,6 @@ plainpages    = true,
 \fancyfoot[C]{Page: \thepage\  of  \pageref{LastPage}}
 
 \pagestyle{fancy}
-% Added by lyx2lyx
-\renewcommand{\textendash}{--}
-\renewcommand{\textemdash}{---}
 \end_preamble
 \options ,UKenglish
 \use_default_options true
@@ -75,6 +72,8 @@ tabs-within-sections
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -104,6 +103,7 @@ tabs-within-sections
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -118,7 +118,10 @@ tabs-within-sections
 \tocdepth 5
 \paragraph_separation skip
 \defskip medskip
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 2
 \papersides 2
 \paperpagestyle fancy
@@ -319,7 +322,7 @@ Cobourg & Peterborough Railway
 \end_layout
 
 \begin_layout Itemize
-16 blocking station markers 
+8 blocking station markers 
 \emph on
 (not count-limited)
 \emph default
@@ -1400,8 +1403,8 @@ reference "tab:Game-Phases"
 \end_layout
 
 \begin_layout Itemize
-New par prices, track tile types and other changes accompany some game phase
- changes (see 
+Additional par prices, track tile types and other changes accompany some
+ game phase changes (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sec:Game-Phases"
@@ -1413,7 +1416,7 @@ reference "sec:Game-Phases"
 
 \end_deeper
 \begin_layout Itemize
-The alternating sequence of Stock Rounds
+An alternating sequence of Stock Rounds
 \noun on
  
 \noun default
@@ -1993,7 +1996,14 @@ Erie Railway (ERIE)
 \begin_layout Itemize
 At the end of each Stock Round, the stock prices of floated share companies
  with no shares in the IPO or Bank Pool are moved upwards on the Stock Market
- (see 
+ in operating order (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:company-operating-order"
+
+\end_inset
+
+ & 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-price-movement"
@@ -2080,6 +2090,13 @@ The selling player receives the current stock price of the share(s) in cash
  from the bank.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If multiple shares of a share company are sold on a player's turn, they
+ are collectively sold for the current Stock Market price per share.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 The stock price marker of the sold shares is then moved down one space for
  each share sold of that company.
@@ -2560,7 +2577,7 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-A pair of public companies, neither of which were floated in a previous
+A pair of parred public companies, neither of which were floated in a previous
  Stock Round, but one or both must have been floated in this Stock Round.
 \end_layout
 
@@ -2729,7 +2746,7 @@ reference "par:Share-trading-process"
 \begin_layout Description
 Note: A player that sold a share of either of the two public companies in
  the current Stock Round cannot trade one share to a system share and must
- exchange that share for its current stock price as below.
+ exchange that single share for its current stock price as below.
 \end_layout
 
 \end_deeper
@@ -2955,7 +2972,7 @@ Shares previously discarded in the trading process.
 
 \begin_layout Enumerate
 Yet un-traded shares held by players later in the trading order, giving
- them a discarded share of the other public company.
+ them a share of the other public company.
 \end_layout
 
 \begin_deeper
@@ -3006,9 +3023,10 @@ Shares given in exchange for a system share or discarded during the trading
 
 \begin_layout Itemize
 If there are no more system shares for the player to trade up to, the player
- has insufficient money to pay for the trade-up or the player declines to
- pay for the trade-up, then the player must sell their single share to the
- bank pool for its current stock value.
+ has insufficient money to pay for the trade-up, the player declines to
+ pay for the trade-up, or the player has sold a share of one of the two
+ merging companies earlier in that Stock Round, then the player must sell
+ their single share to the bank pool for its current stock value.
 \end_layout
 
 \begin_deeper
@@ -3203,8 +3221,8 @@ reference "subsec:Stock-price-movement"
 At the end of the Operating Round the upside-down stock price markers are
  turned face-up so that the bottom face-down marker becomes the top face-up
  marker.
- The result is that share companies sharing a space in the stock price chart
- operate in the order in which their share markers arrived at that space.
+ The result is that share companies sharing a space operate in the order
+ in which their stock price markers arrived at that space.
 \end_layout
 
 \begin_layout Itemize
@@ -4066,8 +4084,8 @@ reference "subsec:Company-directors"
 \end_deeper
 \begin_layout Itemize
 If shares are sold such that director control of a different share company
- transfers to a new director, then director control transfers before a train
- may be bought from it.
+ transfers to a new director, then director control transfers before any
+ trains are be bought from it by that company in that operating round.
 \end_layout
 
 \begin_layout Itemize
@@ -4376,7 +4394,7 @@ All other discussion or negotiation of agreements is disallowed, including
 
 \begin_deeper
 \begin_layout Itemize
-Floating companies (see 
+Parring or floating companies (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Starting-or-floating"
@@ -4648,7 +4666,7 @@ reference "subsec:Track-placement-&-upgrades"
 \begin_layout Itemize
 A small gap in some printings of the track line in E13 is the result of
  a software bug and is unintentional.
- The track in that hex connects D12 to Hamilton/Tononto (D14).
+ The track in that hex connects D12 to Hamilton/Toronto (D14).
 \end_layout
 
 \begin_layout Itemize
@@ -4757,8 +4775,8 @@ A large body of pale-background stock price boxes with no special rules.
 
 \begin_layout Enumerate
 A diagonal line of yellow, green, blue and brown stock price boxes that
- mark possible par prices for newly floated public companies in those or
- later game phases (see 
+ mark possible par prices for newly public companies in those or later game
+ phases (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Starting-or-floating"
@@ -4920,7 +4938,7 @@ The current stock price of a share company's shares is recorded on the Stock
 \end_layout
 
 \begin_layout Itemize
-Stock price marker can move in four directions: up, down, left and right.
+Stock price markers can move in four directions: up, down, left and right.
  If a stock price marker is to be moved:
 \end_layout
 
@@ -5236,8 +5254,8 @@ reference "par:Unsaleable-private-companies"
 
 \begin_layout Itemize
 The saleable private companies block specific hexagons on the map.
- Track tiles cannot be built or upgraded at those hexagons by any other
- private or share company until the matching private company has been purchased
+ Track tiles cannot be built or upgraded at those hexagons by any private
+ or share company until the matching private company has been purchased
  by a share company or closed.
 \end_layout
 
@@ -6103,7 +6121,7 @@ A stock price marker.
 
 \end_deeper
 \begin_layout Itemize
-Public companies may: 
+Public companies may:
 \end_layout
 
 \begin_deeper
@@ -7553,7 +7571,6 @@ Plain Have one to four lines of track without towns or cities, that directly
  connect pairs of edges of the hexagon.
  Plain track tiles can be used on rural map hexagons, and they cannot be
  used on any other map hexagons.
- 
 \end_layout
 
 \end_deeper
@@ -8085,7 +8102,7 @@ Can begin or end at a town, city, coalfield or off-board.
 \end_layout
 
 \begin_layout Itemize
-Must pass through a city containing one of the owning share company's station
+Must include a city containing one of the owning share company's station
  makers.
 \end_layout
 
@@ -8094,13 +8111,25 @@ Can pass through a city with an open station marker location.
 \end_layout
 
 \begin_layout Itemize
+Can include separate revenue centers on the same hexagon (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "subsec:Track-types"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
 Can use multiple entirely separate lines of track on the same tile.
 \end_layout
 
 \begin_deeper
 \begin_layout Description
-Note: Track tiles such as #16, #19, #20 etc and parts of #43, #44, #45 &
- #46 etc represent railway bridges and thus lines of track that do not intersect.
+Note: Plain track tiles such as #16, #19, #20 etc and parts of #43, #44,
+ #45 & #46 etc represent railway bridges and thus lines of track that do
+ not intersect.
 \end_layout
 
 \end_deeper
@@ -8134,26 +8163,8 @@ Run to or through the same revenue center more than once.
 
 \begin_deeper
 \begin_layout Description
-Exception: But can run to or through both cities on 
-\begin_inset Quotes eld
-\end_inset
-
-OO
-\begin_inset Quotes erd
-\end_inset
-
- track tiles or multiple cities in New York (G24) (see   
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "subsec:Track-types"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Description
-Note: The Canada off-board is comprised of two hexagons (A13 & A15).
+Note: The Canada off-board is a single revenue center comprised of two hexagons
+ (A13 & A15).
 \end_layout
 
 \end_deeper
@@ -8170,8 +8181,8 @@ The routes of multiple trains run by the same share company during an Operating
 
 \begin_deeper
 \begin_layout Itemize
-The routes can meet or cross at cities provided that they use entirely separate
- sections of track.
+The routes can meet or cross provided that they use entirely separate sections
+ of track.
 \end_layout
 
 \end_deeper

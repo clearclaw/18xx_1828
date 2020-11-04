@@ -409,7 +409,7 @@ company:
           comment_text_text: |
               Owning player may place or upgrade track
               tiles on a route connected to Peterborough
-              (C16). Half-pays the revenue of a 2-train
+              (C15). Half-pays the revenue of a 2-train
               route from that track tile.
         index: $[index_of (6)]
       share:
