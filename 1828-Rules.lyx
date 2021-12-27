@@ -6,11 +6,12 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage{draftwatermark}
-\SetWatermarkText{\textsc{Prototype}}
-\SetWatermarkColor[rgb]{0.8,0.9,0.8 }
-\SetWatermarkFontSize{1cm}
-\SetWatermarkScale{5}
+%\usepackage{draftwatermark}
+%\SetWatermarkText{\textsc{Prototype}}
+% \SetWatermarkColor[rgb]{0.8,0.9,0.8 }
+%\SetWatermarkFontSize{1cm}
+%\SetWatermarkScale{5}
+
 \usepackage[missing=Help!,notags={No tags?},dirty=dirty]{gitinfo2}
 
 \usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
@@ -2678,6 +2679,27 @@ reference "subsec:Systems"
 
 \end_deeper
 \begin_layout Enumerate
+Players with an odd total number of shares of the two companies set-aside
+ their choice of a single share of one of the constituent companies for
+ trading up later in the merger process.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In order to acquire a single share to set-aside, a player that owns the
+ director's certificate of a constituent company may trade the director's
+ certificate for a pair of single certificates of that company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Share-trading-process"
+
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 Players trade their shares of the two public companies for shares of the
  system (see 
 \begin_inset CommandInset ref
@@ -2698,8 +2720,7 @@ Starting with the acting player and proceeding in rotating player number
 \begin_deeper
 \begin_layout Itemize
 Each player trades all pairs of shares they have of either and/or both merging
- public companies for single shares of the new system if available (see
- 
+ public companies for single shares of the new system (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "par:Share-trading-process"
@@ -2711,8 +2732,16 @@ reference "par:Share-trading-process"
 
 \begin_deeper
 \begin_layout Itemize
-If the total number of shares the player has of both public companies is
- odd, the player may freely choose which share to leave un-traded.
+A player that owns the director's certificate of a constituent company may
+ trade the director's certificate for a pair of single certificates of either
+ or both the two companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Share-trading-process"
+
+\end_inset
+
+) before trading the individual certificates as a pair in the normal manner.
 \end_layout
 
 \end_deeper
@@ -2730,7 +2759,7 @@ Each player must:
 
 \begin_deeper
 \begin_layout Itemize
-Trade any single share they have of one of the two public companies plus
+Trade any set-aside single share they have of the two public companies plus
  the difference between its current stock price and the merger stock price
  for a single share of the system if available (see 
 \begin_inset CommandInset ref
@@ -2971,22 +3000,22 @@ Shares previously discarded in the trading process.
 \end_layout
 
 \begin_layout Enumerate
-Yet un-traded shares held by players later in the trading order, giving
- them a share of the other public company.
+Yet un-traded shares held by other players, giving them a share of the other
+ public company.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The other player must give or take money to or from the bank to cover any
- difference in value between the share they received and the share they
- gave.
+If the share taken was set-aside by the other player, the other player must
+ give or take money to or from the bank to cover any difference in value
+ between the share they received and the share that was taken.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-If the receiving player doesn't have enough cash to pay for the share they
- receive, they must instead discard the share and take its current stock
- value from the bank in cash.
+If the other player doesn't have enough cash to pay for the share they receive,
+ they must instead discard the share and take the current stock value of
+ the share that was taken from the bank in cash.
  
 \end_layout
 
@@ -3192,7 +3221,7 @@ The stock price markers of share companies in the same space of the Stock
 \end_deeper
 \begin_layout Itemize
 As share companies operate, their stock price markers are turned upside-down
- and moved to their new stock price location (see  
+ and moved to their new stock price location (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "subsec:Stock-price-movement"
@@ -4085,7 +4114,7 @@ reference "subsec:Company-directors"
 \begin_layout Itemize
 If shares are sold such that director control of a different share company
  transfers to a new director, then director control transfers before any
- trains are be bought from it by that company in that operating round.
+ trains are bought from it.
 \end_layout
 
 \begin_layout Itemize
