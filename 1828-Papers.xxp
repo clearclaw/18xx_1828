@@ -266,6 +266,7 @@ company:
         token_3_text_text: $100
         token_4_text_text: $100
         _major_fill: ${colour/xxp/M_RED}
+        _minor_fill: ${colour/xxp/M_RED}
         _major_fill_2: ${colour/xxp/L_YELLOW}
         _minor_fill_2: ${colour/xxp/L_YELLOW}
         _related_fill: ${colour/x11/lightcoral}
