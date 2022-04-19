@@ -323,7 +323,7 @@ company:
       token:
         ELEMENTS: ${TEMPLATE_cross/.}
         EMBED_ELEMENTS: ${TEMPLATE_cross_embed/.}
-        vertical stripe_box:
+        vertical_stripe_box:
           fill: ${colour/xxp/WHITE}
         index: "$[index_of (10)]"
 
