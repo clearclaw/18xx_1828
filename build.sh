@@ -20,8 +20,10 @@ fi
 lyx --export pdf2 ./${GAMENAME}-Rules.lyx
 mv ./${GAMENAME}-Rules.pdf build
 
-cp ${GAMENAME}-Papers.xxp build/
-cp LICENSE build/
+for file in ${GAMENAME}-Papers.xxp LICENSE 1828-box-Letter.pdf 1828-box-A4.pdf
+do
+  cp ${file} build/
+done
 
 for paper in letter A4
 do
