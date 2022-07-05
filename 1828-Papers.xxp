@@ -470,6 +470,58 @@ private:
     closes_text_text: "Closes: In RED phase"
 
   index:
+
+    back_private:
+      _:
+        asset_interior_box_fill: ${colour/xxp/H_YELLOW}
+        close_bar_box_suppress: true
+        closes_text_suppress: true
+        power_text_suppress: true
+        money_bar_box_suppress: true
+        cost_text_suppress: true
+        revenue_text_suppress: true
+      long_name_text:
+        h_center: 1
+        v_center: 1
+        text: "1828"
+        size: 72
+        x: $[${asset_interior_box/x} / 2 - ${long_name_text/size} / 1.60]
+        y: $[${asset_interior_box/x} / 2 - ${long_name_text/size} / 3]
+
+    back_share:
+      _:
+        asset_interior_box_fill: ${colour/xxp/H_GREEN}
+        close_bar_box_suppress: true
+        closes_text_suppress: true
+        power_text_suppress: true
+        money_bar_box_suppress: true
+        cost_text_suppress: true
+        revenue_text_suppress: true
+      long_name_text:
+        h_center: 1
+        v_center: 1
+        text: "1828"
+        size: 72
+        x: $[${asset_interior_box/x} / 2 - ${long_name_text/size} / 1.60]
+        y: $[${asset_interior_box/x} / 2 - ${long_name_text/size} / 3]
+
+    back_train:
+      _:
+        asset_interior_box_fill: ${colour/xxp/H_BLUE}
+        close_bar_box_suppress: true
+        closes_text_suppress: true
+        power_text_suppress: true
+        money_bar_box_suppress: true
+        cost_text_suppress: true
+        revenue_text_suppress: true
+      long_name_text:
+        h_center: 1
+        v_center: 1
+        text: "1828"
+        size: 72
+        x: $[${asset_interior_box/x} / 2 - ${long_name_text/size} / 1.60]
+        y: $[${asset_interior_box/x} / 2 - ${long_name_text/size} / 3]
+
     SV:
       _:
         asset_interior_box_fill: ${colour/scale/yellow_0}
